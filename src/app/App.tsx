@@ -1,22 +1,41 @@
 import { fetchStationsByLine } from '@/data/fetchStations';
-// import { fetchRealtimeTrains } from '@/data/fetchTrains';
+import { fetchRealtimeTrains } from '@/data/fetchTrains';
 import { normalizeStations } from '@/data/normalize/normalizeStation';
-// import { normalizeTrains } from '@/data/normalize/normalizeTrain';
+import { mergeLatestTrains } from '@/data/preprocess/mergeLatestTrains';
+import { normalizeTrains } from '@/data/normalize/normalizeTrain';
 import '@/styles/global.css';
 import { useEffect } from 'react';
 
 export default function App() {
   useEffect(() => {
+    let cancelled = false;
+
+    async function run() {
+      const raws = await fetchRealtimeTrains();
+      const merged = mergeLatestTrains(raws);
+      const trains = normalizeTrains(merged);
+
+      if (!cancelled) {
+        console.log(merged.length);
+        console.log(trains.length);
+      }
+    }
+
+    run();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
     let mounted = true;
 
     async function run() {
-      // const rawTrains = await fetchRealtimeTrains();
       const raws = await fetchStationsByLine('9호선');
-      // const trains = normalizeTrains(rawTrains);
       const stations = normalizeStations(raws);
 
       if (mounted) {
-        // console.log(trains.length, trains[0], trains.at(-1));
         console.log(stations[0], stations.at(-1));
       }
     }
