@@ -1,31 +1,18 @@
-import { fetchStationsByLine } from '@/data/fetchStations';
-import { fetchRealtimeTrains } from '@/data/fetchTrains';
-import { normalizeStations } from '@/data/normalize/normalizeStation';
-import { mergeLatestTrains } from '@/data/preprocess/mergeLatestTrains';
-import { normalizeTrains } from '@/data/normalize/normalizeTrain';
-import '@/styles/global.css';
 import { useEffect } from 'react';
+
+import { fetchStationsByLine } from '@/data/fetchStations';
+import { normalizeStations } from '@/data/normalize/normalizeStation';
+import { createTrainScheduler } from '@/runtime/trainScheduler';
+
+import '@/styles/global.css';
 
 export default function App() {
   useEffect(() => {
-    let cancelled = false;
-
-    async function run() {
-      const raws = await fetchRealtimeTrains();
-      const merged = mergeLatestTrains(raws);
-      const trains = normalizeTrains(merged);
-
-      if (!cancelled) {
-        console.log(merged.length);
-        console.log(trains.length);
-      }
-    }
-
-    run();
-
-    return () => {
-      cancelled = true;
-    };
+    // const scheduler = createTrainScheduler(15000);
+    // scheduler.start();
+    // return () => {
+    //   scheduler.stop();
+    // };
   }, []);
 
   useEffect(() => {
