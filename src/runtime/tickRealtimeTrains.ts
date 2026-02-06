@@ -1,11 +1,11 @@
-import { fetchRealtimeTrains } from '@/data/fetchTrains';
+import { fetchTrains } from '@/data/fetchTrains';
 import { mergeLatestTrains } from '@/data/preprocess/mergeLatestTrains';
 import { normalizeTrains } from '@/data/normalize/normalizeTrain';
 import { TrainSnapshotStore } from '@/data/snapshot/TrainSnapshotStore';
 import { calcTrainDelta } from '@/data/snapshot/calcTrainDelta';
 
 export async function tickRealtimeTrains(store: TrainSnapshotStore): Promise<void> {
-  const raws = await fetchRealtimeTrains();
+  const raws = await fetchTrains();
   const merged = mergeLatestTrains(raws);
   const trains = normalizeTrains(merged);
 

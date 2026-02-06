@@ -7,7 +7,7 @@ type RealtimeArrivalResponse = {
   realtimeArrivalList: RawTrainApiItem[];
 };
 
-export async function fetchRealtimeTrains(): Promise<RawTrainApiItem[]> {
+export async function fetchTrains(): Promise<RawTrainApiItem[]> {
   const res = await fetch(SeoulSubwayApi.realtimeArrivalAll());
 
   if (!res.ok) {

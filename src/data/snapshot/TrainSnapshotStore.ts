@@ -40,4 +40,22 @@ export class TrainSnapshotStore {
       curr: this.curr.get(trainId),
     };
   }
+
+  // src/data/snapshot/TrainSnapshotStore.ts
+
+  getAllPairs(): Array<{
+    prev?: TrainSnapshot;
+    curr: TrainSnapshot;
+  }> {
+    const result: Array<{ prev?: TrainSnapshot; curr: TrainSnapshot }> = [];
+
+    for (const [id, curr] of this.curr.entries()) {
+      result.push({
+        prev: this.prev.get(id),
+        curr,
+      });
+    }
+
+    return result;
+  }
 }

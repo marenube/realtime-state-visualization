@@ -1,44 +1,40 @@
-import { TrainSnapshotStore } from '@/data/snapshot/TrainSnapshotStore';
-import { tickRealtimeTrains } from '@/runtime/tickRealtimeTrains';
-import type { TrainScheduler } from '@/runtime/types';
+// src/runtime/trainScheduler.ts
 
-let singleton: TrainScheduler | null = null;
-let startedOnce = false;
+import type { TrainSnapshotStore } from '@/data/snapshot/TrainSnapshotStore';
+import { fetchTrains } from '@/data/fetchTrains';
+import { mergeLatestTrains } from '@/data/preprocess/mergeLatestTrains';
+import { normalizeTrains } from '@/data/normalize/normalizeTrain';
 
-export function createTrainScheduler(intervalMs: number = 15000): TrainScheduler {
-  if (singleton) return singleton;
+type TrainSchedulerOptions = {
+  store: TrainSnapshotStore;
+  intervalMs?: number;
+};
 
-  const store = new TrainSnapshotStore();
+export function createTrainScheduler({ store, intervalMs = 15_000 }: TrainSchedulerOptions) {
   let timer: number | null = null;
-  let fetching = false;
 
-  async function start() {
-    // ⭐ StrictMode 중복 mount 방지
-    if (startedOnce) return;
-    startedOnce = true;
-
-    await safeTick();
-
-    timer = window.setInterval(() => {
-      safeTick().catch(console.error);
-    }, intervalMs);
-  }
-
-  async function safeTick() {
-    if (fetching) return;
-    fetching = true;
+  const tick = async () => {
     try {
-      await tickRealtimeTrains(store);
-    } finally {
-      fetching = false;
+      const raws = await fetchTrains();
+      const merged = mergeLatestTrains(raws);
+      const trains = normalizeTrains(merged);
+      store.update(trains);
+      console.log('[scheduler] update', trains.length);
+    } catch (e) {
+      console.error('[scheduler] error', e);
     }
-  }
+  };
 
-  function stop() {
-    // ❗ 개발모드 StrictMode에서는 stop하지 않는다
-    // 실제 앱 종료/페이지 이탈 시만 사용
-  }
+  // 최초 1회 즉시 실행
+  tick();
 
-  singleton = { start, stop, store };
-  return singleton;
+  timer = window.setInterval(tick, intervalMs);
+
+  // stop 함수 반환
+  return () => {
+    if (timer !== null) {
+      clearInterval(timer);
+      timer = null;
+    }
+  };
 }

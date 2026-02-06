@@ -3,16 +3,23 @@ import { useEffect } from 'react';
 import { fetchStationsByLine } from '@/data/fetchStations';
 import { normalizeStations } from '@/data/normalize/normalizeStation';
 import { createTrainScheduler } from '@/runtime/trainScheduler';
+import { startRenderLoop } from '@/runtime/loop/startRenderLoop';
+import { consoleRender } from '@/runtime/render/consoleRender';
+import { snapshotStore } from '@/data/snapshot/singleton'; // 싱글톤이면 OK
 
 import '@/styles/global.css';
 
 export default function App() {
   useEffect(() => {
-    // const scheduler = createTrainScheduler(15000);
-    // scheduler.start();
-    // return () => {
-    //   scheduler.stop();
-    // };
+    const stop = startRenderLoop(snapshotStore, consoleRender);
+    return stop;
+  }, []);
+
+  useEffect(() => {
+    // const stopScheduler = createTrainScheduler({
+    //   store: snapshotStore,
+    // });
+    // return stopScheduler;
   }, []);
 
   useEffect(() => {
