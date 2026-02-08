@@ -10,10 +10,14 @@ type TrainSchedulerOptions = {
   intervalMs?: number;
 };
 
-export function createTrainScheduler({ store, intervalMs = 15_000 }: TrainSchedulerOptions) {
+export function createTrainScheduler({ store, intervalMs = 30_000 }: TrainSchedulerOptions) {
   let timer: number | null = null;
+  let inFlight = false;
 
   const tick = async () => {
+    if (inFlight) return;
+    inFlight = true;
+
     try {
       const raws = await fetchTrains();
       const merged = mergeLatestTrains(raws);
@@ -22,19 +26,21 @@ export function createTrainScheduler({ store, intervalMs = 15_000 }: TrainSchedu
       console.log('[scheduler] update', trains.length);
     } catch (e) {
       console.error('[scheduler] error', e);
+    } finally {
+      inFlight = false;
     }
   };
 
-  // 최초 1회 즉시 실행
-  tick();
-
-  timer = window.setInterval(tick, intervalMs);
-
-  // stop 함수 반환
-  return () => {
-    if (timer !== null) {
-      clearInterval(timer);
-      timer = null;
-    }
+  const start = () => {
+    if (timer !== null) return;
+    timer = window.setInterval(tick, intervalMs);
   };
+
+  const stop = () => {
+    if (timer === null) return;
+    clearInterval(timer);
+    timer = null;
+  };
+
+  return { tick, start, stop };
 }
