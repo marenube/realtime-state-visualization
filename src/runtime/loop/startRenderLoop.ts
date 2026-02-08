@@ -1,5 +1,4 @@
 // src/runtime/loop/startRenderLoop.ts
-
 import type { TrainSnapshotStore } from '@/data/snapshot/TrainSnapshotStore';
 import type { TrainView } from '@/runtime/model/TrainView';
 import { deriveTrainViews } from '@/runtime/derive/deriveTrainViews';
@@ -18,6 +17,5 @@ export function startRenderLoop(store: TrainSnapshotStore, render: RenderFn) {
 
   rafId = requestAnimationFrame(tick);
 
-  // stop 핸들 반환 (언마운트/정리용)
   return () => cancelAnimationFrame(rafId);
 }
