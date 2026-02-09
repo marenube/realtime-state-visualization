@@ -2,34 +2,23 @@
 import type { Station } from '@/data/station/station';
 import type { RailEdge } from './railEdge';
 
+function undirectedKey(a: string, b: string, lineId: string) {
+  const ab = a < b ? `${a}:${b}` : `${b}:${a}`;
+  return `${ab}:${lineId}`;
+}
+
 export function buildRailEdges(stations: Station[]): RailEdge[] {
   const edges: RailEdge[] = [];
 
   const stationById = new Map<string, Station>();
-  const stationsWithoutId: Station[] = [];
-
   for (const s of stations) {
-    if (!s?.id) {
-      stationsWithoutId.push(s);
-      continue;
-    }
-    stationById.set(s.id, s);
+    if (s?.id) stationById.set(s.id, s);
   }
 
-  if (stationsWithoutId.length) {
-    console.error('[STATION WITHOUT ID]', {
-      count: stationsWithoutId.length,
-      sample: stationsWithoutId.slice(0, 10).map(s => ({
-        name: s?.name,
-        line: s?.line,
-        x: s?.x,
-        y: s?.y,
-      })),
-    });
-  }
+  console.log('[buildRailEdges] stations count:', stations.length);
 
-  let missConnId = 0;
-  let missTarget = 0;
+  // 같은 (A,B,lineId)는 1개만 유지
+  const seen = new Set<string>();
 
   for (const station of stations) {
     if (!station?.id) continue;
@@ -37,24 +26,34 @@ export function buildRailEdges(stations: Station[]): RailEdge[] {
 
     for (const conn of station.connectsTo) {
       const toId = (conn as any).stationId as string | undefined;
-
       if (!toId) {
-        missConnId++;
+        console.warn('[SKIP] connectsTo without stationId', {
+          from: station.id,
+          conn,
+        });
         continue;
       }
 
       const target = stationById.get(toId);
       if (!target) {
-        missTarget++;
+        console.warn('[SKIP] target not found', {
+          from: station.id,
+          toId,
+        });
         continue;
       }
 
-      // if (station.id > target.id) continue;
+      // 🔑 핵심 수정: lineId는 connection 기준
+      const lineId = (conn as any).lineId ?? (conn as any).line ?? station.line;
+
+      const key = undirectedKey(station.id, target.id, lineId);
+      if (seen.has(key)) continue;
+      seen.add(key);
 
       edges.push({
         aStationId: station.id,
         bStationId: target.id,
-        line: station.line, // 시각화용 메타
+        lineId,
         path: {
           kind: 'line',
           points: [
@@ -67,12 +66,29 @@ export function buildRailEdges(stations: Station[]): RailEdge[] {
     }
   }
 
-  if (missConnId) {
-    console.warn('[EDGE SKIP - CONNECT WITHOUT stationId]', missConnId);
+  // ===== 디버깅: A-B 구간별 라인 수 =====
+  const abLineMap = new Map<string, Set<string>>();
+  for (const e of edges) {
+    const ab =
+      e.aStationId < e.bStationId
+        ? `${e.aStationId}:${e.bStationId}`
+        : `${e.bStationId}:${e.aStationId}`;
+
+    const set = abLineMap.get(ab) ?? new Set<string>();
+    set.add(e.lineId);
+    abLineMap.set(ab, set);
   }
-  if (missTarget) {
-    console.warn('[EDGE MISS - TARGET NOT FOUND]', missTarget);
+
+  let multiLineCount = 0;
+  for (const [ab, lines] of abLineMap) {
+    if (lines.size > 1) {
+      multiLineCount++;
+      console.log('[MULTI-LINE]', ab, [...lines]);
+    }
   }
+
+  console.log('[buildRailEdges] edges:', edges.length);
+  console.log('[buildRailEdges] multi-line segments:', multiLineCount);
 
   return edges;
 }

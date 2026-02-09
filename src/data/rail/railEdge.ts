@@ -1,15 +1,17 @@
 // src/data/rail/railEdge.ts
-export interface RailEdge {
+export type RailPath = {
+  kind: 'line';
+  points: { x: number; y: number }[];
+};
+
+export type RailEdge = {
   aStationId: string;
   bStationId: string;
 
-  /** 시각화/메타용 (노선명) */
-  line: string;
+  // ✅ 노선 문자열 ("04호선", "GTX-A", "서해선" ...)
+  lineId: string;
 
-  path: {
-    kind: 'line';
-    points: { x: number; y: number }[];
-  };
+  path: RailPath;
 
   travelTime?: number;
-}
+};

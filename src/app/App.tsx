@@ -7,8 +7,10 @@ import type { TrainView } from '@/runtime/model/TrainView';
 import { snapshotStore } from '@/data/snapshot/singleton';
 
 import rawJson from '@/data/rawStations.json';
+import { normalizeRawStationJson } from '@/data/station/normalizeRawStationJson';
 
 import { buildRailEdges } from '@/data/rail/buildRailEdges';
+import { buildEdgeOffsetMap } from '@/data/rail/buildEdgeOffsetMap';
 
 import { drawStations } from '@/ui/render/drawStations';
 import { drawTrains } from '@/ui/render/drawTrains';
@@ -22,18 +24,26 @@ import { clampCameraToBounds } from '@/ui/camera/clampCameraToBounds';
 import { setupCanvas } from '@/ui/canvas/setupCanvas';
 import { bindCanvasPan } from '@/ui/canvas/useCanvasPan';
 import { bindCanvasZoom } from '@/ui/canvas/useCanvasZoom';
-import { normalizeRawStationJson } from '@/data/station/normalizeRawStationJson';
+
+import { buildRenderGeometry } from '@/ui/render/buildRenderGeometry';
 
 import '@/styles/global.css';
 
+// ======================
+// 데이터 초기화
+// ======================
 const stations = normalizeRawStationJson(rawJson);
-const railEdges = buildRailEdges(rawJson);
+const railEdges = buildRailEdges(stations);
 
+// ✅ 누락돼 있던 핵심
+const renderGeometry = buildRenderGeometry(stations, railEdges);
+
+const edgeOffsetMap = buildEdgeOffsetMap(railEdges, 8);
 const bounds = computeBounds(stations);
 
 export default function App() {
-  const bgCanvasRef = useRef<HTMLCanvasElement>(null); // 선로 + 역
-  const fgCanvasRef = useRef<HTMLCanvasElement>(null); // 열차
+  const bgCanvasRef = useRef<HTMLCanvasElement>(null);
+  const fgCanvasRef = useRef<HTMLCanvasElement>(null);
 
   const cameraRef = useRef(createInitialCamera());
 
@@ -49,12 +59,18 @@ export default function App() {
     return stop;
   }, []);
 
+  const bgDirtyRef = useRef(true);
+  const lastCamRef = useRef({ x: 0, y: 0, scale: 1 });
+
+  const bgCtxRef = useRef<CanvasRenderingContext2D | null>(null);
+  const fgCtxRef = useRef<CanvasRenderingContext2D | null>(null);
+
   useEffect(() => {
     const bgCanvas = bgCanvasRef.current!;
     const fgCanvas = fgCanvasRef.current!;
 
-    const bgCtx = setupCanvas(bgCanvas);
-    const fgCtx = setupCanvas(fgCanvas);
+    bgCtxRef.current = setupCanvas(bgCanvas);
+    fgCtxRef.current = setupCanvas(fgCanvas);
 
     const camera = cameraRef.current;
 
@@ -64,41 +80,54 @@ export default function App() {
     const cleanupPan = bindCanvasPan(fgCanvas, camera, bounds);
     const cleanupZoom = bindCanvasZoom(fgCanvas, camera, bounds);
 
-    let bgDirty = true;
-    let lastCam = { x: camera.x, y: camera.y, scale: camera.scale };
+    lastCamRef.current = { x: camera.x, y: camera.y, scale: camera.scale };
+    bgDirtyRef.current = true;
+
     const EPS = 1e-6;
 
     const redrawBackground = () => {
+      const bgCtx = bgCtxRef.current!;
+      const bgCanvasEl = bgCanvasRef.current!;
+
       bgCtx.setTransform(1, 0, 0, 1, 0, 0);
-      bgCtx.clearRect(0, 0, bgCanvas.width, bgCanvas.height);
+      bgCtx.clearRect(0, 0, bgCanvasEl.width, bgCanvasEl.height);
 
       applyCamera(bgCtx, camera);
-      drawRailEdges(bgCtx, railEdges);
-      drawStations(bgCtx, stations);
+
+      // ✅ renderGeometry 정상 전달
+      drawRailEdges(bgCtx, renderGeometry);
+
+      // ✅ 기존 시그니처 유지
+      drawStations(bgCtx, renderGeometry);
     };
 
     let rafId = 0;
     const render = () => {
+      const lastCam = lastCamRef.current;
+
       const camChanged =
         Math.abs(camera.x - lastCam.x) > EPS ||
         Math.abs(camera.y - lastCam.y) > EPS ||
         Math.abs(camera.scale - lastCam.scale) > EPS;
 
       if (camChanged) {
-        bgDirty = true;
-        lastCam = { ...camera };
+        bgDirtyRef.current = true;
+        lastCamRef.current = { x: camera.x, y: camera.y, scale: camera.scale };
       }
 
-      if (bgDirty) {
+      if (bgDirtyRef.current) {
         redrawBackground();
-        bgDirty = false;
+        bgDirtyRef.current = false;
       }
+
+      const fgCtx = fgCtxRef.current!;
+      const fgCanvasEl = fgCanvasRef.current!;
 
       fgCtx.setTransform(1, 0, 0, 1, 0, 0);
-      fgCtx.clearRect(0, 0, fgCanvas.width, fgCanvas.height);
+      fgCtx.clearRect(0, 0, fgCanvasEl.width, fgCanvasEl.height);
 
       applyCamera(fgCtx, camera);
-      drawTrains(fgCtx, trainsRef.current, stations);
+      drawTrains(fgCtx, trainsRef.current, stations, edgeOffsetMap);
 
       rafId = requestAnimationFrame(render);
     };
@@ -113,21 +142,24 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const bgCanvas = bgCanvasRef.current!;
-    const fgCanvas = fgCanvasRef.current!;
-    const camera = cameraRef.current;
-
     const handleResize = () => {
+      const bgCanvas = bgCanvasRef.current!;
+      const fgCanvas = fgCanvasRef.current!;
+      const camera = cameraRef.current;
+
       const centerWorldX = (fgCanvas.clientWidth / 2 - camera.x) / camera.scale;
       const centerWorldY = (fgCanvas.clientHeight / 2 - camera.y) / camera.scale;
 
-      setupCanvas(bgCanvas);
-      setupCanvas(fgCanvas);
+      bgCtxRef.current = setupCanvas(bgCanvas);
+      fgCtxRef.current = setupCanvas(fgCanvas);
 
       camera.x = fgCanvas.clientWidth / 2 - centerWorldX * camera.scale;
       camera.y = fgCanvas.clientHeight / 2 - centerWorldY * camera.scale;
 
       clampCameraToBounds(camera, bounds, fgCanvas);
+
+      bgDirtyRef.current = true;
+      lastCamRef.current = { x: camera.x, y: camera.y, scale: camera.scale };
     };
 
     window.addEventListener('resize', handleResize);

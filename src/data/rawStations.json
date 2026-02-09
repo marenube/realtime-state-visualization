@@ -17,9 +17,7 @@
       }
     ],
     "frCode": "S406",
-    "stationCode": "4406",
-    "labelX": 2708.601318359375,
-    "labelY": 3255.06640625
+    "stationCode": "4406"
   },
   {
     "id": "1063075115",
@@ -39,9 +37,7 @@
       }
     ],
     "frCode": "K115",
-    "stationCode": "1012",
-    "labelX": 3589.81640625,
-    "labelY": 2591.043212890625
+    "stationCode": "1012"
   },
   {
     "id": "1002000209",
@@ -62,8 +58,6 @@
     ],
     "frCode": "209",
     "stationCode": "0209",
-    "labelX": 3624.0576171875,
-    "labelY": 2627.73193359375,
     "dwellTime": 30
   },
   {
@@ -85,8 +79,6 @@
     ],
     "frCode": "524",
     "stationCode": "2525",
-    "labelX": 2644,
-    "labelY": 2784,
     "dwellTime": 22
   },
   {
@@ -108,8 +100,6 @@
     ],
     "frCode": "203",
     "stationCode": "0203",
-    "labelX": 3248,
-    "labelY": 2390,
     "dwellTime": 30
   },
   {
@@ -131,8 +121,6 @@
     ],
     "frCode": "330",
     "stationCode": "0320",
-    "labelX": 3248,
-    "labelY": 2390,
     "dwellTime": 30
   },
   {
@@ -154,8 +142,6 @@
     ],
     "frCode": "204",
     "stationCode": "0204",
-    "labelX": 3308,
-    "labelY": 2468,
     "dwellTime": 30
   },
   {
@@ -177,8 +163,6 @@
     ],
     "frCode": "535",
     "stationCode": "2536",
-    "labelX": 3308,
-    "labelY": 2468,
     "dwellTime": 30
   },
   {
@@ -200,8 +184,6 @@
     ],
     "frCode": "205",
     "stationCode": "0205",
-    "labelX": 3324.18359375,
-    "labelY": 2362.040283203125,
     "dwellTime": 60
   },
   {
@@ -223,8 +205,6 @@
     ],
     "frCode": "422",
     "stationCode": "0422",
-    "labelX": 3324.082275390625,
-    "labelY": 2362.16943359375,
     "dwellTime": 30
   },
   {
@@ -246,8 +226,6 @@
     ],
     "frCode": "536",
     "stationCode": "2537",
-    "labelX": 3324.05126953125,
-    "labelY": 2362.102294921875,
     "dwellTime": 41
   },
   {
@@ -269,8 +247,6 @@
     ],
     "frCode": "126",
     "stationCode": "0156",
-    "labelX": 3613,
-    "labelY": 2320,
     "dwellTime": 30
   },
   {
@@ -287,9 +263,7 @@
       }
     ],
     "frCode": "211-4",
-    "stationCode": "0246",
-    "labelX": 3613,
-    "labelY": 2320
+    "stationCode": "0246"
   },
   {
     "id": "1092004713",
@@ -305,9 +279,7 @@
       }
     ],
     "frCode": "953",
-    "stationCode": "4713",
-    "labelX": 3613,
-    "labelY": 2320
+    "stationCode": "4713"
   },
   {
     "id": "1081037410",
@@ -327,9 +299,7 @@
       }
     ],
     "frCode": "K410",
-    "stationCode": "1512",
-    "labelX": 4271,
-    "labelY": 4091
+    "stationCode": "1512"
   },
   {
     "id": "1032000354",
@@ -349,9 +319,7 @@
       }
     ],
     "frCode": "X109",
-    "stationCode": "0009",
-    "labelX": 4271,
-    "labelY": 4091
+    "stationCode": "0009"
   },
   {
     "id": "1005000533",
@@ -372,8 +340,6 @@
     ],
     "frCode": "533",
     "stationCode": "2534",
-    "labelX": 3140.9453125,
-    "labelY": 2269.112060546875,
     "dwellTime": 30
   },
   {
@@ -395,8 +361,6 @@
     ],
     "frCode": "532",
     "stationCode": "2533",
-    "labelX": 3064.3955078125,
-    "labelY": 2393.827392578125,
     "dwellTime": 30
   },
   {
@@ -418,8 +382,6 @@
     ],
     "frCode": "322",
     "stationCode": "0312",
-    "labelX": 2888,
-    "labelY": 1988,
     "dwellTime": 30
   },
   {
@@ -437,8 +399,6 @@
     ],
     "frCode": "612",
     "stationCode": "2613",
-    "labelX": 2888,
-    "labelY": 1988,
     "dwellTime": 40
   },
   {
@@ -460,8 +420,6 @@
     ],
     "frCode": "315",
     "stationCode": "1952",
-    "labelX": 2073,
-    "labelY": 1788,
     "dwellTime": 30
   },
   {
@@ -483,8 +441,6 @@
     ],
     "frCode": "132",
     "stationCode": "0151",
-    "labelX": 3125.791259765625,
-    "labelY": 2456.7490234375,
     "dwellTime": 30
   },
   {
@@ -506,8 +462,6 @@
     ],
     "frCode": "201",
     "stationCode": "0201",
-    "labelX": 3126.250244140625,
-    "labelY": 2455.78076171875,
     "dwellTime": 30
   },
   {
@@ -528,9 +482,7 @@
       }
     ],
     "frCode": "K413",
-    "stationCode": "1504",
-    "labelX": 5311,
-    "labelY": 4137
+    "stationCode": "1504"
   },
   {
     "id": "1067080127",
@@ -550,9 +502,7 @@
       }
     ],
     "frCode": "P127",
-    "stationCode": "1316",
-    "labelX": 4923,
-    "labelY": 1789
+    "stationCode": "1316"
   },
   {
     "id": "1067080125",
@@ -572,9 +522,7 @@
       }
     ],
     "frCode": "P125",
-    "stationCode": "1314",
-    "labelX": 4487,
-    "labelY": 1679
+    "stationCode": "1314"
   },
   {
     "id": "1067080123",
@@ -594,9 +542,7 @@
       }
     ],
     "frCode": "P123",
-    "stationCode": "1312",
-    "labelX": 4207,
-    "labelY": 1769
+    "stationCode": "1312"
   },
   {
     "id": "1008000804",
@@ -612,9 +558,7 @@
       }
     ],
     "frCode": "804",
-    "stationCode": "2805",
-    "labelX": 4357,
-    "labelY": 1634
+    "stationCode": "2805"
   },
   {
     "id": "1067080124",
@@ -634,9 +578,7 @@
       }
     ],
     "frCode": "P124",
-    "stationCode": "1313",
-    "labelX": 4357,
-    "labelY": 1634
+    "stationCode": "1313"
   },
   {
     "id": "1067080126",
@@ -656,9 +598,7 @@
       }
     ],
     "frCode": "P126",
-    "stationCode": "1315",
-    "labelX": 4830,
-    "labelY": 1577
+    "stationCode": "1315"
   },
   {
     "id": "1001080157",
@@ -683,8 +623,6 @@
     ],
     "frCode": "P157",
     "stationCode": "1716",
-    "labelX": 3529,
-    "labelY": 5983,
     "dwellTime": 66
   },
   {
@@ -706,8 +644,6 @@
     ],
     "frCode": "P156",
     "stationCode": "1715",
-    "labelX": 3501,
-    "labelY": 5588,
     "dwellTime": 30
   },
   {
@@ -729,8 +665,6 @@
     ],
     "frCode": "P154",
     "stationCode": "1712",
-    "labelX": 3203,
-    "labelY": 5220,
     "dwellTime": 30
   },
   {
@@ -752,8 +686,6 @@
     ],
     "frCode": "P153",
     "stationCode": "1711",
-    "labelX": 3067,
-    "labelY": 5084,
     "dwellTime": 30
   },
   {
@@ -775,8 +707,6 @@
     ],
     "frCode": "P158",
     "stationCode": "1717",
-    "labelX": 3702,
-    "labelY": 6287,
     "dwellTime": 30
   },
   {
@@ -793,9 +723,7 @@
       }
     ],
     "frCode": "P157-1",
-    "stationCode": "1749",
-    "labelX": 3778,
-    "labelY": 6070
+    "stationCode": "1749"
   },
   {
     "id": "1032000356",
@@ -811,9 +739,7 @@
       }
     ],
     "frCode": "X111",
-    "stationCode": "0011",
-    "labelX": 4055,
-    "labelY": 6005
+    "stationCode": "0011"
   },
   {
     "id": "1001080159",
@@ -834,8 +760,6 @@
     ],
     "frCode": "P159",
     "stationCode": "1718",
-    "labelX": 3789,
-    "labelY": 6307,
     "dwellTime": 30
   },
   {
@@ -857,8 +781,6 @@
     ],
     "frCode": "P160",
     "stationCode": "1719",
-    "labelX": 3841,
-    "labelY": 6307,
     "dwellTime": 30
   },
   {
@@ -880,8 +802,6 @@
     ],
     "frCode": "P161",
     "stationCode": "1720",
-    "labelX": 3893,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -903,8 +823,6 @@
     ],
     "frCode": "P162",
     "stationCode": "1721",
-    "labelX": 3945,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -926,8 +844,6 @@
     ],
     "frCode": "P163",
     "stationCode": "1722",
-    "labelX": 3997,
-    "labelY": 6307,
     "dwellTime": 30
   },
   {
@@ -949,8 +865,6 @@
     ],
     "frCode": "P164",
     "stationCode": "1723",
-    "labelX": 4049,
-    "labelY": 6307,
     "dwellTime": 30
   },
   {
@@ -972,8 +886,6 @@
     ],
     "frCode": "P165",
     "stationCode": "1724",
-    "labelX": 4101,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -995,8 +907,6 @@
     ],
     "frCode": "P166",
     "stationCode": "1725",
-    "labelX": 4153,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1018,8 +928,6 @@
     ],
     "frCode": "P167",
     "stationCode": "1726",
-    "labelX": 4205,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1041,8 +949,6 @@
     ],
     "frCode": "P168",
     "stationCode": "1727",
-    "labelX": 4257,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1064,8 +970,6 @@
     ],
     "frCode": "P169",
     "stationCode": "1728",
-    "labelX": 4309,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1087,8 +991,6 @@
     ],
     "frCode": "P170",
     "stationCode": "1401",
-    "labelX": 4361,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1110,8 +1012,6 @@
     ],
     "frCode": "P171",
     "stationCode": "1402",
-    "labelX": 4413,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1133,8 +1033,6 @@
     ],
     "frCode": "P172",
     "stationCode": "1403",
-    "labelX": 4465,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1156,8 +1054,6 @@
     ],
     "frCode": "P174",
     "stationCode": "1405",
-    "labelX": 4569,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1179,8 +1075,6 @@
     ],
     "frCode": "P173",
     "stationCode": "1404",
-    "labelX": 4517,
-    "labelY": 6308,
     "dwellTime": 30
   },
   {
@@ -1197,9 +1091,7 @@
       }
     ],
     "frCode": "P177",
-    "stationCode": "1408",
-    "labelX": 4688,
-    "labelY": 6287
+    "stationCode": "1408"
   },
   {
     "id": "1001080175",
@@ -1220,8 +1112,6 @@
     ],
     "frCode": "P176",
     "stationCode": "1407",
-    "labelX": 4621,
-    "labelY": 6307,
     "dwellTime": 30
   },
   {
@@ -1242,9 +1132,7 @@
       }
     ],
     "frCode": "K245",
-    "stationCode": "1846",
-    "labelX": 3314,
-    "labelY": 5347
+    "stationCode": "1846"
   },
   {
     "id": "1001080155",
@@ -1265,8 +1153,6 @@
     ],
     "frCode": "P155",
     "stationCode": "1713",
-    "labelX": 3314,
-    "labelY": 5347,
     "dwellTime": 30
   },
   {
@@ -1287,9 +1173,7 @@
       }
     ],
     "frCode": "K246",
-    "stationCode": "1873",
-    "labelX": 3240,
-    "labelY": 5545
+    "stationCode": "1873"
   },
   {
     "id": "1075075247",
@@ -1309,9 +1193,7 @@
       }
     ],
     "frCode": "K247",
-    "stationCode": "1874",
-    "labelX": 3066,
-    "labelY": 5638
+    "stationCode": "1874"
   },
   {
     "id": "1075075248",
@@ -1331,9 +1213,7 @@
       }
     ],
     "frCode": "K248",
-    "stationCode": "1875",
-    "labelX": 2592,
-    "labelY": 5605
+    "stationCode": "1875"
   },
   {
     "id": "1075075249",
@@ -1353,9 +1233,7 @@
       }
     ],
     "frCode": "K249",
-    "stationCode": "1876",
-    "labelX": 2412,
-    "labelY": 5402
+    "stationCode": "1876"
   },
   {
     "id": "1075075250",
@@ -1375,9 +1253,7 @@
       }
     ],
     "frCode": "K250",
-    "stationCode": "1877",
-    "labelX": 2148,
-    "labelY": 5128
+    "stationCode": "1877"
   },
   {
     "id": "1075075244",
@@ -1397,9 +1273,7 @@
       }
     ],
     "frCode": "K244",
-    "stationCode": "1872",
-    "labelX": 3482,
-    "labelY": 5361
+    "stationCode": "1872"
   },
   {
     "id": "1075075243",
@@ -1419,9 +1293,7 @@
       }
     ],
     "frCode": "K243",
-    "stationCode": "1871",
-    "labelX": 3588.869140625,
-    "labelY": 5393.97119140625
+    "stationCode": "1871"
   },
   {
     "id": "1075075242",
@@ -1441,9 +1313,7 @@
       }
     ],
     "frCode": "K242",
-    "stationCode": "1870",
-    "labelX": 3671.6689453125,
-    "labelY": 5517.2001953125
+    "stationCode": "1870"
   },
   {
     "id": "1075075241",
@@ -1463,9 +1333,7 @@
       }
     ],
     "frCode": "K241",
-    "stationCode": "1869",
-    "labelX": 3808,
-    "labelY": 5541
+    "stationCode": "1869"
   },
   {
     "id": "1075075240",
@@ -1485,9 +1353,7 @@
       }
     ],
     "frCode": "K240",
-    "stationCode": "1868",
-    "labelX": 3953,
-    "labelY": 5553
+    "stationCode": "1868"
   },
   {
     "id": "1075075239",
@@ -1507,9 +1373,7 @@
       }
     ],
     "frCode": "K239",
-    "stationCode": "1867",
-    "labelX": 3932,
-    "labelY": 5428
+    "stationCode": "1867"
   },
   {
     "id": "1075075238",
@@ -1529,9 +1393,7 @@
       }
     ],
     "frCode": "K238",
-    "stationCode": "1866",
-    "labelX": 4206,
-    "labelY": 5396
+    "stationCode": "1866"
   },
   {
     "id": "GEN:용인경전철:강남대",
@@ -1551,9 +1413,7 @@
       }
     ],
     "frCode": "Y111",
-    "stationCode": "4502",
-    "labelX": 4264.02587890625,
-    "labelY": 5356.46337890625
+    "stationCode": "4502"
   },
   {
     "id": "GEN:용인경전철:지석",
@@ -1573,9 +1433,7 @@
       }
     ],
     "frCode": "Y112",
-    "stationCode": "4503",
-    "labelX": 4415,
-    "labelY": 5389
+    "stationCode": "4503"
   },
   {
     "id": "GEN:용인경전철:어정",
@@ -1595,9 +1453,7 @@
       }
     ],
     "frCode": "Y113",
-    "stationCode": "4504",
-    "labelX": 4442,
-    "labelY": 5268
+    "stationCode": "4504"
   },
   {
     "id": "1075075237",
@@ -1617,9 +1473,7 @@
       }
     ],
     "frCode": "K237",
-    "stationCode": "1865",
-    "labelX": 4321,
-    "labelY": 5246
+    "stationCode": "1865"
   },
   {
     "id": "GEN:용인경전철:기흥",
@@ -1635,9 +1489,7 @@
       }
     ],
     "frCode": "Y110",
-    "stationCode": "4501",
-    "labelX": 4321,
-    "labelY": 5246
+    "stationCode": "4501"
   },
   {
     "id": "GEN:용인경전철:동백",
@@ -1657,9 +1509,7 @@
       }
     ],
     "frCode": "Y114",
-    "stationCode": "4505",
-    "labelX": 4521,
-    "labelY": 5319
+    "stationCode": "4505"
   },
   {
     "id": "GEN:용인경전철:초당",
@@ -1679,9 +1529,7 @@
       }
     ],
     "frCode": "Y115",
-    "stationCode": "4506",
-    "labelX": 4644,
-    "labelY": 5389
+    "stationCode": "4506"
   },
   {
     "id": "GEN:용인경전철:삼가",
@@ -1701,9 +1549,7 @@
       }
     ],
     "frCode": "Y116",
-    "stationCode": "4508",
-    "labelX": 4667,
-    "labelY": 5568
+    "stationCode": "4508"
   },
   {
     "id": "GEN:용인경전철:시청.용인대",
@@ -1723,9 +1569,7 @@
       }
     ],
     "frCode": "Y117",
-    "stationCode": "4509",
-    "labelX": 4723.68359375,
-    "labelY": 5615.64892578125
+    "stationCode": "4509"
   },
   {
     "id": "GEN:용인경전철:명지대",
@@ -1745,9 +1589,7 @@
       }
     ],
     "frCode": "Y118",
-    "stationCode": "4510",
-    "labelX": 4861,
-    "labelY": 5613
+    "stationCode": "4510"
   },
   {
     "id": "GEN:용인경전철:김량장",
@@ -1767,9 +1609,7 @@
       }
     ],
     "frCode": "Y119",
-    "stationCode": "4511",
-    "labelX": 4945.6240234375,
-    "labelY": 5596.6630859375
+    "stationCode": "4511"
   },
   {
     "id": "GEN:용인경전철:보평",
@@ -1789,9 +1629,7 @@
       }
     ],
     "frCode": "Y123",
-    "stationCode": "4514",
-    "labelX": 5087,
-    "labelY": 5448
+    "stationCode": "4514"
   },
   {
     "id": "GEN:용인경전철:전대.에버랜드",
@@ -1807,9 +1645,7 @@
       }
     ],
     "frCode": "Y126",
-    "stationCode": "4517",
-    "labelX": 5153,
-    "labelY": 5175
+    "stationCode": "4517"
   },
   {
     "id": "GEN:용인경전철:고진",
@@ -1829,9 +1665,7 @@
       }
     ],
     "frCode": "Y121",
-    "stationCode": "4513",
-    "labelX": 5087,
-    "labelY": 5577
+    "stationCode": "4513"
   },
   {
     "id": "GEN:용인경전철:용인중앙시장",
@@ -1851,9 +1685,7 @@
       }
     ],
     "frCode": "Y120",
-    "stationCode": "4512",
-    "labelX": 5019,
-    "labelY": 5675
+    "stationCode": "4512"
   },
   {
     "id": "GEN:용인경전철:둔전",
@@ -1873,9 +1705,7 @@
       }
     ],
     "frCode": "Y125",
-    "stationCode": "4515",
-    "labelX": 5030,
-    "labelY": 5351
+    "stationCode": "4515"
   },
   {
     "id": "1075075236",
@@ -1895,9 +1725,7 @@
       }
     ],
     "frCode": "K236",
-    "stationCode": "1864",
-    "labelX": 4259,
-    "labelY": 5152
+    "stationCode": "1864"
   },
   {
     "id": "1077006819",
@@ -1913,9 +1741,7 @@
       }
     ],
     "frCode": "D19",
-    "stationCode": "4319",
-    "labelX": 3749,
-    "labelY": 4996
+    "stationCode": "4319"
   },
   {
     "id": "1077006817",
@@ -1935,9 +1761,7 @@
       }
     ],
     "frCode": "D17",
-    "stationCode": "4317",
-    "labelX": 3936,
-    "labelY": 5058
+    "stationCode": "4317"
   },
   {
     "id": "1077006816",
@@ -1957,9 +1781,7 @@
       }
     ],
     "frCode": "D16",
-    "stationCode": "4316",
-    "labelX": 3932,
-    "labelY": 4885
+    "stationCode": "4316"
   },
   {
     "id": "1077006815",
@@ -1979,9 +1801,7 @@
       }
     ],
     "frCode": "D15",
-    "stationCode": "4315",
-    "labelX": 4075,
-    "labelY": 4795
+    "stationCode": "4315"
   },
   {
     "id": "1077006814",
@@ -2001,9 +1821,7 @@
       }
     ],
     "frCode": "D14",
-    "stationCode": "4314",
-    "labelX": 4055,
-    "labelY": 4698
+    "stationCode": "4314"
   },
   {
     "id": "1077006818",
@@ -2023,9 +1841,7 @@
       }
     ],
     "frCode": "D18",
-    "stationCode": "4318",
-    "labelX": 3696.222900390625,
-    "labelY": 5209.42138671875
+    "stationCode": "4318"
   },
   {
     "id": "1075075235",
@@ -2045,9 +1861,7 @@
       }
     ],
     "frCode": "K235",
-    "stationCode": "1863",
-    "labelX": 4250,
-    "labelY": 5040
+    "stationCode": "1863"
   },
   {
     "id": "1032000355",
@@ -2067,9 +1881,7 @@
       }
     ],
     "frCode": "X110",
-    "stationCode": "0010",
-    "labelX": 4250,
-    "labelY": 5040
+    "stationCode": "0010"
   },
   {
     "id": "1004000443",
@@ -2090,8 +1902,6 @@
     ],
     "frCode": "443",
     "stationCode": "1458",
-    "labelX": 2955,
-    "labelY": 4278,
     "dwellTime": 30
   },
   {
@@ -2113,8 +1923,6 @@
     ],
     "frCode": "P149",
     "stationCode": "1708",
-    "labelX": 2955,
-    "labelY": 4278,
     "dwellTime": 30
   },
   {
@@ -2136,8 +1944,6 @@
     ],
     "frCode": "P144",
     "stationCode": "1703",
-    "labelX": 2486,
-    "labelY": 3489,
     "dwellTime": 30
   },
   {
@@ -2159,8 +1965,6 @@
     ],
     "frCode": "141",
     "stationCode": "1701",
-    "labelX": 2412,
-    "labelY": 3042,
     "dwellTime": 60
   },
   {
@@ -2182,8 +1986,6 @@
     ],
     "frCode": "140",
     "stationCode": "1007",
-    "labelX": 2579.12451171875,
-    "labelY": 2985.143310546875,
     "dwellTime": 30
   },
   {
@@ -2209,8 +2011,6 @@
     ],
     "frCode": "234",
     "stationCode": "0234",
-    "labelX": 2579.101318359375,
-    "labelY": 2984.947021484375,
     "dwellTime": 60
   },
   {
@@ -2232,8 +2032,6 @@
     ],
     "frCode": "145",
     "stationCode": "1821",
-    "labelX": 1943,
-    "labelY": 3072,
     "dwellTime": 30
   },
   {
@@ -2255,8 +2053,6 @@
     ],
     "frCode": "750",
     "stationCode": "2752",
-    "labelX": 1943,
-    "labelY": 3072,
     "dwellTime": 30
   },
   {
@@ -2278,8 +2074,6 @@
     ],
     "frCode": "746",
     "stationCode": "2748",
-    "labelX": 2305.324951171875,
-    "labelY": 3377.927490234375,
     "dwellTime": 34
   },
   {
@@ -2301,8 +2095,6 @@
     ],
     "frCode": "P142",
     "stationCode": "1702",
-    "labelX": 2305.505859375,
-    "labelY": 3378.250244140625,
     "dwellTime": 30
   },
   {
@@ -2324,8 +2116,6 @@
     ],
     "frCode": "133",
     "stationCode": "0150",
-    "labelX": 3068.955810546875,
-    "labelY": 2562.555419921875,
     "dwellTime": 30
   },
   {
@@ -2347,8 +2137,6 @@
     ],
     "frCode": "426",
     "stationCode": "0426",
-    "labelX": 3068.99560546875,
-    "labelY": 2562.603271484375,
     "dwellTime": 30
   },
   {
@@ -2365,9 +2153,7 @@
       }
     ],
     "frCode": "A01",
-    "stationCode": "4201",
-    "labelX": 3068.994140625,
-    "labelY": 2562.579345703125
+    "stationCode": "4201"
   },
   {
     "id": "1063080313",
@@ -2383,9 +2169,7 @@
       }
     ],
     "frCode": "P313",
-    "stationCode": "1251",
-    "labelX": 3068.995361328125,
-    "labelY": 2562.651123046875
+    "stationCode": "1251"
   },
   {
     "id": "1032000351",
@@ -2401,9 +2185,7 @@
       }
     ],
     "frCode": "X106",
-    "stationCode": "9005",
-    "labelX": 3069.074951171875,
-    "labelY": 2562.575927734375
+    "stationCode": "9005"
   },
   {
     "id": "1003000321",
@@ -2424,8 +2206,6 @@
     ],
     "frCode": "321",
     "stationCode": "0311",
-    "labelX": 2681.1669921875,
-    "labelY": 1929.853515625,
     "dwellTime": 30
   },
   {
@@ -2443,8 +2223,6 @@
     ],
     "frCode": "614",
     "stationCode": "2615",
-    "labelX": 2725,
-    "labelY": 1942,
     "dwellTime": 40
   },
   {
@@ -2465,9 +2243,7 @@
       }
     ],
     "frCode": "X105",
-    "stationCode": "9004",
-    "labelX": 2725,
-    "labelY": 1942
+    "stationCode": "9004"
   },
   {
     "id": "1002000243",
@@ -2488,8 +2264,6 @@
     ],
     "frCode": "243",
     "stationCode": "0243",
-    "labelX": 2968.9560546875,
-    "labelY": 2546.91064453125,
     "dwellTime": 30
   },
   {
@@ -2511,8 +2285,6 @@
     ],
     "frCode": "531",
     "stationCode": "2532",
-    "labelX": 2968.866943359375,
-    "labelY": 2546.555419921875,
     "dwellTime": 30
   },
   {
@@ -2534,8 +2306,6 @@
     ],
     "frCode": "P152",
     "stationCode": "1710",
-    "labelX": 3001,
-    "labelY": 4827,
     "dwellTime": 30
   },
   {
@@ -2557,8 +2327,6 @@
     ],
     "frCode": "P150",
     "stationCode": "1709",
-    "labelX": 3001,
-    "labelY": 4516,
     "dwellTime": 30
   },
   {
@@ -2580,8 +2348,6 @@
     ],
     "frCode": "P148",
     "stationCode": "1707",
-    "labelX": 2811,
-    "labelY": 4180,
     "dwellTime": 30
   },
   {
@@ -2603,8 +2369,6 @@
     ],
     "frCode": "P147",
     "stationCode": "1706",
-    "labelX": 2679,
-    "labelY": 4048,
     "dwellTime": 30
   },
   {
@@ -2626,8 +2390,6 @@
     ],
     "frCode": "P146",
     "stationCode": "1705",
-    "labelX": 2551,
-    "labelY": 3920,
     "dwellTime": 30
   },
   {
@@ -2649,8 +2411,6 @@
     ],
     "frCode": "P145",
     "stationCode": "1704",
-    "labelX": 2497,
-    "labelY": 3732,
     "dwellTime": 30
   },
   {
@@ -2672,8 +2432,6 @@
     ],
     "frCode": "142",
     "stationCode": "1813",
-    "labelX": 2358,
-    "labelY": 3140,
     "dwellTime": 30
   },
   {
@@ -2695,8 +2453,6 @@
     ],
     "frCode": "747",
     "stationCode": "2749",
-    "labelX": 2319,
-    "labelY": 3300,
     "dwellTime": 32
   },
   {
@@ -2718,8 +2474,6 @@
     ],
     "frCode": "748",
     "stationCode": "2750",
-    "labelX": 2153.435791015625,
-    "labelY": 3360.829345703125,
     "dwellTime": 30
   },
   {
@@ -2741,8 +2495,6 @@
     ],
     "frCode": "143",
     "stationCode": "1801",
-    "labelX": 2242,
-    "labelY": 3140,
     "dwellTime": 30
   },
   {
@@ -2764,8 +2516,6 @@
     ],
     "frCode": "144",
     "stationCode": "1802",
-    "labelX": 2110.252197265625,
-    "labelY": 3155.093505859375,
     "dwellTime": 30
   },
   {
@@ -2787,8 +2537,6 @@
     ],
     "frCode": "749",
     "stationCode": "2751",
-    "labelX": 1991,
-    "labelY": 3228,
     "dwellTime": 24
   },
   {
@@ -2810,8 +2558,6 @@
     ],
     "frCode": "751",
     "stationCode": "3753",
-    "labelX": 1892,
-    "labelY": 2998,
     "dwellTime": 30
   },
   {
@@ -2833,8 +2579,6 @@
     ],
     "frCode": "752",
     "stationCode": "3754",
-    "labelX": 1802,
-    "labelY": 2941,
     "dwellTime": 30
   },
   {
@@ -2855,9 +2599,7 @@
       }
     ],
     "frCode": "S15",
-    "stationCode": "1982",
-    "labelX": 1802,
-    "labelY": 2941
+    "stationCode": "1982"
   },
   {
     "id": "1007000753",
@@ -2878,8 +2620,6 @@
     ],
     "frCode": "753",
     "stationCode": "3755",
-    "labelX": 1695,
-    "labelY": 2951,
     "dwellTime": 30
   },
   {
@@ -2901,8 +2641,6 @@
     ],
     "frCode": "754",
     "stationCode": "3756",
-    "labelX": 1616,
-    "labelY": 2951,
     "dwellTime": 30
   },
   {
@@ -2924,8 +2662,6 @@
     ],
     "frCode": "755",
     "stationCode": "3757",
-    "labelX": 1512,
-    "labelY": 2951,
     "dwellTime": 30
   },
   {
@@ -2947,8 +2683,6 @@
     ],
     "frCode": "756",
     "stationCode": "3758",
-    "labelX": 1429,
-    "labelY": 2951,
     "dwellTime": 30
   },
   {
@@ -2970,8 +2704,6 @@
     ],
     "frCode": "757",
     "stationCode": "3759",
-    "labelX": 1345,
-    "labelY": 2951,
     "dwellTime": 30
   },
   {
@@ -2993,8 +2725,6 @@
     ],
     "frCode": "758",
     "stationCode": "3760",
-    "labelX": 1248.0498046875,
-    "labelY": 2952.906494140625,
     "dwellTime": 30
   },
   {
@@ -3016,8 +2746,6 @@
     ],
     "frCode": "760",
     "stationCode": "3762",
-    "labelX": 1044,
-    "labelY": 2949,
     "dwellTime": 30
   },
   {
@@ -3039,8 +2767,6 @@
     ],
     "frCode": "146",
     "stationCode": "1803",
-    "labelX": 1895,
-    "labelY": 3228,
     "dwellTime": 30
   },
   {
@@ -3062,8 +2788,6 @@
     ],
     "frCode": "147",
     "stationCode": "1814",
-    "labelX": 1743,
-    "labelY": 3214,
     "dwellTime": 30
   },
   {
@@ -3084,9 +2808,7 @@
       }
     ],
     "frCode": "S16",
-    "stationCode": "4804",
-    "labelX": 1743,
-    "labelY": 3214
+    "stationCode": "4804"
   },
   {
     "id": "1001000148",
@@ -3107,8 +2829,6 @@
     ],
     "frCode": "148",
     "stationCode": "1804",
-    "labelX": 1648,
-    "labelY": 3248,
     "dwellTime": 30
   },
   {
@@ -3130,8 +2850,6 @@
     ],
     "frCode": "149",
     "stationCode": "1822",
-    "labelX": 1496,
-    "labelY": 3248,
     "dwellTime": 30
   },
   {
@@ -3153,8 +2871,6 @@
     ],
     "frCode": "150",
     "stationCode": "1805",
-    "labelX": 1412,
-    "labelY": 3248,
     "dwellTime": 30
   },
   {
@@ -3176,8 +2892,6 @@
     ],
     "frCode": "151",
     "stationCode": "1815",
-    "labelX": 1285,
-    "labelY": 3228,
     "dwellTime": 30
   },
   {
@@ -3198,9 +2912,7 @@
       }
     ],
     "frCode": "I225",
-    "stationCode": "3225",
-    "labelX": 1244.9478759765625,
-    "labelY": 3636.823974609375
+    "stationCode": "3225"
   },
   {
     "id": "GEN:인천2호선:인천대공원",
@@ -3220,9 +2932,7 @@
       }
     ],
     "frCode": "I226",
-    "stationCode": "3226",
-    "labelX": 1340,
-    "labelY": 3647
+    "stationCode": "3226"
   },
   {
     "id": "GEN:인천선:동수",
@@ -3242,9 +2952,7 @@
       }
     ],
     "frCode": "I121",
-    "stationCode": "3121",
-    "labelX": 1178,
-    "labelY": 3251
+    "stationCode": "3121"
   },
   {
     "id": "GEN:인천선:간석오거리",
@@ -3264,9 +2972,7 @@
       }
     ],
     "frCode": "I123",
-    "stationCode": "3123",
-    "labelX": 1091,
-    "labelY": 3408
+    "stationCode": "3123"
   },
   {
     "id": "GEN:인천선:부평삼거리",
@@ -3286,9 +2992,7 @@
       }
     ],
     "frCode": "I122",
-    "stationCode": "3122",
-    "labelX": 1123.7198486328125,
-    "labelY": 3295.826416015625
+    "stationCode": "3122"
   },
   {
     "id": "1001000153",
@@ -3309,8 +3013,6 @@
     ],
     "frCode": "153",
     "stationCode": "1807",
-    "labelX": 1005,
-    "labelY": 3206,
     "dwellTime": 30
   },
   {
@@ -3332,8 +3034,6 @@
     ],
     "frCode": "154",
     "stationCode": "1808",
-    "labelX": 975,
-    "labelY": 3345,
     "dwellTime": 30
   },
   {
@@ -3354,9 +3054,7 @@
       }
     ],
     "frCode": "I124",
-    "stationCode": "3124",
-    "labelX": 946,
-    "labelY": 3551
+    "stationCode": "3124"
   },
   {
     "id": "GEN:인천2호선:인천시청",
@@ -3376,9 +3074,7 @@
       }
     ],
     "frCode": "I221",
-    "stationCode": "3221",
-    "labelX": 946,
-    "labelY": 3551
+    "stationCode": "3221"
   },
   {
     "id": "GEN:인천선:부평시장",
@@ -3398,9 +3094,7 @@
       }
     ],
     "frCode": "I119",
-    "stationCode": "3119",
-    "labelX": 1237,
-    "labelY": 3064
+    "stationCode": "3119"
   },
   {
     "id": "GEN:인천선:갈산",
@@ -3420,9 +3114,7 @@
       }
     ],
     "frCode": "I117",
-    "stationCode": "3117",
-    "labelX": 1237,
-    "labelY": 2888
+    "stationCode": "3117"
   },
   {
     "id": "GEN:인천선:작전",
@@ -3442,9 +3134,7 @@
       }
     ],
     "frCode": "I116",
-    "stationCode": "3116",
-    "labelX": 1237,
-    "labelY": 2752
+    "stationCode": "3116"
   },
   {
     "id": "GEN:인천선:임학",
@@ -3464,9 +3154,7 @@
       }
     ],
     "frCode": "I113",
-    "stationCode": "3113",
-    "labelX": 1337,
-    "labelY": 2628
+    "stationCode": "3113"
   },
   {
     "id": "GEN:인천선:계산",
@@ -3486,9 +3174,7 @@
       }
     ],
     "frCode": "I114",
-    "stationCode": "3114",
-    "labelX": 1204,
-    "labelY": 2568
+    "stationCode": "3114"
   },
   {
     "id": "GEN:인천선:박촌",
@@ -3508,9 +3194,7 @@
       }
     ],
     "frCode": "I112",
-    "stationCode": "3112",
-    "labelX": 1417,
-    "labelY": 2512
+    "stationCode": "3112"
   },
   {
     "id": "GEN:인천선:귤현",
@@ -3530,9 +3214,7 @@
       }
     ],
     "frCode": "I111",
-    "stationCode": "3111",
-    "labelX": 1417,
-    "labelY": 2424
+    "stationCode": "3111"
   },
   {
     "id": "GEN:인천선:경인교대입구",
@@ -3552,9 +3234,7 @@
       }
     ],
     "frCode": "I115",
-    "stationCode": "3115",
-    "labelX": 1055.0433349609375,
-    "labelY": 2762.666015625
+    "stationCode": "3115"
   },
   {
     "id": "GEN:인천선:예술회관",
@@ -3574,9 +3254,7 @@
       }
     ],
     "frCode": "I125",
-    "stationCode": "3125",
-    "labelX": 1057,
-    "labelY": 3537
+    "stationCode": "3125"
   },
   {
     "id": "GEN:인천2호선:석천사거리",
@@ -3596,9 +3274,7 @@
       }
     ],
     "frCode": "I222",
-    "stationCode": "3222",
-    "labelX": 1088,
-    "labelY": 3454
+    "stationCode": "3222"
   },
   {
     "id": "GEN:인천2호선:모래내시장",
@@ -3618,9 +3294,7 @@
       }
     ],
     "frCode": "I223",
-    "stationCode": "3223",
-    "labelX": 1163,
-    "labelY": 3454
+    "stationCode": "3223"
   },
   {
     "id": "GEN:인천2호선:만수",
@@ -3640,9 +3314,7 @@
       }
     ],
     "frCode": "I224",
-    "stationCode": "3224",
-    "labelX": 1269,
-    "labelY": 3432
+    "stationCode": "3224"
   },
   {
     "id": "GEN:인천2호선:운연",
@@ -3658,9 +3330,7 @@
       }
     ],
     "frCode": "I227",
-    "stationCode": "3227",
-    "labelX": 1487,
-    "labelY": 3600
+    "stationCode": "3227"
   },
   {
     "id": "GEN:인천선:인천터미널",
@@ -3680,9 +3350,7 @@
       }
     ],
     "frCode": "I126",
-    "stationCode": "3126",
-    "labelX": 1057,
-    "labelY": 3608
+    "stationCode": "3126"
   },
   {
     "id": "GEN:인천선:문학경기장",
@@ -3702,9 +3370,7 @@
       }
     ],
     "frCode": "I127",
-    "stationCode": "3127",
-    "labelX": 1057,
-    "labelY": 3687
+    "stationCode": "3127"
   },
   {
     "id": "GEN:인천선:선학",
@@ -3724,9 +3390,7 @@
       }
     ],
     "frCode": "I128",
-    "stationCode": "3128",
-    "labelX": 1057,
-    "labelY": 3761
+    "stationCode": "3128"
   },
   {
     "id": "GEN:인천선:신연수",
@@ -3741,14 +3405,12 @@
         "travelTime": 78
       },
       {
-        "stationId": "1075075265",
+        "stationId": "GEN:인천선:원인재",
         "travelTime": 39
       }
     ],
     "frCode": "I129",
-    "stationCode": "3129",
-    "labelX": 991,
-    "labelY": 3903
+    "stationCode": "3129"
   },
   {
     "id": "GEN:인천선:동춘",
@@ -3759,7 +3421,7 @@
     "aliases": [],
     "connectsTo": [
       {
-        "stationId": "1075075265",
+        "stationId": "GEN:인천선:원인재",
         "travelTime": 59
       },
       {
@@ -3768,9 +3430,7 @@
       }
     ],
     "frCode": "I131",
-    "stationCode": "3131",
-    "labelX": 884,
-    "labelY": 4019
+    "stationCode": "3131"
   },
   {
     "id": "GEN:인천선:동막",
@@ -3790,9 +3450,7 @@
       }
     ],
     "frCode": "I132",
-    "stationCode": "3132",
-    "labelX": 800,
-    "labelY": 4104
+    "stationCode": "3132"
   },
   {
     "id": "GEN:인천선:캠퍼스타운",
@@ -3812,9 +3470,7 @@
       }
     ],
     "frCode": "I133",
-    "stationCode": "3133",
-    "labelX": 663.5601196289062,
-    "labelY": 4142.16845703125
+    "stationCode": "3133"
   },
   {
     "id": "GEN:인천선:테크노파크",
@@ -3834,9 +3490,7 @@
       }
     ],
     "frCode": "I134",
-    "stationCode": "3134",
-    "labelX": 645.3662719726562,
-    "labelY": 4252.26708984375
+    "stationCode": "3134"
   },
   {
     "id": "GEN:인천선:지식정보단지",
@@ -3856,9 +3510,7 @@
       }
     ],
     "frCode": "I135",
-    "stationCode": "3135",
-    "labelX": 476.60223388671875,
-    "labelY": 4301.84423828125
+    "stationCode": "3135"
   },
   {
     "id": "GEN:인천선:인천대입구",
@@ -3878,9 +3530,7 @@
       }
     ],
     "frCode": "I136",
-    "stationCode": "3136",
-    "labelX": 436.9578857421875,
-    "labelY": 4228.267578125
+    "stationCode": "3136"
   },
   {
     "id": "GEN:인천선:센트럴파크",
@@ -3900,9 +3550,7 @@
       }
     ],
     "frCode": "I137",
-    "stationCode": "3137",
-    "labelX": 392.1938171386719,
-    "labelY": 4181.6337890625
+    "stationCode": "3137"
   },
   {
     "id": "GEN:인천선:국제업무지구",
@@ -3922,9 +3570,7 @@
       }
     ],
     "frCode": "I138",
-    "stationCode": "3138",
-    "labelX": 321.3769836425781,
-    "labelY": 4138.4501953125
+    "stationCode": "3138"
   },
   {
     "id": "GEN:인천선:송도달빛축제공원",
@@ -3940,9 +3586,7 @@
       }
     ],
     "frCode": "I139",
-    "stationCode": "3139",
-    "labelX": 283,
-    "labelY": 4068
+    "stationCode": "3139"
   },
   {
     "id": "1001000155",
@@ -3963,8 +3607,6 @@
     ],
     "frCode": "155",
     "stationCode": "1816",
-    "labelX": 958,
-    "labelY": 3444,
     "dwellTime": 30
   },
   {
@@ -3986,8 +3628,6 @@
     ],
     "frCode": "159",
     "stationCode": "1817",
-    "labelX": 605,
-    "labelY": 3328,
     "dwellTime": 30
   },
   {
@@ -4009,8 +3649,6 @@
     ],
     "frCode": "160",
     "stationCode": "1811",
-    "labelX": 510,
-    "labelY": 3268,
     "dwellTime": 30
   },
   {
@@ -4027,9 +3665,7 @@
       }
     ],
     "frCode": "161",
-    "stationCode": "1812",
-    "labelX": 325,
-    "labelY": 3220
+    "stationCode": "1812"
   },
   {
     "id": "1075075271",
@@ -4045,9 +3681,7 @@
       }
     ],
     "frCode": "K272",
-    "stationCode": "1891",
-    "labelX": 325,
-    "labelY": 3220
+    "stationCode": "1891"
   },
   {
     "id": "1001000156",
@@ -4068,8 +3702,6 @@
     ],
     "frCode": "156",
     "stationCode": "1809",
-    "labelX": 841,
-    "labelY": 3434,
     "dwellTime": 30
   },
   {
@@ -4090,9 +3722,7 @@
       }
     ],
     "frCode": "I218",
-    "stationCode": "3218",
-    "labelX": 841,
-    "labelY": 3434
+    "stationCode": "3218"
   },
   {
     "id": "1001000157",
@@ -4113,8 +3743,6 @@
     ],
     "frCode": "157",
     "stationCode": "1823",
-    "labelX": 764,
-    "labelY": 3464,
     "dwellTime": 30
   },
   {
@@ -4136,8 +3764,6 @@
     ],
     "frCode": "158",
     "stationCode": "1810",
-    "labelX": 616,
-    "labelY": 3457,
     "dwellTime": 30
   },
   {
@@ -4159,8 +3785,6 @@
     ],
     "frCode": "P143",
     "stationCode": "1714",
-    "labelX": 2496,
-    "labelY": 3384,
     "dwellTime": 30
   },
   {
@@ -4181,9 +3805,7 @@
       }
     ],
     "frCode": "P144-1",
-    "stationCode": "1750",
-    "labelX": 2239,
-    "labelY": 3808
+    "stationCode": "1750"
   },
   {
     "id": "1075075265",
@@ -4203,9 +3825,7 @@
       }
     ],
     "frCode": "I130",
-    "stationCode": "3130",
-    "labelX": 857.8736572265625,
-    "labelY": 3909.309326171875
+    "stationCode": "3130"
   },
   {
     "id": "1075075265",
@@ -4225,9 +3845,7 @@
       }
     ],
     "frCode": "K265",
-    "stationCode": "1884",
-    "labelX": 857.4652099609375,
-    "labelY": 3908.901123046875
+    "stationCode": "1884"
   },
   {
     "id": "1001000152",
@@ -4248,8 +3866,6 @@
     ],
     "frCode": "152",
     "stationCode": "1806",
-    "labelX": 1226,
-    "labelY": 3155,
     "dwellTime": 30
   },
   {
@@ -4270,9 +3886,7 @@
       }
     ],
     "frCode": "I120",
-    "stationCode": "3120",
-    "labelX": 1226,
-    "labelY": 3155
+    "stationCode": "3120"
   },
   {
     "id": "1007000759",
@@ -4293,8 +3907,6 @@
     ],
     "frCode": "759",
     "stationCode": "3761",
-    "labelX": 1101.2979736328125,
-    "labelY": 3049.6904296875,
     "dwellTime": 30
   },
   {
@@ -4315,9 +3927,7 @@
       }
     ],
     "frCode": "I118",
-    "stationCode": "3118",
-    "labelX": 1101.6444091796875,
-    "labelY": 3049.690673828125
+    "stationCode": "3118"
   },
   {
     "id": "1065006506",
@@ -4337,9 +3947,7 @@
       }
     ],
     "frCode": "A06",
-    "stationCode": "4208",
-    "labelX": 1291.6739501953125,
-    "labelY": 2344
+    "stationCode": "4208"
   },
   {
     "id": "GEN:인천선:계양",
@@ -4359,9 +3967,7 @@
       }
     ],
     "frCode": "I110",
-    "stationCode": "3110",
-    "labelX": 1291.673828125,
-    "labelY": 2343.763427734375
+    "stationCode": "3110"
   },
   {
     "id": "GEN:인천선:아라",
@@ -4381,9 +3987,7 @@
       }
     ],
     "frCode": "I109",
-    "stationCode": "3109",
-    "labelX": 1114,
-    "labelY": 2135
+    "stationCode": "3109"
   },
   {
     "id": "GEN:인천선:신검단중앙",
@@ -4403,9 +4007,7 @@
       }
     ],
     "frCode": "I108",
-    "stationCode": "3108",
-    "labelX": 1014.618408203125,
-    "labelY": 1997.6285400390625
+    "stationCode": "3108"
   },
   {
     "id": "GEN:인천선:검단호수공원",
@@ -4421,9 +4023,7 @@
       }
     ],
     "frCode": "I107",
-    "stationCode": "3107",
-    "labelX": 907.3372802734375,
-    "labelY": 1981.325439453125
+    "stationCode": "3107"
   },
   {
     "id": "1065006507",
@@ -4443,9 +4043,7 @@
       }
     ],
     "frCode": "A07",
-    "stationCode": "4209",
-    "labelX": 792.8013916015625,
-    "labelY": 2381.67138671875
+    "stationCode": "4209"
   },
   {
     "id": "GEN:인천2호선:검암",
@@ -4465,9 +4063,7 @@
       }
     ],
     "frCode": "I207",
-    "stationCode": "3207",
-    "labelX": 792.2808837890625,
-    "labelY": 2381.67138671875
+    "stationCode": "3207"
   },
   {
     "id": "1065065072",
@@ -4487,9 +4083,7 @@
       }
     ],
     "frCode": "A072",
-    "stationCode": "4217",
-    "labelX": 235,
-    "labelY": 2612
+    "stationCode": "4217"
   },
   {
     "id": "1065065071",
@@ -4509,9 +4103,7 @@
       }
     ],
     "frCode": "A071",
-    "stationCode": "4210",
-    "labelX": 399.9898681640625,
-    "labelY": 2443.04052734375
+    "stationCode": "4210"
   },
   {
     "id": "GEN:인천2호선:검단오류",
@@ -4527,9 +4119,7 @@
       }
     ],
     "frCode": "I201",
-    "stationCode": "3201",
-    "labelX": 434,
-    "labelY": 2174
+    "stationCode": "3201"
   },
   {
     "id": "GEN:인천2호선:검단사거리",
@@ -4549,9 +4139,7 @@
       }
     ],
     "frCode": "I203",
-    "stationCode": "3203",
-    "labelX": 668.45654296875,
-    "labelY": 1979.2197265625
+    "stationCode": "3203"
   },
   {
     "id": "GEN:인천2호선:마전",
@@ -4571,9 +4159,7 @@
       }
     ],
     "frCode": "I204",
-    "stationCode": "3204",
-    "labelX": 821,
-    "labelY": 2031
+    "stationCode": "3204"
   },
   {
     "id": "GEN:인천2호선:완정",
@@ -4593,9 +4179,7 @@
       }
     ],
     "frCode": "I205",
-    "stationCode": "3205",
-    "labelX": 791,
-    "labelY": 2129
+    "stationCode": "3205"
   },
   {
     "id": "GEN:인천2호선:독정",
@@ -4615,9 +4199,7 @@
       }
     ],
     "frCode": "I206",
-    "stationCode": "3206",
-    "labelX": 791,
-    "labelY": 2218
+    "stationCode": "3206"
   },
   {
     "id": "GEN:인천2호선:검바위",
@@ -4637,9 +4219,7 @@
       }
     ],
     "frCode": "I208",
-    "stationCode": "3208",
-    "labelX": 778,
-    "labelY": 2457
+    "stationCode": "3208"
   },
   {
     "id": "GEN:인천2호선:아시아드경기장",
@@ -4659,9 +4239,7 @@
       }
     ],
     "frCode": "I209",
-    "stationCode": "3209",
-    "labelX": 625.1724243164062,
-    "labelY": 2601.185791015625
+    "stationCode": "3209"
   },
   {
     "id": "GEN:인천2호선:서구청",
@@ -4681,9 +4259,7 @@
       }
     ],
     "frCode": "I210",
-    "stationCode": "3210",
-    "labelX": 778,
-    "labelY": 2613
+    "stationCode": "3210"
   },
   {
     "id": "GEN:인천2호선:가정",
@@ -4703,9 +4279,7 @@
       }
     ],
     "frCode": "I211",
-    "stationCode": "3211",
-    "labelX": 791,
-    "labelY": 2810
+    "stationCode": "3211"
   },
   {
     "id": "GEN:인천2호선:가정중앙시장",
@@ -4725,9 +4299,7 @@
       }
     ],
     "frCode": "I212",
-    "stationCode": "3212",
-    "labelX": 693.7422485351562,
-    "labelY": 2953.20068359375
+    "stationCode": "3212"
   },
   {
     "id": "1007000761",
@@ -4743,9 +4315,7 @@
       }
     ],
     "frCode": "761",
-    "stationCode": "3763",
-    "labelX": 854,
-    "labelY": 2959
+    "stationCode": "3763"
   },
   {
     "id": "GEN:인천2호선:석남",
@@ -4765,9 +4335,7 @@
       }
     ],
     "frCode": "I213",
-    "stationCode": "3213",
-    "labelX": 854,
-    "labelY": 2959
+    "stationCode": "3213"
   },
   {
     "id": "GEN:인천2호선:서부여성회관",
@@ -4787,9 +4355,7 @@
       }
     ],
     "frCode": "I214",
-    "stationCode": "3214",
-    "labelX": 735.028076171875,
-    "labelY": 3109.37548828125
+    "stationCode": "3214"
   },
   {
     "id": "GEN:인천2호선:인천가좌",
@@ -4809,9 +4375,7 @@
       }
     ],
     "frCode": "I215",
-    "stationCode": "3215",
-    "labelX": 728.1947021484375,
-    "labelY": 3198.78662109375
+    "stationCode": "3215"
   },
   {
     "id": "GEN:인천2호선:주안국가산단",
@@ -4831,9 +4395,7 @@
       }
     ],
     "frCode": "I217",
-    "stationCode": "3217",
-    "labelX": 755,
-    "labelY": 3314
+    "stationCode": "3217"
   },
   {
     "id": "GEN:인천2호선:시민공원",
@@ -4853,9 +4415,7 @@
       }
     ],
     "frCode": "I219",
-    "stationCode": "3219",
-    "labelX": 821.5279541015625,
-    "labelY": 3507.305419921875
+    "stationCode": "3219"
   },
   {
     "id": "GEN:인천2호선:석바위시장",
@@ -4875,9 +4435,7 @@
       }
     ],
     "frCode": "I220",
-    "stationCode": "3220",
-    "labelX": 855.6409301757812,
-    "labelY": 3576.425537109375
+    "stationCode": "3220"
   },
   {
     "id": "GEN:인천2호선:가재울",
@@ -4897,9 +4455,7 @@
       }
     ],
     "frCode": "I216",
-    "stationCode": "3216",
-    "labelX": 920,
-    "labelY": 3175
+    "stationCode": "3216"
   },
   {
     "id": "GEN:인천2호선:왕길",
@@ -4919,9 +4475,7 @@
       }
     ],
     "frCode": "I202",
-    "stationCode": "3202",
-    "labelX": 645,
-    "labelY": 2125
+    "stationCode": "3202"
   },
   {
     "id": "1065006508",
@@ -4941,9 +4495,7 @@
       }
     ],
     "frCode": "A08",
-    "stationCode": "4211",
-    "labelX": 285,
-    "labelY": 2655
+    "stationCode": "4211"
   },
   {
     "id": "1065006509",
@@ -4963,9 +4515,7 @@
       }
     ],
     "frCode": "A09",
-    "stationCode": "4212",
-    "labelX": 233,
-    "labelY": 2763
+    "stationCode": "4212"
   },
   {
     "id": "1065006510",
@@ -4985,9 +4535,7 @@
       }
     ],
     "frCode": "A10",
-    "stationCode": "4213",
-    "labelX": 214,
-    "labelY": 2860
+    "stationCode": "4213"
   },
   {
     "id": "1065006511",
@@ -5003,9 +4551,7 @@
       }
     ],
     "frCode": "A11",
-    "stationCode": "4215",
-    "labelX": 214,
-    "labelY": 2936
+    "stationCode": "4215"
   },
   {
     "id": "1005000510",
@@ -5021,9 +4567,7 @@
       }
     ],
     "frCode": "510",
-    "stationCode": "2511",
-    "labelX": 1958,
-    "labelY": 2248
+    "stationCode": "2511"
   },
   {
     "id": "1005000511",
@@ -5044,8 +4588,6 @@
     ],
     "frCode": "511",
     "stationCode": "2512",
-    "labelX": 1833.573486328125,
-    "labelY": 2325.1103515625,
     "dwellTime": 30
   },
   {
@@ -5067,8 +4609,6 @@
     ],
     "frCode": "903",
     "stationCode": "4103",
-    "labelX": 1848.424560546875,
-    "labelY": 2386.132080078125,
     "dwellTime": 25
   },
   {
@@ -5090,8 +4630,6 @@
     ],
     "frCode": "904",
     "stationCode": "4104",
-    "labelX": 1936,
-    "labelY": 2374,
     "dwellTime": 25
   },
   {
@@ -5113,8 +4651,6 @@
     ],
     "frCode": "906",
     "stationCode": "4106",
-    "labelX": 2142.90478515625,
-    "labelY": 2358.09521484375,
     "dwellTime": 25
   },
   {
@@ -5136,8 +4672,6 @@
     ],
     "frCode": "907",
     "stationCode": "4107",
-    "labelX": 2224,
-    "labelY": 2441,
     "dwellTime": 30
   },
   {
@@ -5159,8 +4693,6 @@
     ],
     "frCode": "908",
     "stationCode": "4108",
-    "labelX": 2270,
-    "labelY": 2489,
     "dwellTime": 25
   },
   {
@@ -5182,8 +4714,6 @@
     ],
     "frCode": "914",
     "stationCode": "4114",
-    "labelX": 2711.677001953125,
-    "labelY": 2755.397705078125,
     "dwellTime": 25
   },
   {
@@ -5205,8 +4735,6 @@
     ],
     "frCode": "916",
     "stationCode": "4116",
-    "labelX": 2859,
-    "labelY": 2851,
     "dwellTime": 25
   },
   {
@@ -5223,9 +4751,7 @@
       }
     ],
     "frCode": "S401",
-    "stationCode": "4401",
-    "labelX": 2859,
-    "labelY": 2851
+    "stationCode": "4401"
   },
   {
     "id": "1009000919",
@@ -5246,8 +4772,6 @@
     ],
     "frCode": "919",
     "stationCode": "4119",
-    "labelX": 3145,
-    "labelY": 2952,
     "dwellTime": 25
   },
   {
@@ -5269,8 +4793,6 @@
     ],
     "frCode": "905",
     "stationCode": "4105",
-    "labelX": 2014,
-    "labelY": 2378,
     "dwellTime": 30
   },
   {
@@ -5291,9 +4813,7 @@
       }
     ],
     "frCode": "A042",
-    "stationCode": "4206",
-    "labelX": 2014,
-    "labelY": 2378
+    "stationCode": "4206"
   },
   {
     "id": "1005000513",
@@ -5314,8 +4834,6 @@
     ],
     "frCode": "513",
     "stationCode": "2514",
-    "labelX": 1899,
-    "labelY": 2563,
     "dwellTime": 30
   },
   {
@@ -5332,9 +4850,7 @@
       }
     ],
     "frCode": "901",
-    "stationCode": "4101",
-    "labelX": 1643,
-    "labelY": 2297
+    "stationCode": "4101"
   },
   {
     "id": "1005000514",
@@ -5355,8 +4871,6 @@
     ],
     "frCode": "514",
     "stationCode": "2515",
-    "labelX": 1991,
-    "labelY": 2563,
     "dwellTime": 20
   },
   {
@@ -5378,8 +4892,6 @@
     ],
     "frCode": "909",
     "stationCode": "4109",
-    "labelX": 2361,
-    "labelY": 2529,
     "dwellTime": 25
   },
   {
@@ -5401,8 +4913,6 @@
     ],
     "frCode": "910",
     "stationCode": "4110",
-    "labelX": 2295,
-    "labelY": 2631,
     "dwellTime": 30
   },
   {
@@ -5424,8 +4934,6 @@
     ],
     "frCode": "911",
     "stationCode": "4111",
-    "labelX": 2439.06005859375,
-    "labelY": 2666.814208984375,
     "dwellTime": 25
   },
   {
@@ -5447,8 +4955,6 @@
     ],
     "frCode": "912",
     "stationCode": "4112",
-    "labelX": 2490.91064453125,
-    "labelY": 2744.539306640625,
     "dwellTime": 25
   },
   {
@@ -5470,8 +4976,6 @@
     ],
     "frCode": "918",
     "stationCode": "4118",
-    "labelX": 2989.708740234375,
-    "labelY": 2951.701904296875,
     "dwellTime": 25
   },
   {
@@ -5493,8 +4997,6 @@
     ],
     "frCode": "921",
     "stationCode": "4121",
-    "labelX": 3255.941650390625,
-    "labelY": 3117.40576171875,
     "dwellTime": 25
   },
   {
@@ -5516,8 +5018,6 @@
     ],
     "frCode": "922",
     "stationCode": "4122",
-    "labelX": 3349,
-    "labelY": 3060,
     "dwellTime": 25
   },
   {
@@ -5539,8 +5039,6 @@
     ],
     "frCode": "924",
     "stationCode": "4124",
-    "labelX": 3504.601806640625,
-    "labelY": 3069.196044921875,
     "dwellTime": 25
   },
   {
@@ -5562,8 +5060,6 @@
     ],
     "frCode": "925",
     "stationCode": "4125",
-    "labelX": 3580.72998046875,
-    "labelY": 2974.848876953125,
     "dwellTime": 30
   },
   {
@@ -5584,9 +5080,7 @@
       }
     ],
     "frCode": "D6",
-    "stationCode": "4306",
-    "labelX": 3580.514892578125,
-    "labelY": 2974.741455078125
+    "stationCode": "4306"
   },
   {
     "id": "1009000926",
@@ -5607,8 +5101,6 @@
     ],
     "frCode": "926",
     "stationCode": "4126",
-    "labelX": 3700,
-    "labelY": 2965,
     "dwellTime": 25
   },
   {
@@ -5630,8 +5122,6 @@
     ],
     "frCode": "515",
     "stationCode": "2516",
-    "labelX": 2059,
-    "labelY": 2492,
     "dwellTime": 30
   },
   {
@@ -5653,8 +5143,6 @@
     ],
     "frCode": "516",
     "stationCode": "2517",
-    "labelX": 2099.57421875,
-    "labelY": 2544.05029296875,
     "dwellTime": 30
   },
   {
@@ -5676,8 +5164,6 @@
     ],
     "frCode": "517",
     "stationCode": "2518",
-    "labelX": 2221,
-    "labelY": 2604,
     "dwellTime": 30
   },
   {
@@ -5694,9 +5180,7 @@
       }
     ],
     "frCode": "234-4",
-    "stationCode": "0200",
-    "labelX": 2232.899169921875,
-    "labelY": 2745.580810546875
+    "stationCode": "0200"
   },
   {
     "id": "1005000518",
@@ -5717,8 +5201,6 @@
     ],
     "frCode": "518",
     "stationCode": "2519",
-    "labelX": 2232.9599609375,
-    "labelY": 2746,
     "dwellTime": 31
   },
   {
@@ -5740,8 +5222,6 @@
     ],
     "frCode": "519",
     "stationCode": "2520",
-    "labelX": 2218,
-    "labelY": 2787,
     "dwellTime": 21
   },
   {
@@ -5763,8 +5243,6 @@
     ],
     "frCode": "520",
     "stationCode": "2521",
-    "labelX": 2328,
-    "labelY": 2807,
     "dwellTime": 31
   },
   {
@@ -5786,8 +5264,6 @@
     ],
     "frCode": "521",
     "stationCode": "2522",
-    "labelX": 2399,
-    "labelY": 2807,
     "dwellTime": 31
   },
   {
@@ -5809,8 +5285,6 @@
     ],
     "frCode": "522",
     "stationCode": "2523",
-    "labelX": 2499,
-    "labelY": 2787,
     "dwellTime": 22
   },
   {
@@ -5832,8 +5306,6 @@
     ],
     "frCode": "237",
     "stationCode": "0237",
-    "labelX": 2558,
-    "labelY": 2678,
     "dwellTime": 30
   },
   {
@@ -5855,8 +5327,6 @@
     ],
     "frCode": "913",
     "stationCode": "4113",
-    "labelX": 2558,
-    "labelY": 2678,
     "dwellTime": 30
   },
   {
@@ -5878,8 +5348,6 @@
     ],
     "frCode": "238",
     "stationCode": "0238",
-    "labelX": 2709.19921875,
-    "labelY": 2576.734375,
     "dwellTime": 30
   },
   {
@@ -5901,8 +5369,6 @@
     ],
     "frCode": "622",
     "stationCode": "2623",
-    "labelX": 2697,
-    "labelY": 2593,
     "dwellTime": 40
   },
   {
@@ -5924,8 +5390,6 @@
     ],
     "frCode": "236",
     "stationCode": "0236",
-    "labelX": 2415.885009765625,
-    "labelY": 2900.420166015625,
     "dwellTime": 30
   },
   {
@@ -5947,8 +5411,6 @@
     ],
     "frCode": "523",
     "stationCode": "2524",
-    "labelX": 2415.812744140625,
-    "labelY": 2900.5546875,
     "dwellTime": 31
   },
   {
@@ -5970,8 +5432,6 @@
     ],
     "frCode": "234-3",
     "stationCode": "0249",
-    "labelX": 2066,
-    "labelY": 2912,
     "dwellTime": 30
   },
   {
@@ -5993,8 +5453,6 @@
     ],
     "frCode": "234-2",
     "stationCode": "0248",
-    "labelX": 2247.786865234375,
-    "labelY": 3024.708740234375,
     "dwellTime": 30
   },
   {
@@ -6016,8 +5474,6 @@
     ],
     "frCode": "234-1",
     "stationCode": "0247",
-    "labelX": 2433,
-    "labelY": 3009,
     "dwellTime": 30
   },
   {
@@ -6039,8 +5495,6 @@
     ],
     "frCode": "235",
     "stationCode": "0235",
-    "labelX": 2517.10986328125,
-    "labelY": 2900.732177734375,
     "dwellTime": 30
   },
   {
@@ -6062,8 +5516,6 @@
     ],
     "frCode": "745",
     "stationCode": "2747",
-    "labelX": 2531,
-    "labelY": 3228,
     "dwellTime": 30
   },
   {
@@ -6085,8 +5537,6 @@
     ],
     "frCode": "232",
     "stationCode": "0232",
-    "labelX": 2481.482421875,
-    "labelY": 3326.73291015625,
     "dwellTime": 30
   },
   {
@@ -6108,8 +5558,6 @@
     ],
     "frCode": "231",
     "stationCode": "0231",
-    "labelX": 2661.048583984375,
-    "labelY": 3225.20654296875,
     "dwellTime": 30
   },
   {
@@ -6131,8 +5579,6 @@
     ],
     "frCode": "230",
     "stationCode": "0230",
-    "labelX": 2820,
-    "labelY": 3254,
     "dwellTime": 30
   },
   {
@@ -6153,9 +5599,7 @@
       }
     ],
     "frCode": "S408",
-    "stationCode": "4408",
-    "labelX": 2820,
-    "labelY": 3254
+    "stationCode": "4408"
   },
   {
     "id": "1002000229",
@@ -6176,8 +5620,6 @@
     ],
     "frCode": "229",
     "stationCode": "0229",
-    "labelX": 2935,
-    "labelY": 3181,
     "dwellTime": 30
   },
   {
@@ -6199,8 +5641,6 @@
     ],
     "frCode": "227",
     "stationCode": "0227",
-    "labelX": 3049,
-    "labelY": 3369,
     "dwellTime": 30
   },
   {
@@ -6217,9 +5657,7 @@
       }
     ],
     "frCode": "S411",
-    "stationCode": "4411",
-    "labelX": 2933,
-    "labelY": 3423
+    "stationCode": "4411"
   },
   {
     "id": "1094000409",
@@ -6239,9 +5677,7 @@
       }
     ],
     "frCode": "S409",
-    "stationCode": "4409",
-    "labelX": 2826,
-    "labelY": 3329
+    "stationCode": "4409"
   },
   {
     "id": "1094000410",
@@ -6261,9 +5697,7 @@
       }
     ],
     "frCode": "S410",
-    "stationCode": "4410",
-    "labelX": 2744.095458984375,
-    "labelY": 3451.23681640625
+    "stationCode": "4410"
   },
   {
     "id": "1094000407",
@@ -6283,9 +5717,7 @@
       }
     ],
     "frCode": "S407",
-    "stationCode": "4407",
-    "labelX": 2871.311279296875,
-    "labelY": 3152.2275390625
+    "stationCode": "4407"
   },
   {
     "id": "1094000405",
@@ -6305,9 +5737,7 @@
       }
     ],
     "frCode": "S405",
-    "stationCode": "4405",
-    "labelX": 2595.880126953125,
-    "labelY": 3187.048095703125
+    "stationCode": "4405"
   },
   {
     "id": "1094000403",
@@ -6327,9 +5757,7 @@
       }
     ],
     "frCode": "S403",
-    "stationCode": "4403",
-    "labelX": 2646.685302734375,
-    "labelY": 2963.4736328125
+    "stationCode": "4403"
   },
   {
     "id": "1002000226",
@@ -6350,8 +5778,6 @@
     ],
     "frCode": "226",
     "stationCode": "0226",
-    "labelX": 3184.661376953125,
-    "labelY": 3345.524169921875,
     "dwellTime": 59
   },
   {
@@ -6373,8 +5799,6 @@
     ],
     "frCode": "433",
     "stationCode": "0433",
-    "labelX": 3184.66162109375,
-    "labelY": 3345.333740234375,
     "dwellTime": 30
   },
   {
@@ -6396,8 +5820,6 @@
     ],
     "frCode": "223",
     "stationCode": "0223",
-    "labelX": 3477,
-    "labelY": 3134,
     "dwellTime": 59
   },
   {
@@ -6419,8 +5841,6 @@
     ],
     "frCode": "340",
     "stationCode": "0330",
-    "labelX": 3477,
-    "labelY": 3134,
     "dwellTime": 30
   },
   {
@@ -6442,8 +5862,6 @@
     ],
     "frCode": "431",
     "stationCode": "0431",
-    "labelX": 3167,
-    "labelY": 3072,
     "dwellTime": 30
   },
   {
@@ -6465,8 +5883,6 @@
     ],
     "frCode": "920",
     "stationCode": "4120",
-    "labelX": 3167,
-    "labelY": 3072,
     "dwellTime": 30
   },
   {
@@ -6488,8 +5904,6 @@
     ],
     "frCode": "737",
     "stationCode": "2739",
-    "labelX": 3107,
-    "labelY": 3180,
     "dwellTime": 32
   },
   {
@@ -6511,8 +5925,6 @@
     ],
     "frCode": "735",
     "stationCode": "2737",
-    "labelX": 3304,
-    "labelY": 3153,
     "dwellTime": 33
   },
   {
@@ -6534,8 +5946,6 @@
     ],
     "frCode": "224",
     "stationCode": "0224",
-    "labelX": 3370,
-    "labelY": 3147,
     "dwellTime": 30
   },
   {
@@ -6557,8 +5967,6 @@
     ],
     "frCode": "341",
     "stationCode": "0331",
-    "labelX": 3441.855224609375,
-    "labelY": 3257.626953125,
     "dwellTime": 30
   },
   {
@@ -6580,8 +5988,6 @@
     ],
     "frCode": "225",
     "stationCode": "0225",
-    "labelX": 3349,
-    "labelY": 3335,
     "dwellTime": 30
   },
   {
@@ -6603,8 +6009,6 @@
     ],
     "frCode": "739",
     "stationCode": "2741",
-    "labelX": 2951,
-    "labelY": 3024,
     "dwellTime": 31
   },
   {
@@ -6626,8 +6030,6 @@
     ],
     "frCode": "738",
     "stationCode": "2740",
-    "labelX": 3050.049560546875,
-    "labelY": 3081.281005859375,
     "dwellTime": 30
   },
   {
@@ -6649,8 +6051,6 @@
     ],
     "frCode": "432",
     "stationCode": "0432",
-    "labelX": 3169,
-    "labelY": 3252,
     "dwellTime": 30
   },
   {
@@ -6672,8 +6072,6 @@
     ],
     "frCode": "736",
     "stationCode": "2738",
-    "labelX": 3169,
-    "labelY": 3252,
     "dwellTime": 40
   },
   {
@@ -6695,8 +6093,6 @@
     ],
     "frCode": "339",
     "stationCode": "0329",
-    "labelX": 3294.33349609375,
-    "labelY": 2961.320556640625,
     "dwellTime": 30
   },
   {
@@ -6718,8 +6114,6 @@
     ],
     "frCode": "734",
     "stationCode": "2736",
-    "labelX": 3294.3115234375,
-    "labelY": 2961.306396484375,
     "dwellTime": 40
   },
   {
@@ -6741,8 +6135,6 @@
     ],
     "frCode": "923",
     "stationCode": "4123",
-    "labelX": 3294.256103515625,
-    "labelY": 2961.361328125,
     "dwellTime": 30
   },
   {
@@ -6764,8 +6156,6 @@
     ],
     "frCode": "228",
     "stationCode": "0228",
-    "labelX": 2905.112060546875,
-    "labelY": 3338.00439453125,
     "dwellTime": 30
   },
   {
@@ -6787,8 +6177,6 @@
     ],
     "frCode": "740",
     "stationCode": "2742",
-    "labelX": 2872.800537109375,
-    "labelY": 3117.07177734375,
     "dwellTime": 30
   },
   {
@@ -6810,8 +6198,6 @@
     ],
     "frCode": "741",
     "stationCode": "2743",
-    "labelX": 2812.8212890625,
-    "labelY": 3041.12890625,
     "dwellTime": 31
   },
   {
@@ -6833,8 +6219,6 @@
     ],
     "frCode": "742",
     "stationCode": "2744",
-    "labelX": 2715.225830078125,
-    "labelY": 3049.88720703125,
     "dwellTime": 30
   },
   {
@@ -6855,9 +6239,7 @@
       }
     ],
     "frCode": "S404",
-    "stationCode": "4404",
-    "labelX": 2715.090087890625,
-    "labelY": 3049.907958984375
+    "stationCode": "4404"
   },
   {
     "id": "1007000743",
@@ -6878,8 +6260,6 @@
     ],
     "frCode": "743",
     "stationCode": "2745",
-    "labelX": 2646,
-    "labelY": 3139,
     "dwellTime": 33
   },
   {
@@ -6901,8 +6281,6 @@
     ],
     "frCode": "139",
     "stationCode": "1006",
-    "labelX": 2612.322998046875,
-    "labelY": 2938.723876953125,
     "dwellTime": 30
   },
   {
@@ -6924,8 +6302,6 @@
     ],
     "frCode": "137",
     "stationCode": "1005",
-    "labelX": 2796,
-    "labelY": 2990,
     "dwellTime": 30
   },
   {
@@ -6946,9 +6322,7 @@
       }
     ],
     "frCode": "S402",
-    "stationCode": "4402",
-    "labelX": 2796,
-    "labelY": 2990
+    "stationCode": "4402"
   },
   {
     "id": "1002000233",
@@ -6969,8 +6343,6 @@
     ],
     "frCode": "233",
     "stationCode": "0233",
-    "labelX": 2478,
-    "labelY": 3156,
     "dwellTime": 30
   },
   {
@@ -6992,8 +6364,6 @@
     ],
     "frCode": "744",
     "stationCode": "2746",
-    "labelX": 2478,
-    "labelY": 3156,
     "dwellTime": 33
   },
   {
@@ -7015,8 +6385,6 @@
     ],
     "frCode": "138",
     "stationCode": "1032",
-    "labelX": 2697.222412109375,
-    "labelY": 2914.312744140625,
     "dwellTime": 30
   },
   {
@@ -7038,8 +6406,6 @@
     ],
     "frCode": "525",
     "stationCode": "2526",
-    "labelX": 2697.130859375,
-    "labelY": 2914.35986328125,
     "dwellTime": 30
   },
   {
@@ -7061,8 +6427,6 @@
     ],
     "frCode": "427",
     "stationCode": "0427",
-    "labelX": 3249,
-    "labelY": 2622,
     "dwellTime": 30
   },
   {
@@ -7084,8 +6448,6 @@
     ],
     "frCode": "331",
     "stationCode": "0321",
-    "labelX": 3332.002197265625,
-    "labelY": 2555.17041015625,
     "dwellTime": 30
   },
   {
@@ -7107,8 +6469,6 @@
     ],
     "frCode": "423",
     "stationCode": "0423",
-    "labelX": 3331.9267578125,
-    "labelY": 2555.16259765625,
     "dwellTime": 30
   },
   {
@@ -7130,8 +6490,6 @@
     ],
     "frCode": "537",
     "stationCode": "2538",
-    "labelX": 3527,
-    "labelY": 2473,
     "dwellTime": 31
   },
   {
@@ -7153,8 +6511,6 @@
     ],
     "frCode": "634",
     "stationCode": "2635",
-    "labelX": 3527,
-    "labelY": 2473,
     "dwellTime": 30
   },
   {
@@ -7176,8 +6532,6 @@
     ],
     "frCode": "206",
     "stationCode": "0206",
-    "labelX": 3527,
-    "labelY": 2400,
     "dwellTime": 30
   },
   {
@@ -7199,8 +6553,6 @@
     ],
     "frCode": "635",
     "stationCode": "2636",
-    "labelX": 3527,
-    "labelY": 2400,
     "dwellTime": 30
   },
   {
@@ -7222,8 +6574,6 @@
     ],
     "frCode": "425",
     "stationCode": "0425",
-    "labelX": 3209,
-    "labelY": 2562,
     "dwellTime": 30
   },
   {
@@ -7245,8 +6595,6 @@
     ],
     "frCode": "424",
     "stationCode": "0424",
-    "labelX": 3260,
-    "labelY": 2562,
     "dwellTime": 30
   },
   {
@@ -7268,8 +6616,6 @@
     ],
     "frCode": "632",
     "stationCode": "2633",
-    "labelX": 3365.920654296875,
-    "labelY": 2655.1943359375,
     "dwellTime": 20
   },
   {
@@ -7291,8 +6637,6 @@
     ],
     "frCode": "631",
     "stationCode": "2632",
-    "labelX": 3408,
-    "labelY": 2710,
     "dwellTime": 20
   },
   {
@@ -7314,8 +6658,6 @@
     ],
     "frCode": "630",
     "stationCode": "2631",
-    "labelX": 3286.95849609375,
-    "labelY": 2793.1318359375,
     "dwellTime": 30
   },
   {
@@ -7337,8 +6679,6 @@
     ],
     "frCode": "629",
     "stationCode": "2630",
-    "labelX": 3291,
-    "labelY": 2676,
     "dwellTime": 20
   },
   {
@@ -7360,8 +6700,6 @@
     ],
     "frCode": "429",
     "stationCode": "0429",
-    "labelX": 3159.4150390625,
-    "labelY": 2779.864990234375,
     "dwellTime": 30
   },
   {
@@ -7382,9 +6720,7 @@
       }
     ],
     "frCode": "K113",
-    "stationCode": "1010",
-    "labelX": 3401,
-    "labelY": 2779
+    "stationCode": "1010"
   },
   {
     "id": "1063075112",
@@ -7404,9 +6740,7 @@
       }
     ],
     "frCode": "K112",
-    "stationCode": "1009",
-    "labelX": 3309.82568359375,
-    "labelY": 2915.2392578125
+    "stationCode": "1009"
   },
   {
     "id": "1003000334",
@@ -7427,8 +6761,6 @@
     ],
     "frCode": "334",
     "stationCode": "0324",
-    "labelX": 3462,
-    "labelY": 2666,
     "dwellTime": 30
   },
   {
@@ -7450,8 +6782,6 @@
     ],
     "frCode": "538",
     "stationCode": "2539",
-    "labelX": 3499.767578125,
-    "labelY": 2577.91259765625,
     "dwellTime": 22
   },
   {
@@ -7473,8 +6803,6 @@
     ],
     "frCode": "539",
     "stationCode": "2540",
-    "labelX": 3574,
-    "labelY": 2563,
     "dwellTime": 22
   },
   {
@@ -7496,8 +6824,6 @@
     ],
     "frCode": "430",
     "stationCode": "0430",
-    "labelX": 3253,
-    "labelY": 2811,
     "dwellTime": 30
   },
   {
@@ -7518,9 +6844,7 @@
       }
     ],
     "frCode": "K111",
-    "stationCode": "1008",
-    "labelX": 3253,
-    "labelY": 2811
+    "stationCode": "1008"
   },
   {
     "id": "1003000333",
@@ -7541,8 +6865,6 @@
     ],
     "frCode": "333",
     "stationCode": "0323",
-    "labelX": 3407,
-    "labelY": 2562,
     "dwellTime": 30
   },
   {
@@ -7564,8 +6886,6 @@
     ],
     "frCode": "633",
     "stationCode": "2634",
-    "labelX": 3407,
-    "labelY": 2562,
     "dwellTime": 40
   },
   {
@@ -7587,8 +6907,6 @@
     ],
     "frCode": "135",
     "stationCode": "1003",
-    "labelX": 3050,
-    "labelY": 2817,
     "dwellTime": 30
   },
   {
@@ -7609,9 +6927,7 @@
       }
     ],
     "frCode": "K110",
-    "stationCode": "100C",
-    "labelX": 3050,
-    "labelY": 2817
+    "stationCode": "100C"
   },
   {
     "id": "1004000428",
@@ -7632,8 +6948,6 @@
     ],
     "frCode": "428",
     "stationCode": "0428",
-    "labelX": 3184.835693359375,
-    "labelY": 2681.363037109375,
     "dwellTime": 30
   },
   {
@@ -7655,8 +6969,6 @@
     ],
     "frCode": "628",
     "stationCode": "2629",
-    "labelX": 3184.9658203125,
-    "labelY": 2681.363037109375,
     "dwellTime": 39
   },
   {
@@ -7678,8 +6990,6 @@
     ],
     "frCode": "136",
     "stationCode": "1004",
-    "labelX": 2959.669677734375,
-    "labelY": 2902.9951171875,
     "dwellTime": 30
   },
   {
@@ -7701,8 +7011,6 @@
     ],
     "frCode": "917",
     "stationCode": "4117",
-    "labelX": 2958.526611328125,
-    "labelY": 2902.042724609375,
     "dwellTime": 30
   },
   {
@@ -7724,8 +7032,6 @@
     ],
     "frCode": "526",
     "stationCode": "2527",
-    "labelX": 2789.77685546875,
-    "labelY": 2875.732421875,
     "dwellTime": 31
   },
   {
@@ -7747,8 +7053,6 @@
     ],
     "frCode": "915",
     "stationCode": "4115",
-    "labelX": 2789.77685546875,
-    "labelY": 2875.732666015625,
     "dwellTime": 30
   },
   {
@@ -7770,8 +7074,6 @@
     ],
     "frCode": "335",
     "stationCode": "0325",
-    "labelX": 3558,
-    "labelY": 2658,
     "dwellTime": 30
   },
   {
@@ -7792,9 +7094,7 @@
       }
     ],
     "frCode": "K114",
-    "stationCode": "1011",
-    "labelX": 3558,
-    "labelY": 2658
+    "stationCode": "1011"
   },
   {
     "id": "1002000208",
@@ -7815,8 +7115,6 @@
     ],
     "frCode": "208",
     "stationCode": "0208",
-    "labelX": 3621.74267578125,
-    "labelY": 2473.421875,
     "dwellTime": 30
   },
   {
@@ -7838,8 +7136,6 @@
     ],
     "frCode": "540",
     "stationCode": "2541",
-    "labelX": 3621.84033203125,
-    "labelY": 2473.422119140625,
     "dwellTime": 31
   },
   {
@@ -7860,9 +7156,7 @@
       }
     ],
     "frCode": "K116",
-    "stationCode": "1013",
-    "labelX": 3621.840087890625,
-    "labelY": 2473.2265625
+    "stationCode": "1013"
   },
   {
     "id": "1075075210",
@@ -7882,9 +7176,7 @@
       }
     ],
     "frCode": "K210",
-    "stationCode": "102C",
-    "labelX": 3621.840576171875,
-    "labelY": 2473.422119140625
+    "stationCode": "102C"
   },
   {
     "id": "1005000529",
@@ -7905,8 +7197,6 @@
     ],
     "frCode": "529",
     "stationCode": "2530",
-    "labelX": 2943.2373046875,
-    "labelY": 2732.435546875,
     "dwellTime": 40
   },
   {
@@ -7928,8 +7218,6 @@
     ],
     "frCode": "626",
     "stationCode": "2627",
-    "labelX": 2897,
-    "labelY": 2729,
     "dwellTime": 40
   },
   {
@@ -7950,9 +7238,7 @@
       }
     ],
     "frCode": "A02",
-    "stationCode": "4202",
-    "labelX": 2897,
-    "labelY": 2729
+    "stationCode": "4202"
   },
   {
     "id": "1063075312",
@@ -7972,9 +7258,7 @@
       }
     ],
     "frCode": "K312",
-    "stationCode": "1262",
-    "labelX": 2897,
-    "labelY": 2729
+    "stationCode": "1262"
   },
   {
     "id": "1003000336",
@@ -7995,8 +7279,6 @@
     ],
     "frCode": "336",
     "stationCode": "0326",
-    "labelX": 3653.180419921875,
-    "labelY": 2805.4931640625,
     "dwellTime": 30
   },
   {
@@ -8018,8 +7300,6 @@
     ],
     "frCode": "338",
     "stationCode": "0328",
-    "labelX": 3430,
-    "labelY": 2907,
     "dwellTime": 30
   },
   {
@@ -8041,8 +7321,6 @@
     ],
     "frCode": "337",
     "stationCode": "0327",
-    "labelX": 3559,
-    "labelY": 2827,
     "dwellTime": 30
   },
   {
@@ -8059,9 +7337,7 @@
       }
     ],
     "frCode": "D4",
-    "stationCode": "4304",
-    "labelX": 3559,
-    "labelY": 2827
+    "stationCode": "4304"
   },
   {
     "id": "1002000242",
@@ -8082,8 +7358,6 @@
     ],
     "frCode": "242",
     "stationCode": "0242",
-    "labelX": 3011.26318359375,
-    "labelY": 2481.491455078125,
     "dwellTime": 30
   },
   {
@@ -8105,8 +7379,6 @@
     ],
     "frCode": "241",
     "stationCode": "0241",
-    "labelX": 2952,
-    "labelY": 2482,
     "dwellTime": 30
   },
   {
@@ -8128,8 +7400,6 @@
     ],
     "frCode": "240",
     "stationCode": "0240",
-    "labelX": 2884,
-    "labelY": 2482,
     "dwellTime": 30
   },
   {
@@ -8150,9 +7420,7 @@
       }
     ],
     "frCode": "P312",
-    "stationCode": "1252",
-    "labelX": 2941,
-    "labelY": 2372
+    "stationCode": "1252"
   },
   {
     "id": "1002000239",
@@ -8173,8 +7441,6 @@
     ],
     "frCode": "239",
     "stationCode": "0239",
-    "labelX": 2733.829833984375,
-    "labelY": 2486.904541015625,
     "dwellTime": 58
   },
   {
@@ -8195,9 +7461,7 @@
       }
     ],
     "frCode": "A03",
-    "stationCode": "4203",
-    "labelX": 2753,
-    "labelY": 2484
+    "stationCode": "4203"
   },
   {
     "id": "1063075314",
@@ -8217,9 +7481,7 @@
       }
     ],
     "frCode": "K314",
-    "stationCode": "1264",
-    "labelX": 2753,
-    "labelY": 2484
+    "stationCode": "1264"
   },
   {
     "id": "1003000328",
@@ -8240,8 +7502,6 @@
     ],
     "frCode": "328",
     "stationCode": "0318",
-    "labelX": 3295,
-    "labelY": 2278,
     "dwellTime": 30
   },
   {
@@ -8263,8 +7523,6 @@
     ],
     "frCode": "326",
     "stationCode": "0316",
-    "labelX": 3033.400146484375,
-    "labelY": 2316.01416015625,
     "dwellTime": 30
   },
   {
@@ -8286,8 +7544,6 @@
     ],
     "frCode": "327",
     "stationCode": "0317",
-    "labelX": 3151.30712890625,
-    "labelY": 2198.11865234375,
     "dwellTime": 30
   },
   {
@@ -8309,8 +7565,6 @@
     ],
     "frCode": "325",
     "stationCode": "0315",
-    "labelX": 3004.782958984375,
-    "labelY": 2243.712890625,
     "dwellTime": 30
   },
   {
@@ -8332,8 +7586,6 @@
     ],
     "frCode": "324",
     "stationCode": "0314",
-    "labelX": 2974,
-    "labelY": 2180,
     "dwellTime": 30
   },
   {
@@ -8355,8 +7607,6 @@
     ],
     "frCode": "323",
     "stationCode": "0313",
-    "labelX": 2831,
-    "labelY": 2087,
     "dwellTime": 30
   },
   {
@@ -8374,8 +7624,6 @@
     ],
     "frCode": "611",
     "stationCode": "2612",
-    "labelX": 2794.636962890625,
-    "labelY": 2047.801025390625,
     "dwellTime": 20
   },
   {
@@ -8393,8 +7641,6 @@
     ],
     "frCode": "613",
     "stationCode": "2614",
-    "labelX": 2891,
-    "labelY": 1879,
     "dwellTime": 20
   },
   {
@@ -8412,8 +7658,6 @@
     ],
     "frCode": "615",
     "stationCode": "2616",
-    "labelX": 2700,
-    "labelY": 1993,
     "dwellTime": 30
   },
   {
@@ -8435,8 +7679,6 @@
     ],
     "frCode": "610",
     "stationCode": "2611",
-    "labelX": 2651,
-    "labelY": 2113,
     "dwellTime": 30
   },
   {
@@ -8458,8 +7700,6 @@
     ],
     "frCode": "616",
     "stationCode": "2617",
-    "labelX": 2784,
-    "labelY": 2172,
     "dwellTime": 30
   },
   {
@@ -8481,8 +7721,6 @@
     ],
     "frCode": "617",
     "stationCode": "2618",
-    "labelX": 2686,
-    "labelY": 2284,
     "dwellTime": 20
   },
   {
@@ -8504,8 +7742,6 @@
     ],
     "frCode": "618",
     "stationCode": "2619",
-    "labelX": 2584.275634765625,
-    "labelY": 2264.604248046875,
     "dwellTime": 40
   },
   {
@@ -8526,9 +7762,7 @@
       }
     ],
     "frCode": "A04",
-    "stationCode": "4204",
-    "labelX": 2584.275634765625,
-    "labelY": 2264.96484375
+    "stationCode": "4204"
   },
   {
     "id": "1063075316",
@@ -8548,9 +7782,7 @@
       }
     ],
     "frCode": "K316",
-    "stationCode": "1266",
-    "labelX": 2584.275634765625,
-    "labelY": 2264.60400390625
+    "stationCode": "1266"
   },
   {
     "id": "1063075317",
@@ -8570,9 +7802,7 @@
       }
     ],
     "frCode": "K317",
-    "stationCode": "1267",
-    "labelX": 2568,
-    "labelY": 2230
+    "stationCode": "1267"
   },
   {
     "id": "1063075315",
@@ -8596,9 +7826,7 @@
       }
     ],
     "frCode": "K315",
-    "stationCode": "1265",
-    "labelX": 2677.141357421875,
-    "labelY": 2349.638916015625
+    "stationCode": "1265"
   },
   {
     "id": "1063075313",
@@ -8618,9 +7846,7 @@
       }
     ],
     "frCode": "K313",
-    "stationCode": "1263",
-    "labelX": 2894,
-    "labelY": 2557
+    "stationCode": "1263"
   },
   {
     "id": "1063075318",
@@ -8640,9 +7866,7 @@
       }
     ],
     "frCode": "K318",
-    "stationCode": "1268",
-    "labelX": 2367.562255859375,
-    "labelY": 2034.602783203125
+    "stationCode": "1268"
   },
   {
     "id": "1063075320",
@@ -8662,9 +7886,7 @@
       }
     ],
     "frCode": "K320",
-    "stationCode": "1270",
-    "labelX": 2072,
-    "labelY": 1939
+    "stationCode": "1270"
   },
   {
     "id": "1063075319",
@@ -8684,9 +7906,7 @@
       }
     ],
     "frCode": "K319",
-    "stationCode": "1269",
-    "labelX": 2230.8876953125,
-    "labelY": 1923.429931640625
+    "stationCode": "1269"
   },
   {
     "id": "1063075321",
@@ -8706,9 +7926,7 @@
       }
     ],
     "frCode": "K321",
-    "stationCode": "1271",
-    "labelX": 1906,
-    "labelY": 1932
+    "stationCode": "1271"
   },
   {
     "id": "1093004006",
@@ -8728,9 +7946,7 @@
       }
     ],
     "frCode": "S12",
-    "stationCode": "104C",
-    "labelX": 1906,
-    "labelY": 1932
+    "stationCode": "104C"
   },
   {
     "id": "1063075323",
@@ -8750,9 +7966,7 @@
       }
     ],
     "frCode": "K323",
-    "stationCode": "1272",
-    "labelX": 1889,
-    "labelY": 1599
+    "stationCode": "1272"
   },
   {
     "id": "1093004004",
@@ -8772,9 +7986,7 @@
       }
     ],
     "frCode": "S10",
-    "stationCode": "105C",
-    "labelX": 1889,
-    "labelY": 1599
+    "stationCode": "105C"
   },
   {
     "id": "1063075324",
@@ -8794,9 +8006,7 @@
       }
     ],
     "frCode": "K324",
-    "stationCode": "1273",
-    "labelX": 1754,
-    "labelY": 1506
+    "stationCode": "1273"
   },
   {
     "id": "1093004003",
@@ -8816,9 +8026,7 @@
       }
     ],
     "frCode": "S09",
-    "stationCode": "106C",
-    "labelX": 1754,
-    "labelY": 1506
+    "stationCode": "106C"
   },
   {
     "id": "1063075325",
@@ -8838,9 +8046,7 @@
       }
     ],
     "frCode": "K325",
-    "stationCode": "1274",
-    "labelX": 1759,
-    "labelY": 1359
+    "stationCode": "1274"
   },
   {
     "id": "1093004002",
@@ -8860,9 +8066,7 @@
       }
     ],
     "frCode": "S08",
-    "stationCode": "107C",
-    "labelX": 1759,
-    "labelY": 1359
+    "stationCode": "107C"
   },
   {
     "id": "1063075326",
@@ -8882,9 +8086,7 @@
       }
     ],
     "frCode": "K326",
-    "stationCode": "1275",
-    "labelX": 1633.16357421875,
-    "labelY": 1241.537841796875
+    "stationCode": "1275"
   },
   {
     "id": "1093004001",
@@ -8900,9 +8102,7 @@
       }
     ],
     "frCode": "S07",
-    "stationCode": "108C",
-    "labelX": 1633.3067626953125,
-    "labelY": 1241.1082763671875
+    "stationCode": "108C"
   },
   {
     "id": "1006000620",
@@ -8923,8 +8123,6 @@
     ],
     "frCode": "620",
     "stationCode": "2621",
-    "labelX": 2529.21630859375,
-    "labelY": 2479.9677734375,
     "dwellTime": 30
   },
   {
@@ -8946,8 +8144,6 @@
     ],
     "frCode": "619",
     "stationCode": "2620",
-    "labelX": 2500.438720703125,
-    "labelY": 2440.8095703125,
     "dwellTime": 30
   },
   {
@@ -8969,8 +8165,6 @@
     ],
     "frCode": "621",
     "stationCode": "2622",
-    "labelX": 2555,
-    "labelY": 2567,
     "dwellTime": 30
   },
   {
@@ -8992,8 +8186,6 @@
     ],
     "frCode": "320",
     "stationCode": "0310",
-    "labelX": 2821,
-    "labelY": 1717,
     "dwellTime": 30
   },
   {
@@ -9015,8 +8207,6 @@
     ],
     "frCode": "319",
     "stationCode": "0309",
-    "labelX": 2682,
-    "labelY": 1603,
     "dwellTime": 30
   },
   {
@@ -9038,8 +8228,6 @@
     ],
     "frCode": "318",
     "stationCode": "1950",
-    "labelX": 2559,
-    "labelY": 1546,
     "dwellTime": 30
   },
   {
@@ -9061,8 +8249,6 @@
     ],
     "frCode": "317",
     "stationCode": "1948",
-    "labelX": 2382,
-    "labelY": 1546,
     "dwellTime": 30
   },
   {
@@ -9079,9 +8265,7 @@
       }
     ],
     "frCode": "309",
-    "stationCode": "1958",
-    "labelX": 1423,
-    "labelY": 1308
+    "stationCode": "1958"
   },
   {
     "id": "1003000310",
@@ -9102,8 +8286,6 @@
     ],
     "frCode": "310",
     "stationCode": "1957",
-    "labelX": 1439,
-    "labelY": 1418,
     "dwellTime": 30
   },
   {
@@ -9124,9 +8306,7 @@
       }
     ],
     "frCode": "K327",
-    "stationCode": "1276",
-    "labelX": 1450,
-    "labelY": 1213
+    "stationCode": "1276"
   },
   {
     "id": "1063075329",
@@ -9146,9 +8326,7 @@
       }
     ],
     "frCode": "K329",
-    "stationCode": "1278",
-    "labelX": 1476,
-    "labelY": 1057
+    "stationCode": "1278"
   },
   {
     "id": "1063075328",
@@ -9168,9 +8346,7 @@
       }
     ],
     "frCode": "K328",
-    "stationCode": "1277",
-    "labelX": 1476,
-    "labelY": 1094
+    "stationCode": "1277"
   },
   {
     "id": "1063075330",
@@ -9190,9 +8366,7 @@
       }
     ],
     "frCode": "K330",
-    "stationCode": "1279",
-    "labelX": 1476,
-    "labelY": 1020
+    "stationCode": "1279"
   },
   {
     "id": "1063075331",
@@ -9212,9 +8386,7 @@
       }
     ],
     "frCode": "K331",
-    "stationCode": "1280",
-    "labelX": 1476,
-    "labelY": 983
+    "stationCode": "1280"
   },
   {
     "id": "1063075333",
@@ -9234,9 +8406,7 @@
       }
     ],
     "frCode": "K333",
-    "stationCode": "1282",
-    "labelX": 1476,
-    "labelY": 946
+    "stationCode": "1282"
   },
   {
     "id": "1063075334",
@@ -9256,9 +8426,7 @@
       }
     ],
     "frCode": "K334",
-    "stationCode": "1283",
-    "labelX": 1476,
-    "labelY": 909
+    "stationCode": "1283"
   },
   {
     "id": "1063075335",
@@ -9278,9 +8446,7 @@
       }
     ],
     "frCode": "K335",
-    "stationCode": "1284",
-    "labelX": 1476,
-    "labelY": 872
+    "stationCode": "1284"
   },
   {
     "id": "GEN:경의선:운천",
@@ -9300,9 +8466,7 @@
       }
     ],
     "frCode": "K336",
-    "stationCode": "1286",
-    "labelX": 1476,
-    "labelY": 835
+    "stationCode": "1286"
   },
   {
     "id": "GEN:경의선:도라산",
@@ -9316,9 +8480,7 @@
         "stationId": "GEN:경의선:임진강",
         "travelTime": 19
       }
-    ],
-    "labelX": 1476,
-    "labelY": 761
+    ]
   },
   {
     "id": "GEN:경의선:임진강",
@@ -9338,9 +8500,7 @@
       }
     ],
     "frCode": "K337",
-    "stationCode": "1285",
-    "labelX": 1476,
-    "labelY": 798
+    "stationCode": "1285"
   },
   {
     "id": "1003000311",
@@ -9361,8 +8521,6 @@
     ],
     "frCode": "311",
     "stationCode": "1956",
-    "labelX": 1514.9454345703125,
-    "labelY": 1530.4554443359375,
     "dwellTime": 30
   },
   {
@@ -9384,8 +8542,6 @@
     ],
     "frCode": "312",
     "stationCode": "1955",
-    "labelX": 1662.9952392578125,
-    "labelY": 1548.6630859375,
     "dwellTime": 30
   },
   {
@@ -9407,8 +8563,6 @@
     ],
     "frCode": "313",
     "stationCode": "1954",
-    "labelX": 1746,
-    "labelY": 1625,
     "dwellTime": 30
   },
   {
@@ -9430,8 +8584,6 @@
     ],
     "frCode": "314",
     "stationCode": "1953",
-    "labelX": 1818,
-    "labelY": 1814,
     "dwellTime": 30
   },
   {
@@ -9452,9 +8604,7 @@
       }
     ],
     "frCode": "K322",
-    "stationCode": "0300",
-    "labelX": 1818,
-    "labelY": 1814
+    "stationCode": "0300"
   },
   {
     "id": "1093004005",
@@ -9474,9 +8624,7 @@
       }
     ],
     "frCode": "S11",
-    "stationCode": "103C",
-    "labelX": 1818,
-    "labelY": 1814
+    "stationCode": "103C"
   },
   {
     "id": "1032000348",
@@ -9496,9 +8644,7 @@
       }
     ],
     "frCode": "X103",
-    "stationCode": "9002",
-    "labelX": 1818,
-    "labelY": 1814
+    "stationCode": "9002"
   },
   {
     "id": "1003000316",
@@ -9519,8 +8665,6 @@
     ],
     "frCode": "316",
     "stationCode": "1951",
-    "labelX": 2073,
-    "labelY": 1526,
     "dwellTime": 30
   },
   {
@@ -9542,8 +8686,6 @@
     ],
     "frCode": "530",
     "stationCode": "2531",
-    "labelX": 3004.657958984375,
-    "labelY": 2615.63134765625,
     "dwellTime": 21
   },
   {
@@ -9565,8 +8707,6 @@
     ],
     "frCode": "342",
     "stationCode": "0332",
-    "labelX": 3573.23876953125,
-    "labelY": 3210.718994140625,
     "dwellTime": 30
   },
   {
@@ -9587,9 +8727,7 @@
       }
     ],
     "frCode": "D8",
-    "stationCode": "4308",
-    "labelX": 3579,
-    "labelY": 3216
+    "stationCode": "4308"
   },
   {
     "id": "1002000222",
@@ -9610,8 +8748,6 @@
     ],
     "frCode": "222",
     "stationCode": "0222",
-    "labelX": 3588,
-    "labelY": 3048,
     "dwellTime": 30
   },
   {
@@ -9632,9 +8768,7 @@
       }
     ],
     "frCode": "D7",
-    "stationCode": "4307",
-    "labelX": 3588,
-    "labelY": 3048
+    "stationCode": "4307"
   },
   {
     "id": "1002000221",
@@ -9655,8 +8789,6 @@
     ],
     "frCode": "221",
     "stationCode": "0221",
-    "labelX": 3644,
-    "labelY": 3118,
     "dwellTime": 30
   },
   {
@@ -9678,8 +8810,6 @@
     ],
     "frCode": "343",
     "stationCode": "0333",
-    "labelX": 3684,
-    "labelY": 3248,
     "dwellTime": 30
   },
   {
@@ -9701,8 +8831,6 @@
     ],
     "frCode": "731",
     "stationCode": "2733",
-    "labelX": 3665,
-    "labelY": 2913,
     "dwellTime": 31
   },
   {
@@ -9724,8 +8852,6 @@
     ],
     "frCode": "928",
     "stationCode": "4128",
-    "labelX": 3846.37646484375,
-    "labelY": 2986.997802734375,
     "dwellTime": 25
   },
   {
@@ -9747,8 +8873,6 @@
     ],
     "frCode": "929",
     "stationCode": "4129",
-    "labelX": 3944.95166015625,
-    "labelY": 2969.064453125,
     "dwellTime": 30
   },
   {
@@ -9770,8 +8894,6 @@
     ],
     "frCode": "732",
     "stationCode": "2734",
-    "labelX": 3586,
-    "labelY": 2902,
     "dwellTime": 30
   },
   {
@@ -9792,9 +8914,7 @@
       }
     ],
     "frCode": "D5",
-    "stationCode": "4305",
-    "labelX": 3586,
-    "labelY": 2902
+    "stationCode": "4305"
   },
   {
     "id": "1007000730",
@@ -9815,8 +8935,6 @@
     ],
     "frCode": "730",
     "stationCode": "2732",
-    "labelX": 3781,
-    "labelY": 2906,
     "dwellTime": 33
   },
   {
@@ -9837,9 +8955,7 @@
       }
     ],
     "frCode": "K213",
-    "stationCode": "1849",
-    "labelX": 3781,
-    "labelY": 2906
+    "stationCode": "1849"
   },
   {
     "id": "1075075212",
@@ -9859,9 +8975,7 @@
       }
     ],
     "frCode": "K212",
-    "stationCode": "1848",
-    "labelX": 3791,
-    "labelY": 2851
+    "stationCode": "1848"
   },
   {
     "id": "1007000729",
@@ -9882,8 +8996,6 @@
     ],
     "frCode": "729",
     "stationCode": "2731",
-    "labelX": 3867,
-    "labelY": 2939,
     "dwellTime": 32
   },
   {
@@ -9905,8 +9017,6 @@
     ],
     "frCode": "218",
     "stationCode": "0218",
-    "labelX": 4042,
-    "labelY": 3026,
     "dwellTime": 30
   },
   {
@@ -9928,8 +9038,6 @@
     ],
     "frCode": "930",
     "stationCode": "4130",
-    "labelX": 4042,
-    "labelY": 3026,
     "dwellTime": 30
   },
   {
@@ -9951,8 +9059,6 @@
     ],
     "frCode": "217",
     "stationCode": "0217",
-    "labelX": 4107.20849609375,
-    "labelY": 3078.8447265625,
     "dwellTime": 30
   },
   {
@@ -9973,9 +9079,7 @@
       }
     ],
     "frCode": "K219",
-    "stationCode": "1027",
-    "labelX": 3819.248291015625,
-    "labelY": 3265.0048828125
+    "stationCode": "1027"
   },
   {
     "id": "1075075218",
@@ -9995,9 +9099,7 @@
       }
     ],
     "frCode": "K218",
-    "stationCode": "1026",
-    "labelX": 3743,
-    "labelY": 3252
+    "stationCode": "1026"
   },
   {
     "id": "1075075220",
@@ -10017,9 +9119,7 @@
       }
     ],
     "frCode": "K220",
-    "stationCode": "1028",
-    "labelX": 3856.9267578125,
-    "labelY": 3325.03759765625
+    "stationCode": "1028"
   },
   {
     "id": "1003000345",
@@ -10040,8 +9140,6 @@
     ],
     "frCode": "345",
     "stationCode": "0335",
-    "labelX": 3829,
-    "labelY": 3146,
     "dwellTime": 30
   },
   {
@@ -10062,9 +9160,7 @@
       }
     ],
     "frCode": "K216",
-    "stationCode": "1024",
-    "labelX": 3827,
-    "labelY": 3124
+    "stationCode": "1024"
   },
   {
     "id": "1002000220",
@@ -10085,8 +9181,6 @@
     ],
     "frCode": "220",
     "stationCode": "0220",
-    "labelX": 3740,
-    "labelY": 3130,
     "dwellTime": 60
   },
   {
@@ -10107,9 +9201,7 @@
       }
     ],
     "frCode": "K215",
-    "stationCode": "1023",
-    "labelX": 3740,
-    "labelY": 3130
+    "stationCode": "1023"
   },
   {
     "id": "1009000927",
@@ -10130,8 +9222,6 @@
     ],
     "frCode": "927",
     "stationCode": "4127",
-    "labelX": 3656.970947265625,
-    "labelY": 3051.92041015625,
     "dwellTime": 30
   },
   {
@@ -10152,9 +9242,7 @@
       }
     ],
     "frCode": "K214",
-    "stationCode": "1850",
-    "labelX": 3664,
-    "labelY": 3047
+    "stationCode": "1850"
   },
   {
     "id": "1003000346",
@@ -10175,8 +9263,6 @@
     ],
     "frCode": "346",
     "stationCode": "0336",
-    "labelX": 3951,
-    "labelY": 3146,
     "dwellTime": 30
   },
   {
@@ -10198,8 +9284,6 @@
     ],
     "frCode": "348",
     "stationCode": "0338",
-    "labelX": 4015,
-    "labelY": 3308,
     "dwellTime": 30
   },
   {
@@ -10221,8 +9305,6 @@
     ],
     "frCode": "349",
     "stationCode": "0339",
-    "labelX": 4247,
-    "labelY": 3202,
     "dwellTime": 30
   },
   {
@@ -10243,9 +9325,7 @@
       }
     ],
     "frCode": "K221",
-    "stationCode": "1030",
-    "labelX": 4247,
-    "labelY": 3202
+    "stationCode": "1030"
   },
   {
     "id": "1032000353",
@@ -10261,9 +9341,7 @@
       }
     ],
     "frCode": "X108",
-    "stationCode": "0008",
-    "labelX": 4247,
-    "labelY": 3202
+    "stationCode": "0008"
   },
   {
     "id": "1003000350",
@@ -10284,8 +9362,6 @@
     ],
     "frCode": "350",
     "stationCode": "0340",
-    "labelX": 4319.13720703125,
-    "labelY": 3117.077880859375,
     "dwellTime": 30
   },
   {
@@ -10307,8 +9383,6 @@
     ],
     "frCode": "817",
     "stationCode": "2818",
-    "labelX": 4319.1376953125,
-    "labelY": 3116.868408203125,
     "dwellTime": 43
   },
   {
@@ -10330,8 +9404,6 @@
     ],
     "frCode": "215",
     "stationCode": "0215",
-    "labelX": 4085.85205078125,
-    "labelY": 2915.637451171875,
     "dwellTime": 30
   },
   {
@@ -10353,8 +9425,6 @@
     ],
     "frCode": "816",
     "stationCode": "2817",
-    "labelX": 4231.31201171875,
-    "labelY": 3161.16796875,
     "dwellTime": 35
   },
   {
@@ -10376,8 +9446,6 @@
     ],
     "frCode": "931",
     "stationCode": "4131",
-    "labelX": 4045,
-    "labelY": 3155,
     "dwellTime": 25
   },
   {
@@ -10399,8 +9467,6 @@
     ],
     "frCode": "935",
     "stationCode": "4135",
-    "labelX": 4317.53955078125,
-    "labelY": 3025.640380859375,
     "dwellTime": 25
   },
   {
@@ -10422,8 +9488,6 @@
     ],
     "frCode": "937",
     "stationCode": "4137",
-    "labelX": 4536,
-    "labelY": 2875,
     "dwellTime": 25
   },
   {
@@ -10440,9 +9504,7 @@
       }
     ],
     "frCode": "938",
-    "stationCode": "4138",
-    "labelX": 4659,
-    "labelY": 2750
+    "stationCode": "4138"
   },
   {
     "id": "1009000932",
@@ -10463,8 +9525,6 @@
     ],
     "frCode": "932",
     "stationCode": "4132",
-    "labelX": 4142.755859375,
-    "labelY": 3152.583740234375,
     "dwellTime": 25
   },
   {
@@ -10486,8 +9546,6 @@
     ],
     "frCode": "934",
     "stationCode": "4134",
-    "labelX": 4265,
-    "labelY": 3049,
     "dwellTime": 155
   },
   {
@@ -10509,8 +9567,6 @@
     ],
     "frCode": "815",
     "stationCode": "2816",
-    "labelX": 4179.5986328125,
-    "labelY": 3058.802490234375,
     "dwellTime": 36
   },
   {
@@ -10532,8 +9588,6 @@
     ],
     "frCode": "933",
     "stationCode": "4133",
-    "labelX": 4179.80810546875,
-    "labelY": 3058.5927734375,
     "dwellTime": 30
   },
   {
@@ -10555,8 +9609,6 @@
     ],
     "frCode": "733",
     "stationCode": "2735",
-    "labelX": 3530,
-    "labelY": 2988,
     "dwellTime": 24
   },
   {
@@ -10578,8 +9630,6 @@
     ],
     "frCode": "347",
     "stationCode": "0337",
-    "labelX": 3965,
-    "labelY": 3259,
     "dwellTime": 30
   },
   {
@@ -10601,8 +9651,6 @@
     ],
     "frCode": "219",
     "stationCode": "0219",
-    "labelX": 3895,
-    "labelY": 3036,
     "dwellTime": 30
   },
   {
@@ -10624,8 +9672,6 @@
     ],
     "frCode": "623",
     "stationCode": "2624",
-    "labelX": 2722,
-    "labelY": 2649,
     "dwellTime": 20
   },
   {
@@ -10647,8 +9693,6 @@
     ],
     "frCode": "624",
     "stationCode": "2625",
-    "labelX": 2795,
-    "labelY": 2682,
     "dwellTime": 30
   },
   {
@@ -10670,8 +9714,6 @@
     ],
     "frCode": "625",
     "stationCode": "2626",
-    "labelX": 2951,
-    "labelY": 2588,
     "dwellTime": 30
   },
   {
@@ -10693,8 +9735,6 @@
     ],
     "frCode": "527",
     "stationCode": "2528",
-    "labelX": 2800.884033203125,
-    "labelY": 2794.13427734375,
     "dwellTime": 21
   },
   {
@@ -10716,8 +9756,6 @@
     ],
     "frCode": "528",
     "stationCode": "2529",
-    "labelX": 2840,
-    "labelY": 2706,
     "dwellTime": 30
   },
   {
@@ -10739,8 +9777,6 @@
     ],
     "frCode": "627",
     "stationCode": "2628",
-    "labelX": 2953.862548828125,
-    "labelY": 2823.080078125,
     "dwellTime": 30
   },
   {
@@ -10761,9 +9797,7 @@
       }
     ],
     "frCode": "K826",
-    "stationCode": "1261",
-    "labelX": 2953.6474609375,
-    "labelY": 2823.1875
+    "stationCode": "1261"
   },
   {
     "id": "1001000131",
@@ -10784,8 +9818,6 @@
     ],
     "frCode": "131",
     "stationCode": "0152",
-    "labelX": 3163,
-    "labelY": 2398,
     "dwellTime": 30
   },
   {
@@ -10807,8 +9839,6 @@
     ],
     "frCode": "332",
     "stationCode": "0322",
-    "labelX": 3323.090576171875,
-    "labelY": 2600.701904296875,
     "dwellTime": 30
   },
   {
@@ -10830,8 +9860,6 @@
     ],
     "frCode": "202",
     "stationCode": "0202",
-    "labelX": 3177,
-    "labelY": 2472,
     "dwellTime": 30
   },
   {
@@ -10853,8 +9881,6 @@
     ],
     "frCode": "130",
     "stationCode": "0153",
-    "labelX": 3306.572265625,
-    "labelY": 2337.441650390625,
     "dwellTime": 30
   },
   {
@@ -10876,8 +9902,6 @@
     ],
     "frCode": "329",
     "stationCode": "0319",
-    "labelX": 3306.578125,
-    "labelY": 2337.5107421875,
     "dwellTime": 30
   },
   {
@@ -10899,8 +9923,6 @@
     ],
     "frCode": "534",
     "stationCode": "2535",
-    "labelX": 3306.489013671875,
-    "labelY": 2337.421875,
     "dwellTime": 32
   },
   {
@@ -10922,8 +9944,6 @@
     ],
     "frCode": "129",
     "stationCode": "0154",
-    "labelX": 3336.222900390625,
-    "labelY": 2303.534912109375,
     "dwellTime": 30
   },
   {
@@ -10945,8 +9965,6 @@
     ],
     "frCode": "128",
     "stationCode": "0155",
-    "labelX": 3440,
-    "labelY": 2349,
     "dwellTime": 30
   },
   {
@@ -10968,8 +9986,6 @@
     ],
     "frCode": "421",
     "stationCode": "0421",
-    "labelX": 3440,
-    "labelY": 2349,
     "dwellTime": 30
   },
   {
@@ -10991,8 +10007,6 @@
     ],
     "frCode": "127",
     "stationCode": "0159",
-    "labelX": 3525,
-    "labelY": 2329,
     "dwellTime": 30
   },
   {
@@ -11014,8 +10028,6 @@
     ],
     "frCode": "636",
     "stationCode": "2637",
-    "labelX": 3525,
-    "labelY": 2329,
     "dwellTime": 30
   },
   {
@@ -11037,8 +10049,6 @@
     ],
     "frCode": "420",
     "stationCode": "0420",
-    "labelX": 3467,
-    "labelY": 2267,
     "dwellTime": 30
   },
   {
@@ -11060,8 +10070,6 @@
     ],
     "frCode": "419",
     "stationCode": "0419",
-    "labelX": 3353.940673828125,
-    "labelY": 2181.74755859375,
     "dwellTime": 30
   },
   {
@@ -11083,8 +10091,6 @@
     ],
     "frCode": "418",
     "stationCode": "0418",
-    "labelX": 3540.521484375,
-    "labelY": 2140.147216796875,
     "dwellTime": 30
   },
   {
@@ -11105,9 +10111,7 @@
       }
     ],
     "frCode": "951",
-    "stationCode": "4711",
-    "labelX": 3540.37841796875,
-    "labelY": 2139.86083984375
+    "stationCode": "4711"
   },
   {
     "id": "1004000417",
@@ -11128,8 +10132,6 @@
     ],
     "frCode": "417",
     "stationCode": "0417",
-    "labelX": 3512,
-    "labelY": 2034,
     "dwellTime": 30
   },
   {
@@ -11151,8 +10153,6 @@
     ],
     "frCode": "416",
     "stationCode": "0416",
-    "labelX": 3687,
-    "labelY": 1941,
     "dwellTime": 30
   },
   {
@@ -11174,8 +10174,6 @@
     ],
     "frCode": "211-3",
     "stationCode": "0250",
-    "labelX": 3618,
-    "labelY": 2398,
     "dwellTime": 30
   },
   {
@@ -11197,8 +10195,6 @@
     ],
     "frCode": "207",
     "stationCode": "0207",
-    "labelX": 3569.20361328125,
-    "labelY": 2435.695556640625,
     "dwellTime": 30
   },
   {
@@ -11220,8 +10216,6 @@
     ],
     "frCode": "637",
     "stationCode": "2638",
-    "labelX": 3538,
-    "labelY": 2284,
     "dwellTime": 30
   },
   {
@@ -11243,8 +10237,6 @@
     ],
     "frCode": "638",
     "stationCode": "2639",
-    "labelX": 3528,
-    "labelY": 2178,
     "dwellTime": 30
   },
   {
@@ -11265,9 +10257,7 @@
       }
     ],
     "frCode": "952",
-    "stationCode": "4712",
-    "labelX": 3528,
-    "labelY": 2178
+    "stationCode": "4712"
   },
   {
     "id": "1006000643",
@@ -11288,8 +10278,6 @@
     ],
     "frCode": "643",
     "stationCode": "2644",
-    "labelX": 3811,
-    "labelY": 2018,
     "dwellTime": 20
   },
   {
@@ -11311,8 +10299,6 @@
     ],
     "frCode": "642",
     "stationCode": "2643",
-    "labelX": 3679,
-    "labelY": 2010,
     "dwellTime": 30
   },
   {
@@ -11334,8 +10320,6 @@
     ],
     "frCode": "641",
     "stationCode": "2642",
-    "labelX": 3688,
-    "labelY": 2093,
     "dwellTime": 30
   },
   {
@@ -11357,8 +10341,6 @@
     ],
     "frCode": "640",
     "stationCode": "2641",
-    "labelX": 3688,
-    "labelY": 2214,
     "dwellTime": 30
   },
   {
@@ -11380,8 +10362,6 @@
     ],
     "frCode": "125",
     "stationCode": "0157",
-    "labelX": 3638,
-    "labelY": 2280,
     "dwellTime": 30
   },
   {
@@ -11403,8 +10383,6 @@
     ],
     "frCode": "211-1",
     "stationCode": "0244",
-    "labelX": 3781,
-    "labelY": 2490,
     "dwellTime": 30
   },
   {
@@ -11426,8 +10404,6 @@
     ],
     "frCode": "541",
     "stationCode": "2542",
-    "labelX": 3726.177734375,
-    "labelY": 2454.21240234375,
     "dwellTime": 22
   },
   {
@@ -11449,8 +10425,6 @@
     ],
     "frCode": "211-2",
     "stationCode": "0245",
-    "labelX": 3768.054931640625,
-    "labelY": 2362.72607421875,
     "dwellTime": 30
   },
   {
@@ -11472,8 +10446,6 @@
     ],
     "frCode": "542",
     "stationCode": "2543",
-    "labelX": 3810.288818359375,
-    "labelY": 2390.005859375,
     "dwellTime": 31
   },
   {
@@ -11495,8 +10467,6 @@
     ],
     "frCode": "543",
     "stationCode": "2544",
-    "labelX": 3870.521728515625,
-    "labelY": 2448.4306640625,
     "dwellTime": 31
   },
   {
@@ -11518,8 +10488,6 @@
     ],
     "frCode": "545",
     "stationCode": "2546",
-    "labelX": 4152,
-    "labelY": 2522,
     "dwellTime": 23
   },
   {
@@ -11541,8 +10509,6 @@
     ],
     "frCode": "546",
     "stationCode": "2547",
-    "labelX": 4202,
-    "labelY": 2587,
     "dwellTime": 23
   },
   {
@@ -11564,8 +10530,6 @@
     ],
     "frCode": "214",
     "stationCode": "0214",
-    "labelX": 4159,
-    "labelY": 2709,
     "dwellTime": 30
   },
   {
@@ -11587,8 +10551,6 @@
     ],
     "frCode": "213",
     "stationCode": "0213",
-    "labelX": 4078.651123046875,
-    "labelY": 2644.27685546875,
     "dwellTime": 30
   },
   {
@@ -11610,8 +10572,6 @@
     ],
     "frCode": "726",
     "stationCode": "2728",
-    "labelX": 3828.263671875,
-    "labelY": 2616.408935546875,
     "dwellTime": 33
   },
   {
@@ -11633,8 +10593,6 @@
     ],
     "frCode": "728",
     "stationCode": "2730",
-    "labelX": 3989,
-    "labelY": 2812,
     "dwellTime": 24
   },
   {
@@ -11656,8 +10614,6 @@
     ],
     "frCode": "212",
     "stationCode": "0212",
-    "labelX": 3963.22607421875,
-    "labelY": 2637.5068359375,
     "dwellTime": 30
   },
   {
@@ -11679,8 +10635,6 @@
     ],
     "frCode": "727",
     "stationCode": "2729",
-    "labelX": 3963.6162109375,
-    "labelY": 2637.767333984375,
     "dwellTime": 40
   },
   {
@@ -11705,9 +10659,7 @@
       }
     ],
     "frCode": "211",
-    "stationCode": "0211",
-    "labelX": 3787,
-    "labelY": 2711
+    "stationCode": "0211"
   },
   {
     "id": "1075075211",
@@ -11727,9 +10679,7 @@
       }
     ],
     "frCode": "K211",
-    "stationCode": "1847",
-    "labelX": 3671.543701171875,
-    "labelY": 2735.535888671875
+    "stationCode": "1847"
   },
   {
     "id": "1002000210",
@@ -11750,8 +10700,6 @@
     ],
     "frCode": "210",
     "stationCode": "0210",
-    "labelX": 3682.282470703125,
-    "labelY": 2652.340087890625,
     "dwellTime": 30
   },
   {
@@ -11773,8 +10721,6 @@
     ],
     "frCode": "639",
     "stationCode": "2640",
-    "labelX": 3612,
-    "labelY": 2191,
     "dwellTime": 30
   },
   {
@@ -11796,8 +10742,6 @@
     ],
     "frCode": "122",
     "stationCode": "1016",
-    "labelX": 3804,
-    "labelY": 2144,
     "dwellTime": 30
   },
   {
@@ -11819,8 +10763,6 @@
     ],
     "frCode": "121",
     "stationCode": "1017",
-    "labelX": 3804,
-    "labelY": 2088,
     "dwellTime": 30
   },
   {
@@ -11841,9 +10783,7 @@
       }
     ],
     "frCode": "K119",
-    "stationCode": "1201",
-    "labelX": 3907,
-    "labelY": 2187
+    "stationCode": "1201"
   },
   {
     "id": "1067080118",
@@ -11863,9 +10803,7 @@
       }
     ],
     "frCode": "P119",
-    "stationCode": "1308",
-    "labelX": 3907,
-    "labelY": 2187
+    "stationCode": "1308"
   },
   {
     "id": "1007000719",
@@ -11886,8 +10824,6 @@
     ],
     "frCode": "719",
     "stationCode": "2721",
-    "labelX": 4016,
-    "labelY": 2060,
     "dwellTime": 31
   },
   {
@@ -11909,8 +10845,6 @@
     ],
     "frCode": "718",
     "stationCode": "2720",
-    "labelX": 4007,
-    "labelY": 1980,
     "dwellTime": 31
   },
   {
@@ -11932,8 +10866,6 @@
     ],
     "frCode": "646",
     "stationCode": "2647",
-    "labelX": 4056,
-    "labelY": 1905,
     "dwellTime": 30
   },
   {
@@ -11955,8 +10887,6 @@
     ],
     "frCode": "647",
     "stationCode": "2648",
-    "labelX": 4136,
-    "labelY": 1905,
     "dwellTime": 30
   },
   {
@@ -11978,8 +10908,6 @@
     ],
     "frCode": "716",
     "stationCode": "2718",
-    "labelX": 4008,
-    "labelY": 1836,
     "dwellTime": 30
   },
   {
@@ -12001,8 +10929,6 @@
     ],
     "frCode": "119",
     "stationCode": "1019",
-    "labelX": 3808,
-    "labelY": 1873,
     "dwellTime": 60
   },
   {
@@ -12019,9 +10945,7 @@
       }
     ],
     "frCode": "P116",
-    "stationCode": "1305",
-    "labelX": 3808,
-    "labelY": 1873
+    "stationCode": "1305"
   },
   {
     "id": "1001000118",
@@ -12042,8 +10966,6 @@
     ],
     "frCode": "118",
     "stationCode": "1020",
-    "labelX": 3818,
-    "labelY": 1782,
     "dwellTime": 30
   },
   {
@@ -12065,8 +10987,6 @@
     ],
     "frCode": "715",
     "stationCode": "2717",
-    "labelX": 4008,
-    "labelY": 1728,
     "dwellTime": 30
   },
   {
@@ -12088,8 +11008,6 @@
     ],
     "frCode": "714",
     "stationCode": "2716",
-    "labelX": 3936,
-    "labelY": 1622,
     "dwellTime": 30
   },
   {
@@ -12111,8 +11029,6 @@
     ],
     "frCode": "117",
     "stationCode": "1021",
-    "labelX": 3769,
-    "labelY": 1679,
     "dwellTime": 30
   },
   {
@@ -12134,8 +11050,6 @@
     ],
     "frCode": "415",
     "stationCode": "0415",
-    "labelX": 3615,
-    "labelY": 1804,
     "dwellTime": 30
   },
   {
@@ -12157,8 +11071,6 @@
     ],
     "frCode": "414",
     "stationCode": "0414",
-    "labelX": 3612,
-    "labelY": 1708,
     "dwellTime": 30
   },
   {
@@ -12180,8 +11092,6 @@
     ],
     "frCode": "413",
     "stationCode": "0413",
-    "labelX": 3573,
-    "labelY": 1574,
     "dwellTime": 30
   },
   {
@@ -12203,8 +11113,6 @@
     ],
     "frCode": "100",
     "stationCode": "1916",
-    "labelX": 4214,
-    "labelY": 242,
     "dwellTime": 30
   },
   {
@@ -12226,8 +11134,6 @@
     ],
     "frCode": "101",
     "stationCode": "1915",
-    "labelX": 4055,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12249,8 +11155,6 @@
     ],
     "frCode": "102",
     "stationCode": "1914",
-    "labelX": 4019,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12271,9 +11175,7 @@
       }
     ],
     "frCode": "100-3",
-    "stationCode": "1919",
-    "labelX": 4091,
-    "labelY": 262
+    "stationCode": "1919"
   },
   {
     "id": "1001001002",
@@ -12294,8 +11196,6 @@
     ],
     "frCode": "100-2",
     "stationCode": "1918",
-    "labelX": 4127,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12317,8 +11217,6 @@
     ],
     "frCode": "100-1",
     "stationCode": "1917",
-    "labelX": 4163,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12340,8 +11238,6 @@
     ],
     "frCode": "103",
     "stationCode": "1913",
-    "labelX": 3955.6357421875,
-    "labelY": 229.3262176513672,
     "dwellTime": 30
   },
   {
@@ -12363,8 +11259,6 @@
     ],
     "frCode": "104",
     "stationCode": "1912",
-    "labelX": 3947,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12386,8 +11280,6 @@
     ],
     "frCode": "105",
     "stationCode": "1911",
-    "labelX": 3911,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12409,8 +11301,6 @@
     ],
     "frCode": "106",
     "stationCode": "1910",
-    "labelX": 3875,
-    "labelY": 262,
     "dwellTime": 30
   },
   {
@@ -12432,8 +11322,6 @@
     ],
     "frCode": "107",
     "stationCode": "1909",
-    "labelX": 3804,
-    "labelY": 242,
     "dwellTime": 30
   },
   {
@@ -12455,8 +11343,6 @@
     ],
     "frCode": "108",
     "stationCode": "1908",
-    "labelX": 3793,
-    "labelY": 526,
     "dwellTime": 30
   },
   {
@@ -12478,8 +11364,6 @@
     ],
     "frCode": "109",
     "stationCode": "1907",
-    "labelX": 3792,
-    "labelY": 605,
     "dwellTime": 30
   },
   {
@@ -12501,8 +11385,6 @@
     ],
     "frCode": "110",
     "stationCode": "1906",
-    "labelX": 3792,
-    "labelY": 764,
     "dwellTime": 30
   },
   {
@@ -12524,8 +11406,6 @@
     ],
     "frCode": "111",
     "stationCode": "1905",
-    "labelX": 3782,
-    "labelY": 853,
     "dwellTime": 30
   },
   {
@@ -12546,9 +11426,7 @@
       }
     ],
     "frCode": "U111",
-    "stationCode": "4602",
-    "labelX": 3782,
-    "labelY": 853
+    "stationCode": "4602"
   },
   {
     "id": "1063075137",
@@ -12568,9 +11446,7 @@
       }
     ],
     "frCode": "K137",
-    "stationCode": "1219",
-    "labelX": 5514.1162109375,
-    "labelY": 2350.246337890625
+    "stationCode": "1219"
   },
   {
     "id": "1063075130",
@@ -12590,9 +11466,7 @@
       }
     ],
     "frCode": "K130",
-    "stationCode": "1212",
-    "labelX": 5241.5654296875,
-    "labelY": 2349.797119140625
+    "stationCode": "1212"
   },
   {
     "id": "1063075131",
@@ -12612,9 +11486,7 @@
       }
     ],
     "frCode": "K131",
-    "stationCode": "1213",
-    "labelX": 5279.2177734375,
-    "labelY": 2350.695556640625
+    "stationCode": "1213"
   },
   {
     "id": "1063075132",
@@ -12634,9 +11506,7 @@
       }
     ],
     "frCode": "K132",
-    "stationCode": "1214",
-    "labelX": 5319.1162109375,
-    "labelY": 2350.695556640625
+    "stationCode": "1214"
   },
   {
     "id": "1063075133",
@@ -12656,9 +11526,7 @@
       }
     ],
     "frCode": "K133",
-    "stationCode": "1215",
-    "labelX": 5357.66650390625,
-    "labelY": 2351.144775390625
+    "stationCode": "1215"
   },
   {
     "id": "1063075134",
@@ -12678,9 +11546,7 @@
       }
     ],
     "frCode": "K134",
-    "stationCode": "1216",
-    "labelX": 5398.4638671875,
-    "labelY": 2351.144775390625
+    "stationCode": "1216"
   },
   {
     "id": "1063075135",
@@ -12700,9 +11566,7 @@
       }
     ],
     "frCode": "K135",
-    "stationCode": "1217",
-    "labelX": 5437.0146484375,
-    "labelY": 2350.695556640625
+    "stationCode": "1217"
   },
   {
     "id": "1063075136",
@@ -12722,9 +11586,7 @@
       }
     ],
     "frCode": "K136",
-    "stationCode": "1218",
-    "labelX": 5474.6669921875,
-    "labelY": 2349.347900390625
+    "stationCode": "1218"
   },
   {
     "id": "1063075138",
@@ -12740,9 +11602,7 @@
       }
     ],
     "frCode": "K138",
-    "stationCode": "1220",
-    "labelX": 5552.39208984375,
-    "labelY": 2350.013916015625
+    "stationCode": "1220"
   },
   {
     "id": "1067080140",
@@ -12758,9 +11618,7 @@
       }
     ],
     "frCode": "P140",
-    "stationCode": "1329",
-    "labelX": 5551.63818359375,
-    "labelY": 1628.890869140625
+    "stationCode": "1329"
   },
   {
     "id": "1067080134",
@@ -12780,9 +11638,7 @@
       }
     ],
     "frCode": "P134",
-    "stationCode": "1323",
-    "labelX": 5335.48974609375,
-    "labelY": 1630.326171875
+    "stationCode": "1323"
   },
   {
     "id": "1067080135",
@@ -12802,9 +11658,7 @@
       }
     ],
     "frCode": "P135",
-    "stationCode": "1324",
-    "labelX": 5368.51953125,
-    "labelY": 1666.3416748046875
+    "stationCode": "1324"
   },
   {
     "id": "1067080136",
@@ -12824,9 +11678,7 @@
       }
     ],
     "frCode": "P136",
-    "stationCode": "1325",
-    "labelX": 5402.66357421875,
-    "labelY": 1629.9549560546875
+    "stationCode": "1325"
   },
   {
     "id": "1067080137",
@@ -12846,9 +11698,7 @@
       }
     ],
     "frCode": "P137",
-    "stationCode": "1326",
-    "labelX": 5445.7177734375,
-    "labelY": 1665.9703369140625
+    "stationCode": "1326"
   },
   {
     "id": "1067080138",
@@ -12868,9 +11718,7 @@
       }
     ],
     "frCode": "P138",
-    "stationCode": "1327",
-    "labelX": 5474.6630859375,
-    "labelY": 1629.954833984375
+    "stationCode": "1327"
   },
   {
     "id": "1067080139",
@@ -12890,9 +11738,7 @@
       }
     ],
     "frCode": "P139",
-    "stationCode": "1328",
-    "labelX": 5510.6630859375,
-    "labelY": 1666.712890625
+    "stationCode": "1328"
   },
   {
     "id": "1067080133",
@@ -12912,9 +11758,7 @@
       }
     ],
     "frCode": "P133",
-    "stationCode": "1322",
-    "labelX": 5301.34619140625,
-    "labelY": 1666.341552734375
+    "stationCode": "1322"
   },
   {
     "id": "1067080128",
@@ -12934,9 +11778,7 @@
       }
     ],
     "frCode": "P128",
-    "stationCode": "1317",
-    "labelX": 5108.3662109375,
-    "labelY": 1631.489990234375
+    "stationCode": "1317"
   },
   {
     "id": "1067080130",
@@ -12956,9 +11798,7 @@
       }
     ],
     "frCode": "P130",
-    "stationCode": "1319",
-    "labelX": 5190.0048828125,
-    "labelY": 1629.5836181640625
+    "stationCode": "1319"
   },
   {
     "id": "1067080129",
@@ -12978,9 +11818,7 @@
       }
     ],
     "frCode": "P129",
-    "stationCode": "1318",
-    "labelX": 5153.26171875,
-    "labelY": 1664.8564453125
+    "stationCode": "1318"
   },
   {
     "id": "1067080131",
@@ -13000,9 +11838,7 @@
       }
     ],
     "frCode": "P131",
-    "stationCode": "1320",
-    "labelX": 5222.2919921875,
-    "labelY": 1667.084228515625
+    "stationCode": "1320"
   },
   {
     "id": "1067080132",
@@ -13022,9 +11858,7 @@
       }
     ],
     "frCode": "P132",
-    "stationCode": "1321",
-    "labelX": 5262.7470703125,
-    "labelY": 1630.326171875
+    "stationCode": "1321"
   },
   {
     "id": "1063075129",
@@ -13044,9 +11878,7 @@
       }
     ],
     "frCode": "K129",
-    "stationCode": "1211",
-    "labelX": 5194.92822265625,
-    "labelY": 2349.34765625
+    "stationCode": "1211"
   },
   {
     "id": "1063075128",
@@ -13066,9 +11898,7 @@
       }
     ],
     "frCode": "K128",
-    "stationCode": "1210",
-    "labelX": 5165.3623046875,
-    "labelY": 2348.8984375
+    "stationCode": "1210"
   },
   {
     "id": "1063075127",
@@ -13088,9 +11918,7 @@
       }
     ],
     "frCode": "K127",
-    "stationCode": "1209",
-    "labelX": 5124.1591796875,
-    "labelY": 2350.013916015625
+    "stationCode": "1209"
   },
   {
     "id": "1063075126",
@@ -13110,9 +11938,7 @@
       }
     ],
     "frCode": "K126",
-    "stationCode": "1208",
-    "labelX": 4948,
-    "labelY": 2260
+    "stationCode": "1208"
   },
   {
     "id": "1063075125",
@@ -13132,9 +11958,7 @@
       }
     ],
     "frCode": "K125",
-    "stationCode": "1207",
-    "labelX": 4835,
-    "labelY": 2131
+    "stationCode": "1207"
   },
   {
     "id": "1063075124",
@@ -13154,9 +11978,7 @@
       }
     ],
     "frCode": "K124",
-    "stationCode": "1206",
-    "labelX": 4650,
-    "labelY": 2095
+    "stationCode": "1206"
   },
   {
     "id": "1008000807",
@@ -13177,8 +11999,6 @@
     ],
     "frCode": "807",
     "stationCode": "2808",
-    "labelX": 4463,
-    "labelY": 2043,
     "dwellTime": 40
   },
   {
@@ -13199,9 +12019,7 @@
       }
     ],
     "frCode": "K123",
-    "stationCode": "1205",
-    "labelX": 4463,
-    "labelY": 2043
+    "stationCode": "1205"
   },
   {
     "id": "1063075122",
@@ -13221,9 +12039,7 @@
       }
     ],
     "frCode": "K122",
-    "stationCode": "1204",
-    "labelX": 4176,
-    "labelY": 2075
+    "stationCode": "1204"
   },
   {
     "id": "1063075121",
@@ -13243,9 +12059,7 @@
       }
     ],
     "frCode": "K121",
-    "stationCode": "1203",
-    "labelX": 4082,
-    "labelY": 2123
+    "stationCode": "1203"
   },
   {
     "id": "1067080121",
@@ -13265,9 +12079,7 @@
       }
     ],
     "frCode": "P121",
-    "stationCode": "1310",
-    "labelX": 4082,
-    "labelY": 2123
+    "stationCode": "1310"
   },
   {
     "id": "1007000720",
@@ -13288,8 +12100,6 @@
     ],
     "frCode": "720",
     "stationCode": "2722",
-    "labelX": 3997,
-    "labelY": 2204,
     "dwellTime": 33
   },
   {
@@ -13310,9 +12120,7 @@
       }
     ],
     "frCode": "K120",
-    "stationCode": "1202",
-    "labelX": 3997,
-    "labelY": 2204
+    "stationCode": "1202"
   },
   {
     "id": "1067080120",
@@ -13332,9 +12140,7 @@
       }
     ],
     "frCode": "P120",
-    "stationCode": "1309",
-    "labelX": 3997,
-    "labelY": 2204
+    "stationCode": "1309"
   },
   {
     "id": "1007000721",
@@ -13355,8 +12161,6 @@
     ],
     "frCode": "721",
     "stationCode": "2723",
-    "labelX": 4080,
-    "labelY": 2213,
     "dwellTime": 30
   },
   {
@@ -13378,8 +12182,6 @@
     ],
     "frCode": "722",
     "stationCode": "2724",
-    "labelX": 4080,
-    "labelY": 2280,
     "dwellTime": 30
   },
   {
@@ -13396,9 +12198,7 @@
       }
     ],
     "frCode": "648",
-    "stationCode": "2649",
-    "labelX": 4248,
-    "labelY": 1899
+    "stationCode": "2649"
   },
   {
     "id": "1067080122",
@@ -13418,9 +12218,7 @@
       }
     ],
     "frCode": "P122",
-    "stationCode": "1311",
-    "labelX": 4248,
-    "labelY": 1899
+    "stationCode": "1311"
   },
   {
     "id": "1007000723",
@@ -13441,8 +12239,6 @@
     ],
     "frCode": "723",
     "stationCode": "2725",
-    "labelX": 4079,
-    "labelY": 2344,
     "dwellTime": 24
   },
   {
@@ -13464,8 +12260,6 @@
     ],
     "frCode": "724",
     "stationCode": "2726",
-    "labelX": 4080,
-    "labelY": 2424,
     "dwellTime": 31
   },
   {
@@ -13487,8 +12281,6 @@
     ],
     "frCode": "124",
     "stationCode": "0158",
-    "labelX": 3719.47412109375,
-    "labelY": 2293.660888671875,
     "dwellTime": 30
   },
   {
@@ -13509,9 +12301,7 @@
       }
     ],
     "frCode": "K117",
-    "stationCode": "1014",
-    "labelX": 3719.47412109375,
-    "labelY": 2293.660888671875
+    "stationCode": "1014"
   },
   {
     "id": "1075075209",
@@ -13527,9 +12317,7 @@
       }
     ],
     "frCode": "K209",
-    "stationCode": "1845",
-    "labelX": 3719.5693359375,
-    "labelY": 2293.719482421875
+    "stationCode": "1845"
   },
   {
     "id": "1067080116",
@@ -13549,9 +12337,7 @@
       }
     ],
     "frCode": "P117",
-    "stationCode": "1306",
-    "labelX": 3719.378662109375,
-    "labelY": 2293.719482421875
+    "stationCode": "1306"
   },
   {
     "id": "1001000123",
@@ -13572,8 +12358,6 @@
     ],
     "frCode": "123",
     "stationCode": "1015",
-    "labelX": 3847,
-    "labelY": 2267,
     "dwellTime": 30
   },
   {
@@ -13594,9 +12378,7 @@
       }
     ],
     "frCode": "K118",
-    "stationCode": "101C",
-    "labelX": 3847,
-    "labelY": 2267
+    "stationCode": "101C"
   },
   {
     "id": "1067080117",
@@ -13616,9 +12398,7 @@
       }
     ],
     "frCode": "P118",
-    "stationCode": "1307",
-    "labelX": 3847,
-    "labelY": 2267
+    "stationCode": "1307"
   },
   {
     "id": "1008000818",
@@ -13639,8 +12419,6 @@
     ],
     "frCode": "818",
     "stationCode": "2819",
-    "labelX": 4404,
-    "labelY": 3212,
     "dwellTime": 40
   },
   {
@@ -13662,8 +12440,6 @@
     ],
     "frCode": "819",
     "stationCode": "2820",
-    "labelX": 4404,
-    "labelY": 3288,
     "dwellTime": 33
   },
   {
@@ -13685,8 +12461,6 @@
     ],
     "frCode": "822",
     "stationCode": "2822",
-    "labelX": 4514,
-    "labelY": 3469,
     "dwellTime": 30
   },
   {
@@ -13708,8 +12482,6 @@
     ],
     "frCode": "821",
     "stationCode": "2828",
-    "labelX": 4469,
-    "labelY": 3448,
     "dwellTime": 30
   },
   {
@@ -13731,8 +12503,6 @@
     ],
     "frCode": "823",
     "stationCode": "2823",
-    "labelX": 4692,
-    "labelY": 3559,
     "dwellTime": 30
   },
   {
@@ -13754,8 +12524,6 @@
     ],
     "frCode": "824",
     "stationCode": "2824",
-    "labelX": 4619,
-    "labelY": 3660,
     "dwellTime": 30
   },
   {
@@ -13777,8 +12545,6 @@
     ],
     "frCode": "825",
     "stationCode": "2825",
-    "labelX": 4481,
-    "labelY": 3656,
     "dwellTime": 25
   },
   {
@@ -13800,8 +12566,6 @@
     ],
     "frCode": "826",
     "stationCode": "2826",
-    "labelX": 4461,
-    "labelY": 3767,
     "dwellTime": 20
   },
   {
@@ -13822,9 +12586,7 @@
       }
     ],
     "frCode": "K223",
-    "stationCode": "1851",
-    "labelX": 4405,
-    "labelY": 3592
+    "stationCode": "1851"
   },
   {
     "id": "1075075224",
@@ -13844,9 +12606,7 @@
       }
     ],
     "frCode": "K224",
-    "stationCode": "1852",
-    "labelX": 4405,
-    "labelY": 3666
+    "stationCode": "1852"
   },
   {
     "id": "1075075226",
@@ -13866,9 +12626,7 @@
       }
     ],
     "frCode": "K226",
-    "stationCode": "1854",
-    "labelX": 4404,
-    "labelY": 3940
+    "stationCode": "1854"
   },
   {
     "id": "1075075227",
@@ -13888,9 +12646,7 @@
       }
     ],
     "frCode": "K227",
-    "stationCode": "1860",
-    "labelX": 4392,
-    "labelY": 4093
+    "stationCode": "1860"
   },
   {
     "id": "1081037411",
@@ -13910,9 +12666,7 @@
       }
     ],
     "frCode": "K411",
-    "stationCode": "1502",
-    "labelX": 4392,
-    "labelY": 4093
+    "stationCode": "1502"
   },
   {
     "id": "1077006811",
@@ -13932,9 +12686,7 @@
       }
     ],
     "frCode": "D11",
-    "stationCode": "4311",
-    "labelX": 4141,
-    "labelY": 4146
+    "stationCode": "4311"
   },
   {
     "id": "1081037409",
@@ -13950,9 +12702,7 @@
       }
     ],
     "frCode": "K409",
-    "stationCode": "1501",
-    "labelX": 4141,
-    "labelY": 4146
+    "stationCode": "1501"
   },
   {
     "id": "1077006810",
@@ -13972,9 +12722,7 @@
       }
     ],
     "frCode": "D10",
-    "stationCode": "4310",
-    "labelX": 3846,
-    "labelY": 3543
+    "stationCode": "4310"
   },
   {
     "id": "1077000689",
@@ -13994,9 +12742,7 @@
       }
     ],
     "frCode": "D9",
-    "stationCode": "4309",
-    "labelX": 3668.0498046875,
-    "labelY": 3374.8408203125
+    "stationCode": "4309"
   },
   {
     "id": "1075075229",
@@ -14016,9 +12762,7 @@
       }
     ],
     "frCode": "K229",
-    "stationCode": "1856",
-    "labelX": 4240,
-    "labelY": 4313
+    "stationCode": "1856"
   },
   {
     "id": "1075075228",
@@ -14038,9 +12782,7 @@
       }
     ],
     "frCode": "K228",
-    "stationCode": "1855",
-    "labelX": 4366,
-    "labelY": 4237
+    "stationCode": "1855"
   },
   {
     "id": "1077006812",
@@ -14060,9 +12802,7 @@
       }
     ],
     "frCode": "D12",
-    "stationCode": "4312",
-    "labelX": 4256,
-    "labelY": 4404
+    "stationCode": "4312"
   },
   {
     "id": "1075075230",
@@ -14082,9 +12822,7 @@
       }
     ],
     "frCode": "K230",
-    "stationCode": "1857",
-    "labelX": 4256,
-    "labelY": 4404
+    "stationCode": "1857"
   },
   {
     "id": "1077006813",
@@ -14104,9 +12842,7 @@
       }
     ],
     "frCode": "D13",
-    "stationCode": "4313",
-    "labelX": 4256,
-    "labelY": 4547
+    "stationCode": "4313"
   },
   {
     "id": "1075075231",
@@ -14126,9 +12862,7 @@
       }
     ],
     "frCode": "K231",
-    "stationCode": "1858",
-    "labelX": 4256,
-    "labelY": 4547
+    "stationCode": "1858"
   },
   {
     "id": "1075075232",
@@ -14148,9 +12882,7 @@
       }
     ],
     "frCode": "K232",
-    "stationCode": "1859",
-    "labelX": 4209,
-    "labelY": 4655
+    "stationCode": "1859"
   },
   {
     "id": "1075075234",
@@ -14170,9 +12902,7 @@
       }
     ],
     "frCode": "K234",
-    "stationCode": "1861",
-    "labelX": 4259,
-    "labelY": 4904
+    "stationCode": "1861"
   },
   {
     "id": "1075075233",
@@ -14192,9 +12922,7 @@
       }
     ],
     "frCode": "K233",
-    "stationCode": "1862",
-    "labelX": 4209,
-    "labelY": 4807
+    "stationCode": "1862"
   },
   {
     "id": "1005080549",
@@ -14215,8 +12943,6 @@
     ],
     "frCode": "P549",
     "stationCode": "2555",
-    "labelX": 4511,
-    "labelY": 2805,
     "dwellTime": 30
   },
   {
@@ -14238,8 +12964,6 @@
     ],
     "frCode": "936",
     "stationCode": "4136",
-    "labelX": 4423.3720703125,
-    "labelY": 2863.713623046875,
     "dwellTime": 30
   },
   {
@@ -14261,8 +12985,6 @@
     ],
     "frCode": "P550",
     "stationCode": "2556",
-    "labelX": 4423.51513671875,
-    "labelY": 2863.713623046875,
     "dwellTime": 30
   },
   {
@@ -14284,8 +13006,6 @@
     ],
     "frCode": "P551",
     "stationCode": "2557",
-    "labelX": 4513,
-    "labelY": 2972,
     "dwellTime": 30
   },
   {
@@ -14302,9 +13022,7 @@
       }
     ],
     "frCode": "352",
-    "stationCode": "0342",
-    "labelX": 4449,
-    "labelY": 3015
+    "stationCode": "0342"
   },
   {
     "id": "1005080552",
@@ -14325,8 +13043,6 @@
     ],
     "frCode": "P552",
     "stationCode": "2558",
-    "labelX": 4449,
-    "labelY": 3015,
     "dwellTime": 30
   },
   {
@@ -14348,8 +13064,6 @@
     ],
     "frCode": "548",
     "stationCode": "2549",
-    "labelX": 4425,
-    "labelY": 2660,
     "dwellTime": 41
   },
   {
@@ -14371,8 +13085,6 @@
     ],
     "frCode": "547",
     "stationCode": "2548",
-    "labelX": 4341,
-    "labelY": 2689,
     "dwellTime": 31
   },
   {
@@ -14394,8 +13106,6 @@
     ],
     "frCode": "811",
     "stationCode": "2812",
-    "labelX": 4341,
-    "labelY": 2689,
     "dwellTime": 44
   },
   {
@@ -14417,8 +13127,6 @@
     ],
     "frCode": "544",
     "stationCode": "2545",
-    "labelX": 4053,
-    "labelY": 2495,
     "dwellTime": 41
   },
   {
@@ -14440,8 +13148,6 @@
     ],
     "frCode": "725",
     "stationCode": "2727",
-    "labelX": 4053,
-    "labelY": 2495,
     "dwellTime": 40
   },
   {
@@ -14463,8 +13169,6 @@
     ],
     "frCode": "P553",
     "stationCode": "2559",
-    "labelX": 4488,
-    "labelY": 3048,
     "dwellTime": 30
   },
   {
@@ -14486,8 +13190,6 @@
     ],
     "frCode": "P554",
     "stationCode": "2560",
-    "labelX": 4520,
-    "labelY": 3079,
     "dwellTime": 30
   },
   {
@@ -14504,9 +13206,7 @@
       }
     ],
     "frCode": "P555",
-    "stationCode": "2561",
-    "labelX": 4607,
-    "labelY": 3116
+    "stationCode": "2561"
   },
   {
     "id": "1002000216",
@@ -14527,8 +13227,6 @@
     ],
     "frCode": "216",
     "stationCode": "0216",
-    "labelX": 4178.837890625,
-    "labelY": 2952.7880859375,
     "dwellTime": 30
   },
   {
@@ -14550,8 +13248,6 @@
     ],
     "frCode": "814",
     "stationCode": "2815",
-    "labelX": 4179.107421875,
-    "labelY": 2952.72900390625,
     "dwellTime": 44
   },
   {
@@ -14573,8 +13269,6 @@
     ],
     "frCode": "344",
     "stationCode": "0334",
-    "labelX": 3769,
-    "labelY": 3217,
     "dwellTime": 30
   },
   {
@@ -14595,9 +13289,7 @@
       }
     ],
     "frCode": "K217",
-    "stationCode": "1025",
-    "labelX": 3769,
-    "labelY": 3217
+    "stationCode": "1025"
   },
   {
     "id": "1008000827",
@@ -14613,9 +13305,7 @@
       }
     ],
     "frCode": "827",
-    "stationCode": "2827",
-    "labelX": 4304.26025390625,
-    "labelY": 3739.136962890625
+    "stationCode": "2827"
   },
   {
     "id": "1075075225",
@@ -14635,9 +13325,7 @@
       }
     ],
     "frCode": "K225",
-    "stationCode": "1853",
-    "labelX": 4304.87353515625,
-    "labelY": 3739.13720703125
+    "stationCode": "1853"
   },
   {
     "id": "1008000820",
@@ -14658,8 +13346,6 @@
     ],
     "frCode": "820",
     "stationCode": "2821",
-    "labelX": 4283,
-    "labelY": 3386,
     "dwellTime": 36
   },
   {
@@ -14680,9 +13366,7 @@
       }
     ],
     "frCode": "K222",
-    "stationCode": "1031",
-    "labelX": 4283,
-    "labelY": 3386
+    "stationCode": "1031"
   },
   {
     "id": "1004000434",
@@ -14703,8 +13387,6 @@
     ],
     "frCode": "434",
     "stationCode": "0434",
-    "labelX": 3285.749267578125,
-    "labelY": 3424.905517578125,
     "dwellTime": 30
   },
   {
@@ -14726,8 +13408,6 @@
     ],
     "frCode": "435",
     "stationCode": "1450",
-    "labelX": 3422.47021484375,
-    "labelY": 3527.9052734375,
     "dwellTime": 30
   },
   {
@@ -14749,8 +13429,6 @@
     ],
     "frCode": "436",
     "stationCode": "1451",
-    "labelX": 3505,
-    "labelY": 3628,
     "dwellTime": 30
   },
   {
@@ -14772,8 +13450,6 @@
     ],
     "frCode": "437",
     "stationCode": "1452",
-    "labelX": 3457,
-    "labelY": 3744,
     "dwellTime": 30
   },
   {
@@ -14795,8 +13471,6 @@
     ],
     "frCode": "439",
     "stationCode": "1454",
-    "labelX": 3284,
-    "labelY": 3844,
     "dwellTime": 30
   },
   {
@@ -14818,8 +13492,6 @@
     ],
     "frCode": "440",
     "stationCode": "1455",
-    "labelX": 3205,
-    "labelY": 4069,
     "dwellTime": 30
   },
   {
@@ -14841,8 +13513,6 @@
     ],
     "frCode": "441",
     "stationCode": "1456",
-    "labelX": 3105,
-    "labelY": 4174,
     "dwellTime": 30
   },
   {
@@ -14864,8 +13534,6 @@
     ],
     "frCode": "442",
     "stationCode": "1457",
-    "labelX": 2882,
-    "labelY": 4139,
     "dwellTime": 30
   },
   {
@@ -14887,8 +13555,6 @@
     ],
     "frCode": "438",
     "stationCode": "1453",
-    "labelX": 3273,
-    "labelY": 3710,
     "dwellTime": 30
   },
   {
@@ -14910,8 +13576,6 @@
     ],
     "frCode": "445",
     "stationCode": "1763",
-    "labelX": 2702,
-    "labelY": 4533,
     "dwellTime": 30
   },
   {
@@ -14933,8 +13597,6 @@
     ],
     "frCode": "446",
     "stationCode": "1752",
-    "labelX": 2725,
-    "labelY": 4799,
     "dwellTime": 30
   },
   {
@@ -14956,8 +13618,6 @@
     ],
     "frCode": "447",
     "stationCode": "1753",
-    "labelX": 2592,
-    "labelY": 4937,
     "dwellTime": 30
   },
   {
@@ -14979,8 +13639,6 @@
     ],
     "frCode": "444",
     "stationCode": "1751",
-    "labelX": 2826,
-    "labelY": 4459,
     "dwellTime": 30
   },
   {
@@ -15002,8 +13660,6 @@
     ],
     "frCode": "448",
     "stationCode": "1754",
-    "labelX": 2287.423095703125,
-    "labelY": 4980.7177734375,
     "dwellTime": 30
   },
   {
@@ -15025,8 +13681,6 @@
     ],
     "frCode": "449",
     "stationCode": "1755",
-    "labelX": 2256,
-    "labelY": 4891,
     "dwellTime": 30
   },
   {
@@ -15047,9 +13701,7 @@
       }
     ],
     "frCode": "K251",
-    "stationCode": "1830",
-    "labelX": 2256,
-    "labelY": 4891
+    "stationCode": "1830"
   },
   {
     "id": "1004000450",
@@ -15070,8 +13722,6 @@
     ],
     "frCode": "450",
     "stationCode": "1756",
-    "labelX": 2074,
-    "labelY": 4932,
     "dwellTime": 30
   },
   {
@@ -15092,9 +13742,7 @@
       }
     ],
     "frCode": "K252",
-    "stationCode": "1831",
-    "labelX": 2074,
-    "labelY": 4932
+    "stationCode": "1831"
   },
   {
     "id": "1004000451",
@@ -15115,8 +13763,6 @@
     ],
     "frCode": "451",
     "stationCode": "1757",
-    "labelX": 1942,
-    "labelY": 4932,
     "dwellTime": 30
   },
   {
@@ -15137,9 +13783,7 @@
       }
     ],
     "frCode": "K253",
-    "stationCode": "1832",
-    "labelX": 1942,
-    "labelY": 4932
+    "stationCode": "1832"
   },
   {
     "id": "1004000452",
@@ -15160,8 +13804,6 @@
     ],
     "frCode": "452",
     "stationCode": "1758",
-    "labelX": 1737,
-    "labelY": 4866,
     "dwellTime": 30
   },
   {
@@ -15182,9 +13824,7 @@
       }
     ],
     "frCode": "K254",
-    "stationCode": "1833",
-    "labelX": 1737,
-    "labelY": 4866
+    "stationCode": "1833"
   },
   {
     "id": "1093004020",
@@ -15204,9 +13844,7 @@
       }
     ],
     "frCode": "S26",
-    "stationCode": "4813",
-    "labelX": 1737,
-    "labelY": 4866
+    "stationCode": "4813"
   },
   {
     "id": "1004000453",
@@ -15227,8 +13865,6 @@
     ],
     "frCode": "453",
     "stationCode": "1759",
-    "labelX": 1645.8896484375,
-    "labelY": 4786.0859375,
     "dwellTime": 59
   },
   {
@@ -15249,9 +13885,7 @@
       }
     ],
     "frCode": "K255",
-    "stationCode": "1834",
-    "labelX": 1645.8896484375,
-    "labelY": 4786.0859375
+    "stationCode": "1834"
   },
   {
     "id": "1004000454",
@@ -15272,8 +13906,6 @@
     ],
     "frCode": "454",
     "stationCode": "1760",
-    "labelX": 1463.3077392578125,
-    "labelY": 4675.44189453125,
     "dwellTime": 30
   },
   {
@@ -15294,9 +13926,7 @@
       }
     ],
     "frCode": "K256",
-    "stationCode": "1835",
-    "labelX": 1463.426025390625,
-    "labelY": 4675.44189453125
+    "stationCode": "1835"
   },
   {
     "id": "1004000455",
@@ -15317,8 +13947,6 @@
     ],
     "frCode": "455",
     "stationCode": "1761",
-    "labelX": 1400,
-    "labelY": 4486,
     "dwellTime": 30
   },
   {
@@ -15339,9 +13967,7 @@
       }
     ],
     "frCode": "K257",
-    "stationCode": "1836",
-    "labelX": 1400,
-    "labelY": 4486
+    "stationCode": "1836"
   },
   {
     "id": "1004000456",
@@ -15357,9 +13983,7 @@
       }
     ],
     "frCode": "456",
-    "stationCode": "1762",
-    "labelX": 1243.083740234375,
-    "labelY": 4416.994140625
+    "stationCode": "1762"
   },
   {
     "id": "1075075258",
@@ -15379,9 +14003,7 @@
       }
     ],
     "frCode": "K258",
-    "stationCode": "1800",
-    "labelX": 1242.8531494140625,
-    "labelY": 4416.994140625
+    "stationCode": "1800"
   },
   {
     "id": "1075075259",
@@ -15401,9 +14023,7 @@
       }
     ],
     "frCode": "K259",
-    "stationCode": "1878",
-    "labelX": 1381,
-    "labelY": 4221
+    "stationCode": "1878"
   },
   {
     "id": "1075075260",
@@ -15423,9 +14043,7 @@
       }
     ],
     "frCode": "K260",
-    "stationCode": "1879",
-    "labelX": 1381,
-    "labelY": 4089
+    "stationCode": "1879"
   },
   {
     "id": "1075075261",
@@ -15445,9 +14063,7 @@
       }
     ],
     "frCode": "K261",
-    "stationCode": "1880",
-    "labelX": 1308.3548583984375,
-    "labelY": 3999.208984375
+    "stationCode": "1880"
   },
   {
     "id": "1075075262",
@@ -15467,9 +14083,7 @@
       }
     ],
     "frCode": "K262",
-    "stationCode": "1881",
-    "labelX": 1183.749755859375,
-    "labelY": 3992.482666015625
+    "stationCode": "1881"
   },
   {
     "id": "1075075263",
@@ -15489,9 +14103,7 @@
       }
     ],
     "frCode": "K263",
-    "stationCode": "1882",
-    "labelX": 1087,
-    "labelY": 3990
+    "stationCode": "1882"
   },
   {
     "id": "1075075264",
@@ -15511,9 +14123,7 @@
       }
     ],
     "frCode": "K264",
-    "stationCode": "1883",
-    "labelX": 928.18310546875,
-    "labelY": 3982.322265625
+    "stationCode": "1883"
   },
   {
     "id": "1075075266",
@@ -15533,9 +14143,7 @@
       }
     ],
     "frCode": "K266",
-    "stationCode": "1885",
-    "labelX": 806,
-    "labelY": 3834
+    "stationCode": "1885"
   },
   {
     "id": "1075075267",
@@ -15555,9 +14163,7 @@
       }
     ],
     "frCode": "K267",
-    "stationCode": "1886",
-    "labelX": 654,
-    "labelY": 3716
+    "stationCode": "1886"
   },
   {
     "id": "1075075268",
@@ -15577,9 +14183,7 @@
       }
     ],
     "frCode": "K269",
-    "stationCode": "1888",
-    "labelX": 650,
-    "labelY": 3517
+    "stationCode": "1888"
   },
   {
     "id": "1075075270",
@@ -15599,9 +14203,7 @@
       }
     ],
     "frCode": "K271",
-    "stationCode": "1890",
-    "labelX": 324,
-    "labelY": 3361
+    "stationCode": "1890"
   },
   {
     "id": "1075075269",
@@ -15621,9 +14223,7 @@
       }
     ],
     "frCode": "K270",
-    "stationCode": "1889",
-    "labelX": 396,
-    "labelY": 3433
+    "stationCode": "1889"
   },
   {
     "id": "1005000549",
@@ -15644,8 +14244,6 @@
     ],
     "frCode": "549",
     "stationCode": "2550",
-    "labelX": 4515,
-    "labelY": 2721,
     "dwellTime": 30
   },
   {
@@ -15667,8 +14265,6 @@
     ],
     "frCode": "550",
     "stationCode": "2551",
-    "labelX": 4548,
-    "labelY": 2638,
     "dwellTime": 30
   },
   {
@@ -15690,8 +14286,6 @@
     ],
     "frCode": "551",
     "stationCode": "2552",
-    "labelX": 4442,
-    "labelY": 2542,
     "dwellTime": 30
   },
   {
@@ -15713,8 +14307,6 @@
     ],
     "frCode": "552",
     "stationCode": "2553",
-    "labelX": 4560,
-    "labelY": 2496,
     "dwellTime": 30
   },
   {
@@ -15736,8 +14328,6 @@
     ],
     "frCode": "553",
     "stationCode": "2554",
-    "labelX": 4710,
-    "labelY": 2517,
     "dwellTime": 30
   },
   {
@@ -15759,8 +14349,6 @@
     ],
     "frCode": "554",
     "stationCode": "2562",
-    "labelX": 4769,
-    "labelY": 2517,
     "dwellTime": 30
   },
   {
@@ -15782,8 +14370,6 @@
     ],
     "frCode": "555",
     "stationCode": "2563",
-    "labelX": 4820,
-    "labelY": 2454,
     "dwellTime": 30
   },
   {
@@ -15805,8 +14391,6 @@
     ],
     "frCode": "556",
     "stationCode": "2564",
-    "labelX": 5028,
-    "labelY": 2568,
     "dwellTime": 30
   },
   {
@@ -15823,9 +14407,7 @@
       }
     ],
     "frCode": "558",
-    "stationCode": "2566",
-    "labelX": 5098,
-    "labelY": 2765
+    "stationCode": "2566"
   },
   {
     "id": "1005000557",
@@ -15846,8 +14428,6 @@
     ],
     "frCode": "557",
     "stationCode": "2565",
-    "labelX": 4903,
-    "labelY": 2702,
     "dwellTime": 30
   },
   {
@@ -15869,8 +14449,6 @@
     ],
     "frCode": "512",
     "stationCode": "2513",
-    "labelX": 1681.931884765625,
-    "labelY": 2532.921630859375,
     "dwellTime": 30
   },
   {
@@ -15887,9 +14465,7 @@
       }
     ],
     "frCode": "699",
-    "stationCode": "4929",
-    "labelX": 1702,
-    "labelY": 2525
+    "stationCode": "4929"
   },
   {
     "id": "1009000902",
@@ -15910,8 +14486,6 @@
     ],
     "frCode": "902",
     "stationCode": "4102",
-    "labelX": 1702,
-    "labelY": 2525,
     "dwellTime": 30
   },
   {
@@ -15932,9 +14506,7 @@
       }
     ],
     "frCode": "A05",
-    "stationCode": "4207",
-    "labelX": 1702,
-    "labelY": 2525
+    "stationCode": "4207"
   },
   {
     "id": "1093004007",
@@ -15954,9 +14526,7 @@
       }
     ],
     "frCode": "S13",
-    "stationCode": "1980",
-    "labelX": 1702,
-    "labelY": 2525
+    "stationCode": "1980"
   },
   {
     "id": "1008000810",
@@ -15977,8 +14547,6 @@
     ],
     "frCode": "810",
     "stationCode": "2811",
-    "labelX": 4403,
-    "labelY": 2607,
     "dwellTime": 34
   },
   {
@@ -16000,8 +14568,6 @@
     ],
     "frCode": "809",
     "stationCode": "2810",
-    "labelX": 4387,
-    "labelY": 2505,
     "dwellTime": 30
   },
   {
@@ -16023,8 +14589,6 @@
     ],
     "frCode": "808",
     "stationCode": "2809",
-    "labelX": 4415,
-    "labelY": 2280,
     "dwellTime": 33
   },
   {
@@ -16046,8 +14610,6 @@
     ],
     "frCode": "806",
     "stationCode": "2807",
-    "labelX": 4548,
-    "labelY": 1982,
     "dwellTime": 30
   },
   {
@@ -16069,8 +14631,6 @@
     ],
     "frCode": "805",
     "stationCode": "2806",
-    "labelX": 4620,
-    "labelY": 1866,
     "dwellTime": 30
   },
   {
@@ -16092,8 +14652,6 @@
     ],
     "frCode": "813",
     "stationCode": "2814",
-    "labelX": 4255,
-    "labelY": 2948,
     "dwellTime": 35
   },
   {
@@ -16115,8 +14673,6 @@
     ],
     "frCode": "812",
     "stationCode": "2813",
-    "labelX": 4365,
-    "labelY": 2834,
     "dwellTime": 36
   },
   {
@@ -16138,8 +14694,6 @@
     ],
     "frCode": "134",
     "stationCode": "1002",
-    "labelX": 3132,
-    "labelY": 2684,
     "dwellTime": 30
   },
   {
@@ -16161,8 +14715,6 @@
     ],
     "frCode": "411",
     "stationCode": "0411",
-    "labelX": 3885.01025390625,
-    "labelY": 1548.9593505859375,
     "dwellTime": 30
   },
   {
@@ -16184,8 +14736,6 @@
     ],
     "frCode": "713",
     "stationCode": "2715",
-    "labelX": 3884.412109375,
-    "labelY": 1548.9593505859375,
     "dwellTime": 30
   },
   {
@@ -16207,8 +14757,6 @@
     ],
     "frCode": "645",
     "stationCode": "2646",
-    "labelX": 3935.553955078125,
-    "labelY": 1887.90185546875,
     "dwellTime": 30
   },
   {
@@ -16230,8 +14778,6 @@
     ],
     "frCode": "717",
     "stationCode": "2719",
-    "labelX": 3934.231689453125,
-    "labelY": 1886.8299560546875,
     "dwellTime": 34
   },
   {
@@ -16253,8 +14799,6 @@
     ],
     "frCode": "120",
     "stationCode": "1018",
-    "labelX": 3822,
-    "labelY": 1925,
     "dwellTime": 30
   },
   {
@@ -16276,8 +14820,6 @@
     ],
     "frCode": "644",
     "stationCode": "2645",
-    "labelX": 3822,
-    "labelY": 1925,
     "dwellTime": 40
   },
   {
@@ -16299,8 +14841,6 @@
     ],
     "frCode": "116",
     "stationCode": "1022",
-    "labelX": 3779,
-    "labelY": 1537,
     "dwellTime": 30
   },
   {
@@ -16322,8 +14862,6 @@
     ],
     "frCode": "412",
     "stationCode": "0412",
-    "labelX": 3779,
-    "labelY": 1537,
     "dwellTime": 30
   },
   {
@@ -16345,8 +14883,6 @@
     ],
     "frCode": "112",
     "stationCode": "1904",
-    "labelX": 3696,
-    "labelY": 1047,
     "dwellTime": 30
   },
   {
@@ -16367,9 +14903,7 @@
       }
     ],
     "frCode": "U112",
-    "stationCode": "4603",
-    "labelX": 3658,
-    "labelY": 888
+    "stationCode": "4603"
   },
   {
     "id": "GEN:의정부경전철:경전철의정부",
@@ -16389,9 +14923,7 @@
       }
     ],
     "frCode": "U113",
-    "stationCode": "4604",
-    "labelX": 3592.440673828125,
-    "labelY": 839.7811889648438
+    "stationCode": "4604"
   },
   {
     "id": "GEN:의정부경전철:의정부시청",
@@ -16411,9 +14943,7 @@
       }
     ],
     "frCode": "U114",
-    "stationCode": "4605",
-    "labelX": 3484.873779296875,
-    "labelY": 811.2276000976562
+    "stationCode": "4605"
   },
   {
     "id": "GEN:의정부경전철:흥선",
@@ -16433,9 +14963,7 @@
       }
     ],
     "frCode": "U115",
-    "stationCode": "4606",
-    "labelX": 3634,
-    "labelY": 660
+    "stationCode": "4606"
   },
   {
     "id": "GEN:의정부경전철:의정부중앙",
@@ -16455,9 +14983,7 @@
       }
     ],
     "frCode": "U117",
-    "stationCode": "4607",
-    "labelX": 3716.77099609375,
-    "labelY": 679.564697265625
+    "stationCode": "4607"
   },
   {
     "id": "GEN:의정부경전철:동오",
@@ -16477,9 +15003,7 @@
       }
     ],
     "frCode": "U118",
-    "stationCode": "4608",
-    "labelX": 3809.4306640625,
-    "labelY": 681.227783203125
+    "stationCode": "4608"
   },
   {
     "id": "GEN:의정부경전철:새말",
@@ -16499,9 +15023,7 @@
       }
     ],
     "frCode": "U119",
-    "stationCode": "4609",
-    "labelX": 3859.514892578125,
-    "labelY": 658.084228515625
+    "stationCode": "4609"
   },
   {
     "id": "GEN:의정부경전철:경기도청북부청사",
@@ -16521,9 +15043,7 @@
       }
     ],
     "frCode": "U120",
-    "stationCode": "4610",
-    "labelX": 3837.54443359375,
-    "labelY": 579.3760375976562
+    "stationCode": "4610"
   },
   {
     "id": "GEN:의정부경전철:효자",
@@ -16543,9 +15063,7 @@
       }
     ],
     "frCode": "U121",
-    "stationCode": "4611",
-    "labelX": 3972,
-    "labelY": 606
+    "stationCode": "4611"
   },
   {
     "id": "GEN:의정부경전철:곤제",
@@ -16565,9 +15083,7 @@
       }
     ],
     "frCode": "U122",
-    "stationCode": "4612",
-    "labelX": 4057,
-    "labelY": 624
+    "stationCode": "4612"
   },
   {
     "id": "GEN:의정부경전철:어룡",
@@ -16587,9 +15103,7 @@
       }
     ],
     "frCode": "U123",
-    "stationCode": "4613",
-    "labelX": 4080,
-    "labelY": 723
+    "stationCode": "4613"
   },
   {
     "id": "GEN:의정부경전철:송산",
@@ -16609,9 +15123,7 @@
       }
     ],
     "frCode": "U124",
-    "stationCode": "4614",
-    "labelX": 4030,
-    "labelY": 760
+    "stationCode": "4614"
   },
   {
     "id": "GEN:의정부경전철:탑석",
@@ -16627,9 +15139,7 @@
       }
     ],
     "frCode": "U125",
-    "stationCode": "4615",
-    "labelX": 4103,
-    "labelY": 778
+    "stationCode": "4615"
   },
   {
     "id": "1001000113",
@@ -16650,8 +15160,6 @@
     ],
     "frCode": "113",
     "stationCode": "1903",
-    "labelX": 3646.462158203125,
-    "labelY": 1230.6279296875,
     "dwellTime": 30
   },
   {
@@ -16673,8 +15181,6 @@
     ],
     "frCode": "710",
     "stationCode": "2712",
-    "labelX": 3646.083740234375,
-    "labelY": 1229.2276611328125,
     "dwellTime": 30
   },
   {
@@ -16691,9 +15197,7 @@
       }
     ],
     "frCode": "709",
-    "stationCode": "2711",
-    "labelX": 3879,
-    "labelY": 1123
+    "stationCode": "2711"
   },
   {
     "id": "GEN:의정부경전철:발곡",
@@ -16709,9 +15213,7 @@
       }
     ],
     "frCode": "U110",
-    "stationCode": "4601",
-    "labelX": 3841,
-    "labelY": 875
+    "stationCode": "4601"
   },
   {
     "id": "1007000711",
@@ -16732,8 +15234,6 @@
     ],
     "frCode": "711",
     "stationCode": "2713",
-    "labelX": 3900,
-    "labelY": 1328,
     "dwellTime": 30
   },
   {
@@ -16755,8 +15255,6 @@
     ],
     "frCode": "712",
     "stationCode": "2714",
-    "labelX": 3899,
-    "labelY": 1449,
     "dwellTime": 30
   },
   {
@@ -16778,8 +15276,6 @@
     ],
     "frCode": "114",
     "stationCode": "1902",
-    "labelX": 3709,
-    "labelY": 1316,
     "dwellTime": 30
   },
   {
@@ -16801,8 +15297,6 @@
     ],
     "frCode": "115",
     "stationCode": "1901",
-    "labelX": 3710,
-    "labelY": 1428,
     "dwellTime": 30
   },
   {
@@ -16824,8 +15318,6 @@
     ],
     "frCode": "409",
     "stationCode": "0409",
-    "labelX": 4040.043701171875,
-    "labelY": 1419.402099609375,
     "dwellTime": 30
   },
   {
@@ -16847,8 +15339,6 @@
     ],
     "frCode": "408",
     "stationCode": "0408",
-    "labelX": 4231.5673828125,
-    "labelY": 1560.722900390625,
     "dwellTime": 30
   },
   {
@@ -16870,8 +15360,6 @@
     ],
     "frCode": "406",
     "stationCode": "0406",
-    "labelX": 4946,
-    "labelY": 1105,
     "dwellTime": 30
   },
   {
@@ -16888,9 +15376,7 @@
       }
     ],
     "frCode": "405",
-    "stationCode": "0405",
-    "labelX": 4983,
-    "labelY": 951
+    "stationCode": "0405"
   },
   {
     "id": "1004000410",
@@ -16911,8 +15397,6 @@
     ],
     "frCode": "410",
     "stationCode": "0410",
-    "labelX": 3992,
-    "labelY": 1517,
     "dwellTime": 30
   },
   {
@@ -16934,8 +15418,6 @@
     ],
     "frCode": "351",
     "stationCode": "0341",
-    "labelX": 4426,
-    "labelY": 3135,
     "dwellTime": 30
   },
   {
@@ -16957,8 +15439,6 @@
     ],
     "frCode": "P151",
     "stationCode": "1729",
-    "labelX": 3001,
-    "labelY": 4587,
     "dwellTime": 30
   },
   {
@@ -16979,9 +15459,7 @@
       }
     ],
     "frCode": "K412",
-    "stationCode": "1503",
-    "labelX": 4985,
-    "labelY": 4023
+    "stationCode": "1503"
   },
   {
     "id": "1081037414",
@@ -17001,9 +15479,7 @@
       }
     ],
     "frCode": "K414",
-    "stationCode": "1505",
-    "labelX": 5544,
-    "labelY": 4306
+    "stationCode": "1505"
   },
   {
     "id": "1081037415",
@@ -17023,9 +15499,7 @@
       }
     ],
     "frCode": "K415",
-    "stationCode": "1506",
-    "labelX": 5544,
-    "labelY": 4342
+    "stationCode": "1506"
   },
   {
     "id": "1081037416",
@@ -17045,9 +15519,7 @@
       }
     ],
     "frCode": "K416",
-    "stationCode": "1507",
-    "labelX": 5544,
-    "labelY": 4378
+    "stationCode": "1507"
   },
   {
     "id": "1081037417",
@@ -17067,9 +15539,7 @@
       }
     ],
     "frCode": "K417",
-    "stationCode": "1508",
-    "labelX": 5544,
-    "labelY": 4414
+    "stationCode": "1508"
   },
   {
     "id": "1081037418",
@@ -17089,9 +15559,7 @@
       }
     ],
     "frCode": "K418",
-    "stationCode": "1509",
-    "labelX": 5544,
-    "labelY": 4450
+    "stationCode": "1509"
   },
   {
     "id": "1081037419",
@@ -17111,9 +15579,7 @@
       }
     ],
     "frCode": "K419",
-    "stationCode": "1510",
-    "labelX": 5544,
-    "labelY": 4486
+    "stationCode": "1510"
   },
   {
     "id": "1081037420",
@@ -17129,9 +15595,7 @@
       }
     ],
     "frCode": "K420",
-    "stationCode": "1511",
-    "labelX": 5544,
-    "labelY": 4522
+    "stationCode": "1511"
   },
   {
     "id": "1092004710",
@@ -17151,9 +15615,7 @@
       }
     ],
     "frCode": "950",
-    "stationCode": "4710",
-    "labelX": 3371,
-    "labelY": 2056
+    "stationCode": "4710"
   },
   {
     "id": "1092004703",
@@ -17173,9 +15635,7 @@
       }
     ],
     "frCode": "943",
-    "stationCode": "4703",
-    "labelX": 3399.12939453125,
-    "labelY": 1653.0399169921875
+    "stationCode": "4703"
   },
   {
     "id": "1092004701",
@@ -17191,9 +15651,7 @@
       }
     ],
     "frCode": "941",
-    "stationCode": "4701",
-    "labelX": 3418,
-    "labelY": 1509
+    "stationCode": "4701"
   },
   {
     "id": "1092004702",
@@ -17213,9 +15671,7 @@
       }
     ],
     "frCode": "942",
-    "stationCode": "4702",
-    "labelX": 3431,
-    "labelY": 1555
+    "stationCode": "4702"
   },
   {
     "id": "1092004704",
@@ -17235,9 +15691,7 @@
       }
     ],
     "frCode": "944",
-    "stationCode": "4704",
-    "labelX": 3483,
-    "labelY": 1706
+    "stationCode": "4704"
   },
   {
     "id": "1092004705",
@@ -17257,9 +15711,7 @@
       }
     ],
     "frCode": "945",
-    "stationCode": "4705",
-    "labelX": 3493,
-    "labelY": 1753
+    "stationCode": "4705"
   },
   {
     "id": "1092004706",
@@ -17279,9 +15731,7 @@
       }
     ],
     "frCode": "946",
-    "stationCode": "4706",
-    "labelX": 3493,
-    "labelY": 1820
+    "stationCode": "4706"
   },
   {
     "id": "1092004707",
@@ -17301,9 +15751,7 @@
       }
     ],
     "frCode": "947",
-    "stationCode": "4707",
-    "labelX": 3530,
-    "labelY": 1906
+    "stationCode": "4707"
   },
   {
     "id": "1092004708",
@@ -17323,9 +15771,7 @@
       }
     ],
     "frCode": "948",
-    "stationCode": "4708",
-    "labelX": 3421,
-    "labelY": 1873
+    "stationCode": "4708"
   },
   {
     "id": "1092004709",
@@ -17345,9 +15791,7 @@
       }
     ],
     "frCode": "949",
-    "stationCode": "4709",
-    "labelX": 3364.554443359375,
-    "labelY": 2016.653564453125
+    "stationCode": "4709"
   },
   {
     "id": "1093004021",
@@ -17367,9 +15811,7 @@
       }
     ],
     "frCode": "S27",
-    "stationCode": "4814",
-    "labelX": 1795,
-    "labelY": 4938
+    "stationCode": "4814"
   },
   {
     "id": "1093004019",
@@ -17389,9 +15831,7 @@
       }
     ],
     "frCode": "S25",
-    "stationCode": "4812",
-    "labelX": 1885,
-    "labelY": 4675
+    "stationCode": "4812"
   },
   {
     "id": "1093004018",
@@ -17411,9 +15851,7 @@
       }
     ],
     "frCode": "S24",
-    "stationCode": "4811",
-    "labelX": 1884,
-    "labelY": 4537
+    "stationCode": "4811"
   },
   {
     "id": "1093004017",
@@ -17433,9 +15871,7 @@
       }
     ],
     "frCode": "S23",
-    "stationCode": "4810",
-    "labelX": 1884,
-    "labelY": 4311
+    "stationCode": "4810"
   },
   {
     "id": "1093004016",
@@ -17455,9 +15891,7 @@
       }
     ],
     "frCode": "S22",
-    "stationCode": "4809",
-    "labelX": 1884,
-    "labelY": 4224
+    "stationCode": "4809"
   },
   {
     "id": "1093004014",
@@ -17477,9 +15911,7 @@
       }
     ],
     "frCode": "S20",
-    "stationCode": "4808",
-    "labelX": 1741,
-    "labelY": 3935
+    "stationCode": "4808"
   },
   {
     "id": "1093004012",
@@ -17499,9 +15931,7 @@
       }
     ],
     "frCode": "S18",
-    "stationCode": "4806",
-    "labelX": 1812,
-    "labelY": 3503
+    "stationCode": "4806"
   },
   {
     "id": "1093004013",
@@ -17521,9 +15951,7 @@
       }
     ],
     "frCode": "S19",
-    "stationCode": "4807",
-    "labelX": 1633,
-    "labelY": 3587
+    "stationCode": "4807"
   },
   {
     "id": "1093004011",
@@ -17543,9 +15971,7 @@
       }
     ],
     "frCode": "S17",
-    "stationCode": "4805",
-    "labelX": 1812,
-    "labelY": 3380
+    "stationCode": "4805"
   },
   {
     "id": "1093004022",
@@ -17561,9 +15987,7 @@
       }
     ],
     "frCode": "S28",
-    "stationCode": "4815",
-    "labelX": 1595,
-    "labelY": 4997
+    "stationCode": "4815"
   },
   {
     "id": "GEN:김포도시철도:고촌",
@@ -17583,9 +16007,7 @@
       }
     ],
     "frCode": "698",
-    "stationCode": "4928",
-    "labelX": 1630,
-    "labelY": 2015
+    "stationCode": "4928"
   },
   {
     "id": "GEN:김포도시철도:풍무",
@@ -17605,9 +16027,7 @@
       }
     ],
     "frCode": "697",
-    "stationCode": "4927",
-    "labelX": 1229,
-    "labelY": 1997
+    "stationCode": "4927"
   },
   {
     "id": "GEN:김포도시철도:사우",
@@ -17627,9 +16047,7 @@
       }
     ],
     "frCode": "696",
-    "stationCode": "4926",
-    "labelX": 1121,
-    "labelY": 1889
+    "stationCode": "4926"
   },
   {
     "id": "GEN:김포도시철도:걸포북변",
@@ -17649,9 +16067,7 @@
       }
     ],
     "frCode": "695",
-    "stationCode": "4925",
-    "labelX": 987,
-    "labelY": 1807
+    "stationCode": "4925"
   },
   {
     "id": "GEN:김포도시철도:운양",
@@ -17671,9 +16087,7 @@
       }
     ],
     "frCode": "694",
-    "stationCode": "4924",
-    "labelX": 905,
-    "labelY": 1490
+    "stationCode": "4924"
   },
   {
     "id": "GEN:김포도시철도:장기",
@@ -17693,9 +16107,7 @@
       }
     ],
     "frCode": "693",
-    "stationCode": "4923",
-    "labelX": 808,
-    "labelY": 1639
+    "stationCode": "4923"
   },
   {
     "id": "GEN:김포도시철도:마산",
@@ -17715,9 +16127,7 @@
       }
     ],
     "frCode": "692",
-    "stationCode": "4922",
-    "labelX": 568,
-    "labelY": 1699
+    "stationCode": "4922"
   },
   {
     "id": "GEN:김포도시철도:구래",
@@ -17737,9 +16147,7 @@
       }
     ],
     "frCode": "691",
-    "stationCode": "4921",
-    "labelX": 448,
-    "labelY": 1663
+    "stationCode": "4921"
   },
   {
     "id": "GEN:김포도시철도:양촌",
@@ -17755,9 +16163,7 @@
       }
     ],
     "frCode": "690",
-    "stationCode": "4920",
-    "labelX": 277,
-    "labelY": 1642
+    "stationCode": "4920"
   },
   {
     "id": "1093004008",
@@ -17777,9 +16183,7 @@
       }
     ],
     "frCode": "S14",
-    "stationCode": "1981",
-    "labelX": 1884,
-    "labelY": 2792
+    "stationCode": "1981"
   },
   {
     "id": "1032000347",
@@ -17799,9 +16203,7 @@
       }
     ],
     "frCode": "X102",
-    "stationCode": "9001",
-    "labelX": 1311.202880859375,
-    "labelY": 1508.3416748046875
+    "stationCode": "9001"
   },
   {
     "id": "1032000346",
@@ -17817,8 +16219,6 @@
       }
     ],
     "frCode": "X101",
-    "stationCode": "9000",
-    "labelX": 1196,
-    "labelY": 983
+    "stationCode": "9000"
   }
 ]
