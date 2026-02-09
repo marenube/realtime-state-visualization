@@ -1,82 +1,104 @@
 // src/App.tsx
 import { useEffect, useRef, useState } from 'react';
 
-import { snapshotStore } from '@/data/snapshot/singleton';
 import { startRenderLoop } from '@/runtime/loop/startRenderLoop';
-import { createTrainScheduler } from '@/runtime/trainScheduler';
+import type { TrainView } from '@/runtime/model/TrainView';
 
-import { setupCanvas } from '@/ui/canvas/setupCanvas';
-import { drawLines } from '@/ui/render/drawLines';
+import { snapshotStore } from '@/data/snapshot/singleton';
+
+import rawJson from '@/data/rawStations.json';
+
+import { buildRailEdges } from '@/data/rail/buildRailEdges';
+
 import { drawStations } from '@/ui/render/drawStations';
 import { drawTrains } from '@/ui/render/drawTrains';
-
-import { normalizeStationsWithIds } from '@/data/station/normalizeStations';
-import rawJson from '@/data/rawStations.json';
-import { normalizeRawStationJson } from '@/data/station/normalizeRawStationJson';
+import { drawRailEdges } from '@/ui/render/drawRailEdges';
 
 import { createInitialCamera } from '@/ui/camera/cameraState';
 import { applyCamera } from '@/ui/camera/applyCamera';
 import { fitCameraToBounds, computeBounds } from '@/ui/camera/fitCameraToBounds';
 import { clampCameraToBounds } from '@/ui/camera/clampCameraToBounds';
+
+import { setupCanvas } from '@/ui/canvas/setupCanvas';
 import { bindCanvasPan } from '@/ui/canvas/useCanvasPan';
 import { bindCanvasZoom } from '@/ui/canvas/useCanvasZoom';
-
-import type { TrainView } from '@/runtime/model/TrainView';
+import { normalizeRawStationJson } from '@/data/station/normalizeRawStationJson';
 
 import '@/styles/global.css';
 
-const rawStations = normalizeRawStationJson(rawJson);
-const stations = normalizeStationsWithIds(rawStations);
+const stations = normalizeRawStationJson(rawJson);
+const railEdges = buildRailEdges(rawJson);
+
 const bounds = computeBounds(stations);
 
 export default function App() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const bgCanvasRef = useRef<HTMLCanvasElement>(null); // 선로 + 역
+  const fgCanvasRef = useRef<HTMLCanvasElement>(null); // 열차
+
   const cameraRef = useRef(createInitialCamera());
 
   const [trains, setTrains] = useState<TrainView[]>([]);
   const trainsRef = useRef<TrainView[]>([]);
 
-  // 최신 trains ref 유지
   useEffect(() => {
     trainsRef.current = trains;
   }, [trains]);
 
-  // snapshot → TrainView
   useEffect(() => {
     const stop = startRenderLoop(snapshotStore, setTrains);
     return stop;
   }, []);
 
-  // train scheduler
   useEffect(() => {
-    const scheduler = createTrainScheduler({ store: snapshotStore });
-    scheduler.tick();
-    return scheduler.stop;
-  }, []);
+    const bgCanvas = bgCanvasRef.current!;
+    const fgCanvas = fgCanvasRef.current!;
 
-  // canvas + camera 초기 설정
-  useEffect(() => {
-    const canvas = canvasRef.current!;
-    const ctx = setupCanvas(canvas);
+    const bgCtx = setupCanvas(bgCanvas);
+    const fgCtx = setupCanvas(fgCanvas);
+
     const camera = cameraRef.current;
 
-    // ✅ 최초 1회만 fit
-    fitCameraToBounds(camera, bounds, canvas, 600);
-    clampCameraToBounds(camera, bounds, canvas);
+    fitCameraToBounds(camera, bounds, fgCanvas, 600);
+    clampCameraToBounds(camera, bounds, fgCanvas);
 
-    const cleanupPan = bindCanvasPan(canvas, camera, bounds);
-    const cleanupZoom = bindCanvasZoom(canvas, camera, bounds);
+    const cleanupPan = bindCanvasPan(fgCanvas, camera, bounds);
+    const cleanupZoom = bindCanvasZoom(fgCanvas, camera, bounds);
+
+    let bgDirty = true;
+    let lastCam = { x: camera.x, y: camera.y, scale: camera.scale };
+    const EPS = 1e-6;
+
+    const redrawBackground = () => {
+      bgCtx.setTransform(1, 0, 0, 1, 0, 0);
+      bgCtx.clearRect(0, 0, bgCanvas.width, bgCanvas.height);
+
+      applyCamera(bgCtx, camera);
+      drawRailEdges(bgCtx, railEdges);
+      drawStations(bgCtx, stations);
+    };
 
     let rafId = 0;
     const render = () => {
-      ctx.setTransform(window.devicePixelRatio || 1, 0, 0, window.devicePixelRatio || 1, 0, 0);
-      ctx.clearRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+      const camChanged =
+        Math.abs(camera.x - lastCam.x) > EPS ||
+        Math.abs(camera.y - lastCam.y) > EPS ||
+        Math.abs(camera.scale - lastCam.scale) > EPS;
 
-      applyCamera(ctx, camera);
+      if (camChanged) {
+        bgDirty = true;
+        lastCam = { ...camera };
+      }
 
-      drawLines(ctx, stations);
-      drawStations(ctx, stations);
-      drawTrains(ctx, trainsRef.current, stations);
+      if (bgDirty) {
+        redrawBackground();
+        bgDirty = false;
+      }
+
+      fgCtx.setTransform(1, 0, 0, 1, 0, 0);
+      fgCtx.clearRect(0, 0, fgCanvas.width, fgCanvas.height);
+
+      applyCamera(fgCtx, camera);
+      drawTrains(fgCtx, trainsRef.current, stations);
 
       rafId = requestAnimationFrame(render);
     };
@@ -90,25 +112,22 @@ export default function App() {
     };
   }, []);
 
-  // ✅ 리사이즈 전용 처리 (핵심)
   useEffect(() => {
-    const canvas = canvasRef.current!;
+    const bgCanvas = bgCanvasRef.current!;
+    const fgCanvas = fgCanvasRef.current!;
     const camera = cameraRef.current;
 
     const handleResize = () => {
-      // 1️⃣ 현재 화면 중심이 가리키는 월드 좌표
-      const centerWorldX = (canvas.clientWidth / 2 - camera.x) / camera.scale;
-      const centerWorldY = (canvas.clientHeight / 2 - camera.y) / camera.scale;
+      const centerWorldX = (fgCanvas.clientWidth / 2 - camera.x) / camera.scale;
+      const centerWorldY = (fgCanvas.clientHeight / 2 - camera.y) / camera.scale;
 
-      // 2️⃣ 캔버스 픽셀 버퍼만 재설정
-      setupCanvas(canvas);
+      setupCanvas(bgCanvas);
+      setupCanvas(fgCanvas);
 
-      // 3️⃣ 같은 월드 중심을 다시 화면 중앙으로
-      camera.x = canvas.clientWidth / 2 - centerWorldX * camera.scale;
-      camera.y = canvas.clientHeight / 2 - centerWorldY * camera.scale;
+      camera.x = fgCanvas.clientWidth / 2 - centerWorldX * camera.scale;
+      camera.y = fgCanvas.clientHeight / 2 - centerWorldY * camera.scale;
 
-      // 4️⃣ 새 view 기준으로 clamp
-      clampCameraToBounds(camera, bounds, canvas);
+      clampCameraToBounds(camera, bounds, fgCanvas);
     };
 
     window.addEventListener('resize', handleResize);
@@ -117,7 +136,16 @@ export default function App() {
 
   return (
     <main style={{ width: '100vw', height: '100vh' }}>
-      <canvas ref={canvasRef} style={{ width: '100%', height: '100%' }} />
+      <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+        <canvas
+          ref={bgCanvasRef}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
+        />
+        <canvas
+          ref={fgCanvasRef}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}
+        />
+      </div>
     </main>
   );
 }

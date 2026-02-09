@@ -1,7 +1,7 @@
 // src/ui/render/drawLines.ts
-import type { StationNode } from '@/data/station/stationNode';
+import type { Station } from '@/data/station/station';
 
-export function drawLines(ctx: CanvasRenderingContext2D, stations: StationNode[]) {
+export function drawLines(ctx: CanvasRenderingContext2D, stations: Station[]) {
   const map = new Map(stations.map(s => [s.id, s]));
   const drawn = new Set<string>();
 

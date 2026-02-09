@@ -1,7 +1,7 @@
 // src/data/station/deriveStationId.ts
-import type { RawStation } from './rawStation';
+import type { Station } from './station';
 
-export function deriveStationId(station: RawStation): string {
+export function deriveStationId(station: Station): string {
   if (station.id) return station.id;
 
   // fallback: name + line

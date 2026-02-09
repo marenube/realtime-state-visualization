@@ -14,7 +14,6 @@ describe('deriveFromState', () => {
 
     const view = deriveFromState(snapshot, 0);
 
-    expect(view.moving).toBe(true);
     expect(view.progress).toBeGreaterThan(0);
   });
 });

@@ -1,22 +1,20 @@
 // src/runtime/derive/deriveTrainView.ts
-
-import type { TrainSnapshot } from '@/data/snapshot/trainSnapshot';
 import type { TrainView } from '@/runtime/model/TrainView';
-import { deriveFromState } from './deriveFromState';
-import { deriveFromDelta } from './deriveFromDelta';
+import type { TrainSnapshotPair } from '@/data/snapshot/snapshotTypes';
 
-export function deriveTrainView(
-  pair: {
-    prev?: TrainSnapshot;
-    curr?: TrainSnapshot;
-  },
-  now: number,
-): TrainView | null {
-  if (!pair.curr) return null;
+export function deriveTrainView(pair: TrainSnapshotPair, now: number): TrainView | null {
+  const { prev, curr } = pair;
+  if (!prev || !curr) return null;
 
-  if (!pair.prev) {
-    return deriveFromState(pair.curr, now);
-  }
+  const train = curr.train;
 
-  return deriveFromDelta(pair.prev, pair.curr, now);
+  const progress = Math.max(0, Math.min(1, 1 - train.secondsToArrival / 60));
+
+  return {
+    id: train.id,
+    lineId: train.lineId, // ✅ 여기서 내려줌
+    fromStationId: train.fromStationId,
+    toStationId: train.toStationId,
+    progress,
+  };
 }

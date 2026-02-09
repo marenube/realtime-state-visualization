@@ -1,11 +1,10 @@
 // src/ui/train/deriveTrainViews.ts
 import type { TrainView } from '@/ui/train/trainView';
-import type { StationNode } from '@/data/station/stationNode';
+import type { Station } from '@/data/station/station';
 import type { TrainSnapshotStore } from '@/data/snapshot/TrainSnapshotStore';
-import { calcTrainDelta } from '@/data/snapshot/calcTrainDelta';
 import { findTravelTime } from '@/data/station/findTravelTime';
 
-export function deriveTrainViews(store: TrainSnapshotStore, stations: StationNode[]): TrainView[] {
+export function deriveTrainViews(store: TrainSnapshotStore, stations: Station[]): TrainView[] {
   const views: TrainView[] = [];
 
   for (const snap of store.getCurrent()) {
@@ -15,8 +14,6 @@ export function deriveTrainViews(store: TrainSnapshotStore, stations: StationNod
     if (!prev || !curr) continue;
 
     const travelTime = findTravelTime(train.fromStationId, train.toStationId, stations) ?? 1; // fallback
-
-    const delta = calcTrainDelta(prev, curr);
 
     const progress = Math.max(0, Math.min(1, 1 - curr.train.secondsToArrival / travelTime));
 

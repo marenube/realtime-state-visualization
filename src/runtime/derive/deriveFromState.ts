@@ -8,20 +8,17 @@ export function deriveFromState(snapshot: TrainSnapshot, now: number): TrainView
   const { train } = snapshot;
 
   let progress = 0;
-  let moving = false;
 
   if (train.secondsToArrival > 0) {
-    // 이동 중 → 상태 기반 추정
     progress = clamp(1 - train.secondsToArrival / AVERAGE_TRAVEL_TIME, 0, 1);
-    moving = true;
   }
 
   return {
     id: train.id,
     progress,
-    moving,
     fromStationId: train.fromStationId,
     toStationId: train.toStationId,
+    lineId: train.lineId, // ⚠️ 누락돼 있었다면 반드시 포함
   };
 }
 
