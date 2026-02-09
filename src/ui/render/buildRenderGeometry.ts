@@ -93,12 +93,6 @@ export function buildRenderGeometry(stations: Station[], edges: RailEdge[]): Ren
     }
   }
 
-  console.log('[RenderGeometry]', {
-    stations: stationMap.size,
-    edges: renderEdges.length,
-    transferStations: [...stationMap.values()].filter(s => s.degree >= 2).length,
-  });
-
   return {
     stations: stationMap,
     edges: renderEdges,

@@ -1,5 +1,5 @@
 // src/App.tsx
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { startRenderLoop } from '@/runtime/loop/startRenderLoop';
 import type { TrainView } from '@/runtime/model/TrainView';
@@ -18,7 +18,7 @@ import { drawRailEdges } from '@/ui/render/drawRailEdges';
 
 import { createInitialCamera } from '@/ui/camera/cameraState';
 import { applyCamera } from '@/ui/camera/applyCamera';
-import { fitCameraToBounds, computeBounds } from '@/ui/camera/fitCameraToBounds';
+import { fitCameraToBounds } from '@/ui/camera/fitCameraToBounds';
 import { clampCameraToBounds } from '@/ui/camera/clampCameraToBounds';
 
 import { setupCanvas } from '@/ui/canvas/setupCanvas';
@@ -28,18 +28,16 @@ import { bindCanvasZoom } from '@/ui/canvas/useCanvasZoom';
 import { buildRenderGeometry } from '@/ui/render/buildRenderGeometry';
 
 import '@/styles/global.css';
+import { computeGeometryBounds } from '@/ui/camera/computeGeometryBounds';
 
+const EPS = 1e-6;
 // ======================
 // 데이터 초기화
 // ======================
 const stations = normalizeRawStationJson(rawJson);
 const railEdges = buildRailEdges(stations);
 
-// ✅ 누락돼 있던 핵심
-const renderGeometry = buildRenderGeometry(stations, railEdges);
-
 const edgeOffsetMap = buildEdgeOffsetMap(railEdges, 8);
-const bounds = computeBounds(stations);
 
 export default function App() {
   const bgCanvasRef = useRef<HTMLCanvasElement>(null);
@@ -49,6 +47,11 @@ export default function App() {
 
   const [trains, setTrains] = useState<TrainView[]>([]);
   const trainsRef = useRef<TrainView[]>([]);
+
+  const renderGeometry = useMemo(() => {
+    return buildRenderGeometry(stations, railEdges);
+  }, [stations, railEdges]);
+  const bounds = computeGeometryBounds(renderGeometry);
 
   useEffect(() => {
     trainsRef.current = trains;
@@ -74,8 +77,15 @@ export default function App() {
 
     const camera = cameraRef.current;
 
-    fitCameraToBounds(camera, bounds, fgCanvas, 600);
-    clampCameraToBounds(camera, bounds, fgCanvas);
+    const cx = (bounds.minX + bounds.maxX) / 2;
+    const cy = (bounds.minY + bounds.maxY) / 2;
+
+    // 🔑 핵심: 초기 scale을 작게 잡지 않는다
+    camera.scale = 1;
+    camera.minScale = 0.05; // 줌아웃 허용 범위
+
+    camera.x = fgCanvas.clientWidth / 2 - cx * camera.scale;
+    camera.y = fgCanvas.clientHeight / 2 - cy * camera.scale;
 
     const cleanupPan = bindCanvasPan(fgCanvas, camera, bounds);
     const cleanupZoom = bindCanvasZoom(fgCanvas, camera, bounds);
@@ -83,13 +93,11 @@ export default function App() {
     lastCamRef.current = { x: camera.x, y: camera.y, scale: camera.scale };
     bgDirtyRef.current = true;
 
-    const EPS = 1e-6;
-
     const redrawBackground = () => {
       const bgCtx = bgCtxRef.current!;
       const bgCanvasEl = bgCanvasRef.current!;
 
-      bgCtx.setTransform(1, 0, 0, 1, 0, 0);
+      bgCtx.setTransform(window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0);
       bgCtx.clearRect(0, 0, bgCanvasEl.width, bgCanvasEl.height);
 
       applyCamera(bgCtx, camera);
@@ -123,7 +131,7 @@ export default function App() {
       const fgCtx = fgCtxRef.current!;
       const fgCanvasEl = fgCanvasRef.current!;
 
-      fgCtx.setTransform(1, 0, 0, 1, 0, 0);
+      fgCtx.setTransform(window.devicePixelRatio, 0, 0, window.devicePixelRatio, 0, 0);
       fgCtx.clearRect(0, 0, fgCanvasEl.width, fgCanvasEl.height);
 
       applyCamera(fgCtx, camera);

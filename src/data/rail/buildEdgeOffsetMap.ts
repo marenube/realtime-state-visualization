@@ -64,10 +64,5 @@ export function buildEdgeOffsetMap(edges: RailEdge[], spacing = 8): Map<string, 
     }
   }
 
-  console.log(
-    '[buildEdgeOffsetMap] multi-line segments:',
-    [...groups.values()].filter(g => g.length > 1).length,
-  );
-
   return out;
 }

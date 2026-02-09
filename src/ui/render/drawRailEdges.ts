@@ -38,12 +38,6 @@ export function drawRailEdges(ctx: CanvasRenderingContext2D, geometry: RenderGeo
   }
 
   if (!didLogSummary) {
-    const multi = [...groups.values()].filter(g => g.length > 1).length;
-    console.log('[drawRailEdges]', {
-      edges: edges.length,
-      groups: groups.size,
-      multiGroups: multi,
-    });
     didLogSummary = true;
   }
 

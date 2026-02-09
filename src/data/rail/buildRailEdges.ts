@@ -87,8 +87,5 @@ export function buildRailEdges(stations: Station[]): RailEdge[] {
     }
   }
 
-  console.log('[buildRailEdges] edges:', edges.length);
-  console.log('[buildRailEdges] multi-line segments:', multiLineCount);
-
   return edges;
 }

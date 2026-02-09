@@ -8,19 +8,17 @@ export function bindCanvasPan(canvas: HTMLCanvasElement, camera: CameraState, bo
   let lastX = 0;
   let lastY = 0;
 
-  const dpr = window.devicePixelRatio || 1;
-
   const onMouseDown = (e: MouseEvent) => {
     dragging = true;
-    lastX = e.clientX * dpr;
-    lastY = e.clientY * dpr;
+    lastX = e.clientX;
+    lastY = e.clientY;
   };
 
   const onMouseMove = (e: MouseEvent) => {
     if (!dragging) return;
 
-    const x = e.clientX * dpr;
-    const y = e.clientY * dpr;
+    const x = e.clientX;
+    const y = e.clientY;
 
     camera.x += x - lastX;
     camera.y += y - lastY;
@@ -38,17 +36,19 @@ export function bindCanvasPan(canvas: HTMLCanvasElement, camera: CameraState, bo
   // touch
   const onTouchStart = (e: TouchEvent) => {
     if (e.touches.length !== 1) return;
+    e.preventDefault(); // ✅ 추가
 
     dragging = true;
-    lastX = e.touches[0].clientX * dpr;
-    lastY = e.touches[0].clientY * dpr;
+    lastX = e.touches[0].clientX;
+    lastY = e.touches[0].clientY;
   };
 
   const onTouchMove = (e: TouchEvent) => {
     if (!dragging || e.touches.length !== 1) return;
+    e.preventDefault(); // ✅ 추가
 
-    const x = e.touches[0].clientX * dpr;
-    const y = e.touches[0].clientY * dpr;
+    const x = e.touches[0].clientX;
+    const y = e.touches[0].clientY;
 
     camera.x += x - lastX;
     camera.y += y - lastY;

@@ -32,19 +32,21 @@ export function fitCameraToBounds(
   canvas: HTMLCanvasElement,
   padding = 600,
 ) {
+  const dpr = window.devicePixelRatio || 1;
+
   const worldWidth = bounds.maxX - bounds.minX + padding * 2;
   const worldHeight = bounds.maxY - bounds.minY + padding * 2;
 
-  const viewWidth = canvas.clientWidth;
-  const viewHeight = canvas.clientHeight;
+  const viewWidth = canvas.width / dpr;
+  const viewHeight = canvas.height / dpr;
 
   const scaleX = viewWidth / worldWidth;
   const scaleY = viewHeight / worldHeight;
 
-  const fitScale = Math.max(scaleX, scaleY); // cover
+  const fitScale = Math.min(scaleX, scaleY);
 
   camera.scale = fitScale;
-  camera.minScale = fitScale; // 🔥 여기 핵심
+  camera.minScale = fitScale;
 
   const cx = (bounds.minX + bounds.maxX) / 2;
   const cy = (bounds.minY + bounds.maxY) / 2;

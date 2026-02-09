@@ -3,7 +3,8 @@ export type CameraState = {
   x: number;
   y: number;
   scale: number;
-  minScale: number; // ✅ 추가
+  minScale: number;
+  maxScale?: number;
 };
 
 export function createInitialCamera(): CameraState {

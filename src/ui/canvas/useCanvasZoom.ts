@@ -31,6 +31,44 @@ export function bindCanvasZoom(canvas: HTMLCanvasElement, camera: CameraState, b
     clampCameraToBounds(camera, bounds, canvas);
   };
 
+  let pinchStartDist = 0;
+  let pinchStartScale = 1;
+
+  const getTouchDist = (t1: Touch, t2: Touch) =>
+    Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
+
+  const onTouchStart = (e: TouchEvent) => {
+    if (e.touches.length === 2) {
+      e.preventDefault();
+      pinchStartDist = getTouchDist(e.touches[0], e.touches[1]);
+      pinchStartScale = camera.scale;
+    }
+  };
+
+  const onTouchMove = (e: TouchEvent) => {
+    if (e.touches.length !== 2) return;
+    e.preventDefault();
+
+    const dist = getTouchDist(e.touches[0], e.touches[1]);
+    const scale = pinchStartScale * (dist / pinchStartDist);
+
+    const rect = canvas.getBoundingClientRect();
+    const cx = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+    const cy = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+
+    const worldX = (cx - camera.x) / camera.scale;
+    const worldY = (cy - camera.y) / camera.scale;
+
+    camera.scale = Math.min(Math.max(scale, camera.minScale), camera.maxScale ?? Infinity);
+
+    camera.x = cx - worldX * camera.scale;
+    camera.y = cy - worldY * camera.scale;
+
+    clampCameraToBounds(camera, bounds, canvas);
+  };
+
+  canvas.addEventListener('touchstart', onTouchStart, { passive: false });
+  canvas.addEventListener('touchmove', onTouchMove, { passive: false });
   canvas.addEventListener('wheel', onWheel, { passive: false });
 
   return () => canvas.removeEventListener('wheel', onWheel);
