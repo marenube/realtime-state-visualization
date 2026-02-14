@@ -47,4 +47,10 @@ export const subwayLines: SubwayLine[] = [
   { id: '인천선', name: '인천선', color: '#7CA8D5', subwayId: '1097' },
 ];
 
-export const subwayLineColorMap = new Map(subwayLines.map(line => [line.name, line.color]));
+export const subwayIdToLineIdMap = new Map(subwayLines.map(line => [line.subwayId, line.id]));
+
+export const subwayIdToColorMap = new Map(subwayLines.map(line => [line.subwayId, line.color]));
+
+export const subwayLineByIdMap = new Map(subwayLines.map(line => [line.id, line]));
+
+export const subwayNameToIdMap = new Map(subwayLines.map(line => [line.name, line.id]));

@@ -2,6 +2,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { startRenderLoop } from '@/runtime/loop/startRenderLoop';
+import { createTrainScheduler } from '@/runtime/trainScheduler';
 import type { TrainView } from '@/runtime/model/TrainView';
 
 import { snapshotStore } from '@/data/snapshot/singleton';
@@ -18,7 +19,6 @@ import { drawRailEdges } from '@/ui/render/drawRailEdges';
 
 import { createInitialCamera } from '@/ui/camera/cameraState';
 import { applyCamera } from '@/ui/camera/applyCamera';
-import { fitCameraToBounds } from '@/ui/camera/fitCameraToBounds';
 import { clampCameraToBounds } from '@/ui/camera/clampCameraToBounds';
 
 import { setupCanvas } from '@/ui/canvas/setupCanvas';
@@ -27,8 +27,9 @@ import { bindCanvasZoom } from '@/ui/canvas/useCanvasZoom';
 
 import { buildRenderGeometry } from '@/ui/render/buildRenderGeometry';
 
-import '@/styles/global.css';
 import { computeGeometryBounds } from '@/ui/camera/computeGeometryBounds';
+
+import '@/styles/global.css';
 
 const EPS = 1e-6;
 // ======================
@@ -58,8 +59,20 @@ export default function App() {
   }, [trains]);
 
   useEffect(() => {
-    const stop = startRenderLoop(snapshotStore, setTrains);
-    return stop;
+    const scheduler = createTrainScheduler({
+      store: snapshotStore,
+      intervalMs: 60_000,
+    });
+
+    scheduler.tick();
+    scheduler.start();
+
+    const stopRenderLoop = startRenderLoop(snapshotStore, stations, setTrains);
+
+    return () => {
+      scheduler.stop();
+      stopRenderLoop();
+    };
   }, []);
 
   const bgDirtyRef = useRef(true);
@@ -135,7 +148,12 @@ export default function App() {
       fgCtx.clearRect(0, 0, fgCanvasEl.width, fgCanvasEl.height);
 
       applyCamera(fgCtx, camera);
-      drawTrains(fgCtx, trainsRef.current, stations, edgeOffsetMap);
+      drawTrains(
+        fgCtx,
+        trainsRef.current,
+        renderGeometry, // ✅ stations 대신 geometry
+        edgeOffsetMap,
+      );
 
       rafId = requestAnimationFrame(render);
     };

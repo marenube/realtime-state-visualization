@@ -10,11 +10,14 @@ function coordKey(p0: { x: number; y: number }, p1: { x: number; y: number }) {
   const x1 = Math.round(p1.x / EPS) * EPS;
   const y1 = Math.round(p1.y / EPS) * EPS;
 
-  // 방향 무시
   if (x0 < x1 || (x0 === x1 && y0 <= y1)) {
     return `${x0},${y0}:${x1},${y1}`;
   }
   return `${x1},${y1}:${x0},${y0}`;
+}
+
+function edgeKey(aId: string, bId: string, lineId: string) {
+  return `${aId}:${bId}:${lineId}`;
 }
 
 export type RenderStation = {
@@ -24,7 +27,7 @@ export type RenderStation = {
   y: number;
   labelX?: number;
   labelY?: number;
-  degree: number; // ✅ 좌표 기준 복선/환승 밀도
+  degree: number;
 };
 
 export type RenderEdge = {
@@ -38,12 +41,14 @@ export type RenderEdge = {
 export type RenderGeometry = {
   stations: Map<string, RenderStation>;
   edges: RenderEdge[];
+
+  // 🔥 추가: O(1) 조회용 인덱스
+  edgeIndex: Map<string, RenderEdge>;
 };
 
 export function buildRenderGeometry(stations: Station[], edges: RailEdge[]): RenderGeometry {
   const stationMap = new Map<string, RenderStation>();
 
-  // 1️⃣ station 생성
   for (const s of stations) {
     stationMap.set(s.id, {
       id: s.id,
@@ -52,13 +57,13 @@ export function buildRenderGeometry(stations: Station[], edges: RailEdge[]): Ren
       y: s.y,
       labelX: s.labelX,
       labelY: s.labelY,
-      degree: 1, // 기본값
+      degree: 1,
     });
   }
 
-  // 2️⃣ RenderEdge 생성 + 좌표 기준 그룹핑
   const renderEdges: RenderEdge[] = [];
   const edgeGroups = new Map<string, RenderEdge[]>();
+  const edgeIndex = new Map<string, RenderEdge>();
 
   for (const e of edges) {
     const a = stationMap.get(e.aStationId);
@@ -75,13 +80,16 @@ export function buildRenderGeometry(stations: Station[], edges: RailEdge[]): Ren
 
     renderEdges.push(re);
 
+    // 🔥 양방향 등록 (중요)
+    edgeIndex.set(edgeKey(a.id, b.id, e.lineId), re);
+    edgeIndex.set(edgeKey(b.id, a.id, e.lineId), re);
+
     const key = coordKey(re.p0, re.p1);
     const arr = edgeGroups.get(key) ?? [];
     arr.push(re);
     edgeGroups.set(key, arr);
   }
 
-  // 3️⃣ 좌표 기준 degree 반영
   for (const group of edgeGroups.values()) {
     const degree = group.length;
 
@@ -96,5 +104,6 @@ export function buildRenderGeometry(stations: Station[], edges: RailEdge[]): Ren
   return {
     stations: stationMap,
     edges: renderEdges,
+    edgeIndex,
   };
 }

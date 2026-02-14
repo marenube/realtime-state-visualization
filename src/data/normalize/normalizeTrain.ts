@@ -2,11 +2,13 @@
 
 import type { RawTrainApiItem } from '@/data/rawTrainApi';
 import type { Train } from '@/data/model/train';
+import { subwayIdToLineIdMap } from '@/data/subwayLines';
 
 export function normalizeTrain(raw: RawTrainApiItem, now: number = Date.now()): Train {
+  const lineId = subwayIdToLineIdMap.get(raw.subwayId) ?? raw.subwayId;
   return {
     id: raw.btrainNo,
-    lineId: raw.subwayId,
+    lineId,
     direction: raw.updnLine === '상행' ? 'UP' : 'DOWN',
     currentStationId: raw.statnId,
     fromStationId: raw.statnFid,

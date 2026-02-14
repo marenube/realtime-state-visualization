@@ -1,37 +1,33 @@
-// src/ui/render/drawTrains.ts
 import type { TrainView } from '@/runtime/model/TrainView';
-import type { Station } from '@/data/station/station';
+import type { RenderGeometry } from '@/ui/render/buildRenderGeometry';
 import type { EdgeOffset } from '@/data/rail/buildEdgeOffsetMap';
+
+let didLogMiss = false;
 
 export function drawTrains(
   ctx: CanvasRenderingContext2D,
   trains: TrainView[],
-  stations: Station[],
+  geometry: RenderGeometry,
   edgeOffsetMap: Map<string, EdgeOffset>,
 ) {
-  const stationById = new Map<string, Station>();
-  for (const s of stations) stationById.set(s.id, s);
-
   ctx.fillStyle = '#e53935';
 
+  let rendered = 0;
+
   for (const train of trains) {
-    const from = stationById.get(train.fromStationId);
-    const to = stationById.get(train.toStationId);
+    const { aId, bId } = train.edge;
 
-    if (!from || !to) {
-      // 매 프레임 폭발 싫으면 여기 로그는 조건부로 줄여도 됨
-      // console.warn('[TRAIN STATION MISS]', train);
-      continue;
-    }
+    const stationA = geometry.stations.get(aId);
+    const stationB = geometry.stations.get(bId);
 
-    const t = Math.max(0, Math.min(1, train.progress));
+    if (!stationA || !stationB) continue;
 
-    // 기본 위치(논리)
-    let x = from.x + (to.x - from.x) * t;
-    let y = from.y + (to.y - from.y) * t;
+    const t = Math.max(0, Math.min(1, train.t));
 
-    // 렌더 오프셋(복선/중첩 구간이면 shift)
-    const key = `${train.fromStationId}:${train.toStationId}:${train.lineId}`;
+    let x = stationA.x + (stationB.x - stationA.x) * t;
+    let y = stationA.y + (stationB.y - stationA.y) * t;
+
+    const key = `${aId}:${bId}:${train.lineId}`;
     const off = edgeOffsetMap.get(key);
 
     if (off) {
@@ -42,5 +38,9 @@ export function drawTrains(
     ctx.beginPath();
     ctx.arc(x, y, 5, 0, Math.PI * 2);
     ctx.fill();
+
+    rendered++;
   }
+
+  // console.log('🔴 Rendered trains:', rendered);
 }
