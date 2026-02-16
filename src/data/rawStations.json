@@ -196,7 +196,7 @@
     "connectsTo": [
       {
         "stationId": "1004000421",
-        "travelTime": 447
+        "travelTime": 60
       },
       {
         "stationId": "1004000423",
@@ -852,7 +852,9 @@
     "line": "01호선",
     "x": 4049,
     "y": 6287,
-    "aliases": ["지제"],
+    "aliases": [
+      "지제"
+    ],
     "connectsTo": [
       {
         "stationId": "1001080163",
@@ -1893,7 +1895,7 @@
     "connectsTo": [
       {
         "stationId": "1004000442",
-        "travelTime": 351
+        "travelTime": 180
       },
       {
         "stationId": "1004000444",
@@ -2044,7 +2046,7 @@
     "connectsTo": [
       {
         "stationId": "1007000749",
-        "travelTime": 487
+        "travelTime": 140
       },
       {
         "stationId": "1007000751",
@@ -2065,7 +2067,7 @@
     "connectsTo": [
       {
         "stationId": "1007000745",
-        "travelTime": 534
+        "travelTime": 80
       },
       {
         "stationId": "1007000747",
@@ -2074,7 +2076,7 @@
     ],
     "frCode": "746",
     "stationCode": "2748",
-    "dwellTime": 34
+    "dwellTime": 30
   },
   {
     "id": "1001080142",
@@ -2103,7 +2105,9 @@
     "line": "01호선",
     "x": 3110,
     "y": 2559,
-    "aliases": ["서울"],
+    "aliases": [
+      "서울"
+    ],
     "connectsTo": [
       {
         "stationId": "1001000132",
@@ -2124,11 +2128,13 @@
     "line": "04호선",
     "x": 3110,
     "y": 2559,
-    "aliases": ["서울"],
+    "aliases": [
+      "서울"
+    ],
     "connectsTo": [
       {
         "stationId": "1004000425",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000427",
@@ -2145,7 +2151,9 @@
     "line": "공항철도",
     "x": 3110,
     "y": 2559,
-    "aliases": ["서울"],
+    "aliases": [
+      "서울"
+    ],
     "connectsTo": [
       {
         "stationId": "1065006502",
@@ -2161,7 +2169,9 @@
     "line": "경의선",
     "x": 3110,
     "y": 2559,
-    "aliases": ["서울"],
+    "aliases": [
+      "서울"
+    ],
     "connectsTo": [
       {
         "stationId": "1063080312",
@@ -2177,7 +2187,9 @@
     "line": "GTX-A",
     "x": 3110,
     "y": 2559,
-    "aliases": ["서울"],
+    "aliases": [
+      "서울"
+    ],
     "connectsTo": [
       {
         "stationId": "1032000350",
@@ -2444,7 +2456,7 @@
     "connectsTo": [
       {
         "stationId": "1007000746",
-        "travelTime": 498
+        "travelTime": 120
       },
       {
         "stationId": "1007000748",
@@ -2453,7 +2465,7 @@
     ],
     "frCode": "747",
     "stationCode": "2749",
-    "dwellTime": 32
+    "dwellTime": 30
   },
   {
     "id": "1007000748",
@@ -2465,7 +2477,7 @@
     "connectsTo": [
       {
         "stationId": "1007000747",
-        "travelTime": 510
+        "travelTime": 110
       },
       {
         "stationId": "1007000749",
@@ -2528,7 +2540,7 @@
     "connectsTo": [
       {
         "stationId": "1007000748",
-        "travelTime": 508
+        "travelTime": 120
       },
       {
         "stationId": "1007000750",
@@ -2537,7 +2549,7 @@
     ],
     "frCode": "749",
     "stationCode": "2751",
-    "dwellTime": 24
+    "dwellTime": 20
   },
   {
     "id": "1007000751",
@@ -2549,7 +2561,7 @@
     "connectsTo": [
       {
         "stationId": "1007000750",
-        "travelTime": 476
+        "travelTime": 150
       },
       {
         "stationId": "1007000752",
@@ -2570,7 +2582,7 @@
     "connectsTo": [
       {
         "stationId": "1007000751",
-        "travelTime": 520
+        "travelTime": 90
       },
       {
         "stationId": "1007000753",
@@ -2611,7 +2623,7 @@
     "connectsTo": [
       {
         "stationId": "1007000752",
-        "travelTime": 528
+        "travelTime": 80
       },
       {
         "stationId": "1007000754",
@@ -2632,7 +2644,7 @@
     "connectsTo": [
       {
         "stationId": "1007000753",
-        "travelTime": 528
+        "travelTime": 80
       },
       {
         "stationId": "1007000755",
@@ -2653,7 +2665,7 @@
     "connectsTo": [
       {
         "stationId": "1007000754",
-        "travelTime": 528
+        "travelTime": 80
       },
       {
         "stationId": "1007000756",
@@ -2674,7 +2686,7 @@
     "connectsTo": [
       {
         "stationId": "1007000755",
-        "travelTime": 538
+        "travelTime": 70
       },
       {
         "stationId": "1007000757",
@@ -2695,7 +2707,7 @@
     "connectsTo": [
       {
         "stationId": "1007000756",
-        "travelTime": 528
+        "travelTime": 80
       },
       {
         "stationId": "1007000758",
@@ -2716,7 +2728,7 @@
     "connectsTo": [
       {
         "stationId": "1007000757",
-        "travelTime": 538
+        "travelTime": 70
       },
       {
         "stationId": "1007000759",
@@ -2737,7 +2749,7 @@
     "connectsTo": [
       {
         "stationId": "1007000759",
-        "travelTime": 492
+        "travelTime": 120
       },
       {
         "stationId": "1007000761",
@@ -3898,7 +3910,7 @@
     "connectsTo": [
       {
         "stationId": "1007000758",
-        "travelTime": 528
+        "travelTime": 80
       },
       {
         "stationId": "1007000760",
@@ -4604,7 +4616,7 @@
       },
       {
         "stationId": "1009000904",
-        "travelTime": 76
+        "travelTime": 75
       }
     ],
     "frCode": "903",
@@ -4621,11 +4633,11 @@
     "connectsTo": [
       {
         "stationId": "1009000903",
-        "travelTime": 90
+        "travelTime": 75
       },
       {
         "stationId": "1009000905",
-        "travelTime": 111
+        "travelTime": 110
       }
     ],
     "frCode": "904",
@@ -4642,11 +4654,11 @@
     "connectsTo": [
       {
         "stationId": "1009000905",
-        "travelTime": 142
+        "travelTime": 140
       },
       {
         "stationId": "1009000907",
-        "travelTime": 121
+        "travelTime": 125
       }
     ],
     "frCode": "906",
@@ -4663,11 +4675,11 @@
     "connectsTo": [
       {
         "stationId": "1009000906",
-        "travelTime": 117
+        "travelTime": 125
       },
       {
         "stationId": "1009000908",
-        "travelTime": 100
+        "travelTime": 95
       }
     ],
     "frCode": "907",
@@ -4684,11 +4696,11 @@
     "connectsTo": [
       {
         "stationId": "1009000907",
-        "travelTime": 101
+        "travelTime": 95
       },
       {
         "stationId": "1009000909",
-        "travelTime": 96
+        "travelTime": 95
       }
     ],
     "frCode": "908",
@@ -4705,11 +4717,11 @@
     "connectsTo": [
       {
         "stationId": "1009000913",
-        "travelTime": 125
+        "travelTime": 120
       },
       {
         "stationId": "1009000915",
-        "travelTime": 101
+        "travelTime": 100
       }
     ],
     "frCode": "914",
@@ -4726,11 +4738,11 @@
     "connectsTo": [
       {
         "stationId": "1009000915",
-        "travelTime": 86
+        "travelTime": 95
       },
       {
         "stationId": "1009000917",
-        "travelTime": 108
+        "travelTime": 110
       }
     ],
     "frCode": "916",
@@ -4767,7 +4779,7 @@
       },
       {
         "stationId": "1009000920",
-        "travelTime": 142
+        "travelTime": 135
       }
     ],
     "frCode": "919",
@@ -4788,7 +4800,7 @@
       },
       {
         "stationId": "1009000906",
-        "travelTime": 145
+        "travelTime": 140
       }
     ],
     "frCode": "905",
@@ -4846,7 +4858,7 @@
     "connectsTo": [
       {
         "stationId": "1009000902",
-        "travelTime": 281
+        "travelTime": 280
       }
     ],
     "frCode": "901",
@@ -4883,7 +4895,7 @@
     "connectsTo": [
       {
         "stationId": "1009000908",
-        "travelTime": 100
+        "travelTime": 95
       },
       {
         "stationId": "1009000910",
@@ -4904,11 +4916,11 @@
     "connectsTo": [
       {
         "stationId": "1009000909",
-        "travelTime": 101
+        "travelTime": 100
       },
       {
         "stationId": "1009000911",
-        "travelTime": 96
+        "travelTime": 95
       }
     ],
     "frCode": "910",
@@ -4929,7 +4941,7 @@
       },
       {
         "stationId": "1009000912",
-        "travelTime": 116
+        "travelTime": 115
       }
     ],
     "frCode": "911",
@@ -4946,11 +4958,11 @@
     "connectsTo": [
       {
         "stationId": "1009000911",
-        "travelTime": 114
+        "travelTime": 115
       },
       {
         "stationId": "1009000913",
-        "travelTime": 101
+        "travelTime": 100
       }
     ],
     "frCode": "912",
@@ -4971,7 +4983,7 @@
       },
       {
         "stationId": "1009000919",
-        "travelTime": 101
+        "travelTime": 100
       }
     ],
     "frCode": "918",
@@ -4988,7 +5000,7 @@
     "connectsTo": [
       {
         "stationId": "1009000920",
-        "travelTime": 105
+        "travelTime": 100
       },
       {
         "stationId": "1009000922",
@@ -5030,11 +5042,11 @@
     "connectsTo": [
       {
         "stationId": "1009000923",
-        "travelTime": 104
+        "travelTime": 110
       },
       {
         "stationId": "1009000925",
-        "travelTime": 101
+        "travelTime": 100
       }
     ],
     "frCode": "924",
@@ -5051,11 +5063,11 @@
     "connectsTo": [
       {
         "stationId": "1009000924",
-        "travelTime": 113
+        "travelTime": 100
       },
       {
         "stationId": "1009000926",
-        "travelTime": 91
+        "travelTime": 90
       }
     ],
     "frCode": "925",
@@ -5092,7 +5104,7 @@
     "connectsTo": [
       {
         "stationId": "1009000925",
-        "travelTime": 110
+        "travelTime": 90
       },
       {
         "stationId": "1009000927",
@@ -5318,11 +5330,11 @@
     "connectsTo": [
       {
         "stationId": "1009000912",
-        "travelTime": 110
+        "travelTime": 100
       },
       {
         "stationId": "1009000914",
-        "travelTime": 121
+        "travelTime": 120
       }
     ],
     "frCode": "913",
@@ -5507,7 +5519,7 @@
     "connectsTo": [
       {
         "stationId": "1007000744",
-        "travelTime": 524
+        "travelTime": 90
       },
       {
         "stationId": "1007000746",
@@ -5790,7 +5802,7 @@
     "connectsTo": [
       {
         "stationId": "1004000432",
-        "travelTime": 404
+        "travelTime": 90
       },
       {
         "stationId": "1004000434",
@@ -5853,7 +5865,7 @@
     "connectsTo": [
       {
         "stationId": "1004000430",
-        "travelTime": 391
+        "travelTime": 180
       },
       {
         "stationId": "1004000432",
@@ -5874,11 +5886,11 @@
     "connectsTo": [
       {
         "stationId": "1009000919",
-        "travelTime": 138
+        "travelTime": 135
       },
       {
         "stationId": "1009000921",
-        "travelTime": 102
+        "travelTime": 100
       }
     ],
     "frCode": "920",
@@ -5895,7 +5907,7 @@
     "connectsTo": [
       {
         "stationId": "1007000736",
-        "travelTime": 526
+        "travelTime": 80
       },
       {
         "stationId": "1007000738",
@@ -5904,7 +5916,7 @@
     ],
     "frCode": "737",
     "stationCode": "2739",
-    "dwellTime": 32
+    "dwellTime": 30
   },
   {
     "id": "1007000735",
@@ -5916,7 +5928,7 @@
     "connectsTo": [
       {
         "stationId": "1007000734",
-        "travelTime": 465
+        "travelTime": 150
       },
       {
         "stationId": "1007000736",
@@ -5925,7 +5937,7 @@
     ],
     "frCode": "735",
     "stationCode": "2737",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1002000224",
@@ -6000,7 +6012,7 @@
     "connectsTo": [
       {
         "stationId": "1007000738",
-        "travelTime": 545
+        "travelTime": 70
       },
       {
         "stationId": "1007000740",
@@ -6009,7 +6021,7 @@
     ],
     "frCode": "739",
     "stationCode": "2741",
-    "dwellTime": 31
+    "dwellTime": 30
   },
   {
     "id": "1007000738",
@@ -6021,7 +6033,7 @@
     "connectsTo": [
       {
         "stationId": "1007000737",
-        "travelTime": 474
+        "travelTime": 150
       },
       {
         "stationId": "1007000739",
@@ -6038,11 +6050,13 @@
     "line": "04호선",
     "x": 3204,
     "y": 3252,
-    "aliases": ["총신대입구(이수)"],
+    "aliases": [
+      "총신대입구(이수)"
+    ],
     "connectsTo": [
       {
         "stationId": "1004000431",
-        "travelTime": 399
+        "travelTime": 150
       },
       {
         "stationId": "1004000433",
@@ -6063,7 +6077,7 @@
     "connectsTo": [
       {
         "stationId": "1007000735",
-        "travelTime": 515
+        "travelTime": 90
       },
       {
         "stationId": "1007000737",
@@ -6105,7 +6119,7 @@
     "connectsTo": [
       {
         "stationId": "1007000733",
-        "travelTime": 523
+        "travelTime": 90
       },
       {
         "stationId": "1007000735",
@@ -6126,11 +6140,11 @@
     "connectsTo": [
       {
         "stationId": "1009000922",
-        "travelTime": 81
+        "travelTime": 95
       },
       {
         "stationId": "1009000924",
-        "travelTime": 111
+        "travelTime": 110
       }
     ],
     "frCode": "923",
@@ -6168,7 +6182,7 @@
     "connectsTo": [
       {
         "stationId": "1007000739",
-        "travelTime": 526
+        "travelTime": 90
       },
       {
         "stationId": "1007000741",
@@ -6189,7 +6203,7 @@
     "connectsTo": [
       {
         "stationId": "1007000740",
-        "travelTime": 508
+        "travelTime": 110
       },
       {
         "stationId": "1007000742",
@@ -6198,7 +6212,7 @@
     ],
     "frCode": "741",
     "stationCode": "2743",
-    "dwellTime": 31
+    "dwellTime": 30
   },
   {
     "id": "1007000742",
@@ -6210,7 +6224,7 @@
     "connectsTo": [
       {
         "stationId": "1007000741",
-        "travelTime": 544
+        "travelTime": 70
       },
       {
         "stationId": "1007000743",
@@ -6251,7 +6265,7 @@
     "connectsTo": [
       {
         "stationId": "1007000742",
-        "travelTime": 534
+        "travelTime": 80
       },
       {
         "stationId": "1007000744",
@@ -6260,7 +6274,7 @@
     ],
     "frCode": "743",
     "stationCode": "2745",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1001000139",
@@ -6355,7 +6369,7 @@
     "connectsTo": [
       {
         "stationId": "1007000743",
-        "travelTime": 498
+        "travelTime": 120
       },
       {
         "stationId": "1007000745",
@@ -6364,7 +6378,7 @@
     ],
     "frCode": "744",
     "stationCode": "2746",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1001000138",
@@ -6418,7 +6432,7 @@
     "connectsTo": [
       {
         "stationId": "1004000426",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000428",
@@ -6460,7 +6474,7 @@
     "connectsTo": [
       {
         "stationId": "1004000422",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000424",
@@ -6565,7 +6579,7 @@
     "connectsTo": [
       {
         "stationId": "1004000424",
-        "travelTime": 447
+        "travelTime": 60
       },
       {
         "stationId": "1004000426",
@@ -6586,7 +6600,7 @@
     "connectsTo": [
       {
         "stationId": "1004000423",
-        "travelTime": 447
+        "travelTime": 60
       },
       {
         "stationId": "1004000425",
@@ -6691,7 +6705,7 @@
     "connectsTo": [
       {
         "stationId": "1004000428",
-        "travelTime": 447
+        "travelTime": 60
       },
       {
         "stationId": "1004000430",
@@ -6815,7 +6829,7 @@
     "connectsTo": [
       {
         "stationId": "1004000429",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000431",
@@ -6939,7 +6953,7 @@
     "connectsTo": [
       {
         "stationId": "1004000427",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000429",
@@ -7002,11 +7016,11 @@
     "connectsTo": [
       {
         "stationId": "1009000916",
-        "travelTime": 116
+        "travelTime": 110
       },
       {
         "stationId": "1009000918",
-        "travelTime": 102
+        "travelTime": 100
       }
     ],
     "frCode": "917",
@@ -7044,11 +7058,11 @@
     "connectsTo": [
       {
         "stationId": "1009000914",
-        "travelTime": 90
+        "travelTime": 100
       },
       {
         "stationId": "1009000916",
-        "travelTime": 103
+        "travelTime": 95
       }
     ],
     "frCode": "915",
@@ -7666,7 +7680,9 @@
     "line": "06호선",
     "x": 2686,
     "y": 2113,
-    "aliases": ["응암순환(상선)"],
+    "aliases": [
+      "응암순환(상선)"
+    ],
     "connectsTo": [
       {
         "stationId": "1006000616",
@@ -7687,7 +7703,9 @@
     "line": "06호선",
     "x": 2769,
     "y": 2172,
-    "aliases": ["새절(신사)"],
+    "aliases": [
+      "새절(신사)"
+    ],
     "connectsTo": [
       {
         "stationId": "1006000610",
@@ -8822,7 +8840,7 @@
     "connectsTo": [
       {
         "stationId": "1007000730",
-        "travelTime": 543
+        "travelTime": 70
       },
       {
         "stationId": "1007000732",
@@ -8831,7 +8849,7 @@
     ],
     "frCode": "731",
     "stationCode": "2733",
-    "dwellTime": 31
+    "dwellTime": 30
   },
   {
     "id": "1009000928",
@@ -8843,7 +8861,7 @@
     "connectsTo": [
       {
         "stationId": "1009000927",
-        "travelTime": 90
+        "travelTime": 100
       },
       {
         "stationId": "1009000929",
@@ -8864,11 +8882,11 @@
     "connectsTo": [
       {
         "stationId": "1009000928",
-        "travelTime": 91
+        "travelTime": 95
       },
       {
         "stationId": "1009000930",
-        "travelTime": 136
+        "travelTime": 125
       }
     ],
     "frCode": "929",
@@ -8885,7 +8903,7 @@
     "connectsTo": [
       {
         "stationId": "1007000731",
-        "travelTime": 536
+        "travelTime": 80
       },
       {
         "stationId": "1007000733",
@@ -8926,7 +8944,7 @@
     "connectsTo": [
       {
         "stationId": "1007000729",
-        "travelTime": 525
+        "travelTime": 90
       },
       {
         "stationId": "1007000731",
@@ -8935,7 +8953,7 @@
     ],
     "frCode": "730",
     "stationCode": "2732",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1075075213",
@@ -8987,7 +9005,7 @@
     "connectsTo": [
       {
         "stationId": "1007000728",
-        "travelTime": 478
+        "travelTime": 150
       },
       {
         "stationId": "1007000730",
@@ -8996,7 +9014,7 @@
     ],
     "frCode": "729",
     "stationCode": "2731",
-    "dwellTime": 32
+    "dwellTime": 30
   },
   {
     "id": "1002000218",
@@ -9029,11 +9047,11 @@
     "connectsTo": [
       {
         "stationId": "1009000929",
-        "travelTime": 124
+        "travelTime": 125
       },
       {
         "stationId": "1009000931",
-        "travelTime": 155
+        "travelTime": 140
       }
     ],
     "frCode": "930",
@@ -9213,7 +9231,7 @@
     "connectsTo": [
       {
         "stationId": "1009000926",
-        "travelTime": 93
+        "travelTime": 85
       },
       {
         "stationId": "1009000928",
@@ -9374,7 +9392,7 @@
     "connectsTo": [
       {
         "stationId": "1008000816",
-        "travelTime": 261
+        "travelTime": 70
       },
       {
         "stationId": "1008000818",
@@ -9383,7 +9401,7 @@
     ],
     "frCode": "817",
     "stationCode": "2818",
-    "dwellTime": 43
+    "dwellTime": 40
   },
   {
     "id": "1002000215",
@@ -9416,7 +9434,7 @@
     "connectsTo": [
       {
         "stationId": "1008000815",
-        "travelTime": 265
+        "travelTime": 70
       },
       {
         "stationId": "1008000817",
@@ -9425,7 +9443,7 @@
     ],
     "frCode": "816",
     "stationCode": "2817",
-    "dwellTime": 35
+    "dwellTime": 30
   },
   {
     "id": "1009000931",
@@ -9437,7 +9455,7 @@
     "connectsTo": [
       {
         "stationId": "1009000930",
-        "travelTime": 142
+        "travelTime": 140
       },
       {
         "stationId": "1009000932",
@@ -9458,11 +9476,11 @@
     "connectsTo": [
       {
         "stationId": "1009000934",
-        "travelTime": 93
+        "travelTime": 85
       },
       {
         "stationId": "1009000936",
-        "travelTime": 133
+        "travelTime": 125
       }
     ],
     "frCode": "935",
@@ -9500,7 +9518,7 @@
     "connectsTo": [
       {
         "stationId": "1009000937",
-        "travelTime": 145
+        "travelTime": 140
       }
     ],
     "frCode": "938",
@@ -9516,11 +9534,11 @@
     "connectsTo": [
       {
         "stationId": "1009000931",
-        "travelTime": 95
+        "travelTime": 90
       },
       {
         "stationId": "1009000933",
-        "travelTime": 86
+        "travelTime": 85
       }
     ],
     "frCode": "932",
@@ -9537,11 +9555,11 @@
     "connectsTo": [
       {
         "stationId": "1009000933",
-        "travelTime": 87
+        "travelTime": 95
       },
       {
         "stationId": "1009000935",
-        "travelTime": 88
+        "travelTime": 85
       }
     ],
     "frCode": "934",
@@ -9558,7 +9576,7 @@
     "connectsTo": [
       {
         "stationId": "1008000814",
-        "travelTime": 238
+        "travelTime": 110
       },
       {
         "stationId": "1008000816",
@@ -9567,7 +9585,7 @@
     ],
     "frCode": "815",
     "stationCode": "2816",
-    "dwellTime": 36
+    "dwellTime": 40
   },
   {
     "id": "1009000933",
@@ -9579,11 +9597,11 @@
     "connectsTo": [
       {
         "stationId": "1009000932",
-        "travelTime": 86
+        "travelTime": 85
       },
       {
         "stationId": "1009000934",
-        "travelTime": 101
+        "travelTime": 95
       }
     ],
     "frCode": "933",
@@ -9600,7 +9618,7 @@
     "connectsTo": [
       {
         "stationId": "1007000732",
-        "travelTime": 549
+        "travelTime": 70
       },
       {
         "stationId": "1007000734",
@@ -9609,7 +9627,7 @@
     ],
     "frCode": "733",
     "stationCode": "2735",
-    "dwellTime": 24
+    "dwellTime": 20
   },
   {
     "id": "1003000347",
@@ -9977,7 +9995,7 @@
     "connectsTo": [
       {
         "stationId": "1004000420",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000422",
@@ -10040,7 +10058,7 @@
     "connectsTo": [
       {
         "stationId": "1004000419",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000421",
@@ -10061,7 +10079,7 @@
     "connectsTo": [
       {
         "stationId": "1004000418",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000420",
@@ -10082,7 +10100,7 @@
     "connectsTo": [
       {
         "stationId": "1004000417",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000419",
@@ -10123,7 +10141,7 @@
     "connectsTo": [
       {
         "stationId": "1004000416",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000418",
@@ -10144,7 +10162,7 @@
     "connectsTo": [
       {
         "stationId": "1004000415",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000417",
@@ -10563,7 +10581,7 @@
     "connectsTo": [
       {
         "stationId": "1007000725",
-        "travelTime": 525
+        "travelTime": 80
       },
       {
         "stationId": "1007000727",
@@ -10572,7 +10590,7 @@
     ],
     "frCode": "726",
     "stationCode": "2728",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1007000728",
@@ -10580,11 +10598,13 @@
     "line": "07호선",
     "x": 3974,
     "y": 2812,
-    "aliases": ["뚝섬유원지"],
+    "aliases": [
+      "뚝섬유원지"
+    ],
     "connectsTo": [
       {
         "stationId": "1007000727",
-        "travelTime": 523
+        "travelTime": 90
       },
       {
         "stationId": "1007000729",
@@ -10593,7 +10613,7 @@
     ],
     "frCode": "728",
     "stationCode": "2730",
-    "dwellTime": 24
+    "dwellTime": 20
   },
   {
     "id": "1002000212",
@@ -10626,7 +10646,7 @@
     "connectsTo": [
       {
         "stationId": "1007000726",
-        "travelTime": 525
+        "travelTime": 80
       },
       {
         "stationId": "1007000728",
@@ -10815,7 +10835,7 @@
     "connectsTo": [
       {
         "stationId": "1007000718",
-        "travelTime": 535
+        "travelTime": 80
       },
       {
         "stationId": "1007000720",
@@ -10824,7 +10844,7 @@
     ],
     "frCode": "719",
     "stationCode": "2721",
-    "dwellTime": 31
+    "dwellTime": 30
   },
   {
     "id": "1007000718",
@@ -10836,7 +10856,7 @@
     "connectsTo": [
       {
         "stationId": "1007000717",
-        "travelTime": 543
+        "travelTime": 70
       },
       {
         "stationId": "1007000719",
@@ -10845,7 +10865,7 @@
     ],
     "frCode": "718",
     "stationCode": "2720",
-    "dwellTime": 31
+    "dwellTime": 30
   },
   {
     "id": "1006000646",
@@ -10899,7 +10919,7 @@
     "connectsTo": [
       {
         "stationId": "1007000715",
-        "travelTime": 528
+        "travelTime": 90
       },
       {
         "stationId": "1007000717",
@@ -10978,7 +10998,7 @@
     "connectsTo": [
       {
         "stationId": "1007000714",
-        "travelTime": 545
+        "travelTime": 70
       },
       {
         "stationId": "1007000716",
@@ -10999,7 +11019,7 @@
     "connectsTo": [
       {
         "stationId": "1007000713",
-        "travelTime": 535
+        "travelTime": 80
       },
       {
         "stationId": "1007000715",
@@ -11041,7 +11061,7 @@
     "connectsTo": [
       {
         "stationId": "1004000414",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000416",
@@ -11062,7 +11082,7 @@
     "connectsTo": [
       {
         "stationId": "1004000413",
-        "travelTime": 423
+        "travelTime": 120
       },
       {
         "stationId": "1004000415",
@@ -11083,7 +11103,7 @@
     "connectsTo": [
       {
         "stationId": "1004000412",
-        "travelTime": 421
+        "travelTime": 120
       },
       {
         "stationId": "1004000414",
@@ -11990,7 +12010,7 @@
     "connectsTo": [
       {
         "stationId": "1008000806",
-        "travelTime": 258
+        "travelTime": 80
       },
       {
         "stationId": "1008000808",
@@ -12091,7 +12111,7 @@
     "connectsTo": [
       {
         "stationId": "1007000719",
-        "travelTime": 508
+        "travelTime": 110
       },
       {
         "stationId": "1007000721",
@@ -12100,7 +12120,7 @@
     ],
     "frCode": "720",
     "stationCode": "2722",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1063075120",
@@ -12152,7 +12172,7 @@
     "connectsTo": [
       {
         "stationId": "1007000720",
-        "travelTime": 543
+        "travelTime": 70
       },
       {
         "stationId": "1007000722",
@@ -12173,7 +12193,7 @@
     "connectsTo": [
       {
         "stationId": "1007000721",
-        "travelTime": 544
+        "travelTime": 70
       },
       {
         "stationId": "1007000723",
@@ -12230,7 +12250,7 @@
     "connectsTo": [
       {
         "stationId": "1007000722",
-        "travelTime": 550
+        "travelTime": 70
       },
       {
         "stationId": "1007000724",
@@ -12239,7 +12259,7 @@
     ],
     "frCode": "723",
     "stationCode": "2725",
-    "dwellTime": 24
+    "dwellTime": 20
   },
   {
     "id": "1007000724",
@@ -12251,7 +12271,7 @@
     "connectsTo": [
       {
         "stationId": "1007000723",
-        "travelTime": 542
+        "travelTime": 80
       },
       {
         "stationId": "1007000725",
@@ -12260,7 +12280,7 @@
     ],
     "frCode": "724",
     "stationCode": "2726",
-    "dwellTime": 31
+    "dwellTime": 30
   },
   {
     "id": "1001000124",
@@ -12410,7 +12430,7 @@
     "connectsTo": [
       {
         "stationId": "1008000817",
-        "travelTime": 256
+        "travelTime": 70
       },
       {
         "stationId": "1008000819",
@@ -12431,7 +12451,7 @@
     "connectsTo": [
       {
         "stationId": "1008000818",
-        "travelTime": 266
+        "travelTime": 70
       },
       {
         "stationId": "1008000820",
@@ -12440,7 +12460,7 @@
     ],
     "frCode": "819",
     "stationCode": "2820",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1008000822",
@@ -12452,7 +12472,7 @@
     "connectsTo": [
       {
         "stationId": "1008000821",
-        "travelTime": 248
+        "travelTime": 100
       },
       {
         "stationId": "1008000823",
@@ -12473,7 +12493,7 @@
     "connectsTo": [
       {
         "stationId": "1008000820",
-        "travelTime": 230
+        "travelTime": 110
       },
       {
         "stationId": "1008000822",
@@ -12494,7 +12514,7 @@
     "connectsTo": [
       {
         "stationId": "1008000822",
-        "travelTime": 238
+        "travelTime": 130
       },
       {
         "stationId": "1008000824",
@@ -12515,7 +12535,7 @@
     "connectsTo": [
       {
         "stationId": "1008000823",
-        "travelTime": 278
+        "travelTime": 70
       },
       {
         "stationId": "1008000825",
@@ -12536,7 +12556,7 @@
     "connectsTo": [
       {
         "stationId": "1008000824",
-        "travelTime": 283
+        "travelTime": 70
       },
       {
         "stationId": "1008000826",
@@ -12545,7 +12565,7 @@
     ],
     "frCode": "825",
     "stationCode": "2825",
-    "dwellTime": 25
+    "dwellTime": 20
   },
   {
     "id": "1008000826",
@@ -12557,7 +12577,7 @@
     "connectsTo": [
       {
         "stationId": "1008000825",
-        "travelTime": 277
+        "travelTime": 70
       },
       {
         "stationId": "1008000827",
@@ -12955,7 +12975,7 @@
     "connectsTo": [
       {
         "stationId": "1009000935",
-        "travelTime": 130
+        "travelTime": 125
       },
       {
         "stationId": "1009000937",
@@ -13060,6 +13080,10 @@
       {
         "stationId": "1005000549",
         "travelTime": 90
+      },
+      {
+        "stationId": "1005080549",
+        "travelTime": 90
       }
     ],
     "frCode": "548",
@@ -13097,7 +13121,7 @@
     "connectsTo": [
       {
         "stationId": "1008000810",
-        "travelTime": 263
+        "travelTime": 90
       },
       {
         "stationId": "1008000812",
@@ -13106,7 +13130,7 @@
     ],
     "frCode": "811",
     "stationCode": "2812",
-    "dwellTime": 44
+    "dwellTime": 40
   },
   {
     "id": "1005000544",
@@ -13139,7 +13163,7 @@
     "connectsTo": [
       {
         "stationId": "1007000724",
-        "travelTime": 526
+        "travelTime": 80
       },
       {
         "stationId": "1007000726",
@@ -13239,7 +13263,7 @@
     "connectsTo": [
       {
         "stationId": "1008000813",
-        "travelTime": 260
+        "travelTime": 70
       },
       {
         "stationId": "1008000815",
@@ -13248,7 +13272,7 @@
     ],
     "frCode": "814",
     "stationCode": "2815",
-    "dwellTime": 44
+    "dwellTime": 40
   },
   {
     "id": "1003000344",
@@ -13337,7 +13361,7 @@
     "connectsTo": [
       {
         "stationId": "1008000819",
-        "travelTime": 270
+        "travelTime": 70
       },
       {
         "stationId": "1008000821",
@@ -13346,7 +13370,7 @@
     ],
     "frCode": "820",
     "stationCode": "2821",
-    "dwellTime": 36
+    "dwellTime": 40
   },
   {
     "id": "1075075222",
@@ -13378,7 +13402,7 @@
     "connectsTo": [
       {
         "stationId": "1004000433",
-        "travelTime": 406
+        "travelTime": 120
       },
       {
         "stationId": "1004000435",
@@ -13399,7 +13423,7 @@
     "connectsTo": [
       {
         "stationId": "1004000434",
-        "travelTime": 381
+        "travelTime": 150
       },
       {
         "stationId": "1004000436",
@@ -13420,7 +13444,7 @@
     "connectsTo": [
       {
         "stationId": "1004000435",
-        "travelTime": 404
+        "travelTime": 90
       },
       {
         "stationId": "1004000437",
@@ -13441,7 +13465,7 @@
     "connectsTo": [
       {
         "stationId": "1004000436",
-        "travelTime": 404
+        "travelTime": 90
       },
       {
         "stationId": "1004000438",
@@ -13462,7 +13486,7 @@
     "connectsTo": [
       {
         "stationId": "1004000438",
-        "travelTime": 404
+        "travelTime": 90
       },
       {
         "stationId": "1004000440",
@@ -13483,7 +13507,7 @@
     "connectsTo": [
       {
         "stationId": "1004000439",
-        "travelTime": 351
+        "travelTime": 180
       },
       {
         "stationId": "1004000441",
@@ -13504,7 +13528,7 @@
     "connectsTo": [
       {
         "stationId": "1004000440",
-        "travelTime": 406
+        "travelTime": 120
       },
       {
         "stationId": "1004000442",
@@ -13525,7 +13549,7 @@
     "connectsTo": [
       {
         "stationId": "1004000441",
-        "travelTime": 404
+        "travelTime": 90
       },
       {
         "stationId": "1004000443",
@@ -13546,7 +13570,7 @@
     "connectsTo": [
       {
         "stationId": "1004000437",
-        "travelTime": 404
+        "travelTime": 90
       },
       {
         "stationId": "1004000439",
@@ -13567,7 +13591,7 @@
     "connectsTo": [
       {
         "stationId": "1004000444",
-        "travelTime": 405
+        "travelTime": 90
       },
       {
         "stationId": "1004000446",
@@ -13588,7 +13612,7 @@
     "connectsTo": [
       {
         "stationId": "1004000445",
-        "travelTime": 353
+        "travelTime": 180
       },
       {
         "stationId": "1004000447",
@@ -13609,7 +13633,7 @@
     "connectsTo": [
       {
         "stationId": "1004000446",
-        "travelTime": 407
+        "travelTime": 120
       },
       {
         "stationId": "1004000448",
@@ -13630,7 +13654,7 @@
     "connectsTo": [
       {
         "stationId": "1004000443",
-        "travelTime": 302
+        "travelTime": 240
       },
       {
         "stationId": "1004000445",
@@ -13651,7 +13675,7 @@
     "connectsTo": [
       {
         "stationId": "1004000447",
-        "travelTime": 352
+        "travelTime": 180
       },
       {
         "stationId": "1004000449",
@@ -13672,7 +13696,7 @@
     "connectsTo": [
       {
         "stationId": "1004000448",
-        "travelTime": 422
+        "travelTime": 90
       },
       {
         "stationId": "1004000450",
@@ -13713,7 +13737,7 @@
     "connectsTo": [
       {
         "stationId": "1004000449",
-        "travelTime": 407
+        "travelTime": 120
       },
       {
         "stationId": "1004000451",
@@ -13754,11 +13778,11 @@
     "connectsTo": [
       {
         "stationId": "1004000450",
-        "travelTime": 422
+        "travelTime": 90
       },
       {
         "stationId": "1004000452",
-        "travelTime": 119
+        "travelTime": 120
       }
     ],
     "frCode": "451",
@@ -13795,11 +13819,11 @@
     "connectsTo": [
       {
         "stationId": "1004000451",
-        "travelTime": 408
+        "travelTime": 120
       },
       {
         "stationId": "1004000453",
-        "travelTime": 121
+        "travelTime": 120
       }
     ],
     "frCode": "452",
@@ -13856,7 +13880,7 @@
     "connectsTo": [
       {
         "stationId": "1004000452",
-        "travelTime": 381
+        "travelTime": 120
       },
       {
         "stationId": "1004000454",
@@ -13865,7 +13889,7 @@
     ],
     "frCode": "453",
     "stationCode": "1759",
-    "dwellTime": 59
+    "dwellTime": 60
   },
   {
     "id": "1075075255",
@@ -13897,11 +13921,11 @@
     "connectsTo": [
       {
         "stationId": "1004000453",
-        "travelTime": 353
+        "travelTime": 150
       },
       {
         "stationId": "1004000455",
-        "travelTime": 149
+        "travelTime": 150
       }
     ],
     "frCode": "454",
@@ -13938,11 +13962,11 @@
     "connectsTo": [
       {
         "stationId": "1004000454",
-        "travelTime": 383
+        "travelTime": 150
       },
       {
         "stationId": "1004000456",
-        "travelTime": 149
+        "travelTime": 150
       }
     ],
     "frCode": "455",
@@ -13979,7 +14003,7 @@
     "connectsTo": [
       {
         "stationId": "1004000455",
-        "travelTime": 149
+        "travelTime": 150
       }
     ],
     "frCode": "456",
@@ -14477,7 +14501,7 @@
     "connectsTo": [
       {
         "stationId": "1009000901",
-        "travelTime": 270
+        "travelTime": 280
       },
       {
         "stationId": "1009000903",
@@ -14538,7 +14562,7 @@
     "connectsTo": [
       {
         "stationId": "1008000809",
-        "travelTime": 254
+        "travelTime": 120
       },
       {
         "stationId": "1008000811",
@@ -14547,7 +14571,7 @@
     ],
     "frCode": "810",
     "stationCode": "2811",
-    "dwellTime": 34
+    "dwellTime": 30
   },
   {
     "id": "1008000809",
@@ -14559,11 +14583,11 @@
     "connectsTo": [
       {
         "stationId": "1008000808",
-        "travelTime": 237
+        "travelTime": 220
       },
       {
         "stationId": "1008000810",
-        "travelTime": 180
+        "travelTime": 120
       }
     ],
     "frCode": "809",
@@ -14580,7 +14604,7 @@
     "connectsTo": [
       {
         "stationId": "1008000807",
-        "travelTime": 225
+        "travelTime": 130
       },
       {
         "stationId": "1008000809",
@@ -14589,7 +14613,7 @@
     ],
     "frCode": "808",
     "stationCode": "2809",
-    "dwellTime": 33
+    "dwellTime": 30
   },
   {
     "id": "1008000806",
@@ -14601,7 +14625,7 @@
     "connectsTo": [
       {
         "stationId": "1008000805",
-        "travelTime": 226
+        "travelTime": 140
       },
       {
         "stationId": "1008000807",
@@ -14643,7 +14667,7 @@
     "connectsTo": [
       {
         "stationId": "1008000812",
-        "travelTime": 237
+        "travelTime": 120
       },
       {
         "stationId": "1008000814",
@@ -14652,7 +14676,7 @@
     ],
     "frCode": "813",
     "stationCode": "2814",
-    "dwellTime": 35
+    "dwellTime": 30
   },
   {
     "id": "1008000812",
@@ -14664,7 +14688,7 @@
     "connectsTo": [
       {
         "stationId": "1008000811",
-        "travelTime": 249
+        "travelTime": 80
       },
       {
         "stationId": "1008000813",
@@ -14673,7 +14697,7 @@
     ],
     "frCode": "812",
     "stationCode": "2813",
-    "dwellTime": 36
+    "dwellTime": 40
   },
   {
     "id": "1001000134",
@@ -14706,7 +14730,7 @@
     "connectsTo": [
       {
         "stationId": "1004000410",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000412",
@@ -14727,7 +14751,7 @@
     "connectsTo": [
       {
         "stationId": "1007000712",
-        "travelTime": 527
+        "travelTime": 90
       },
       {
         "stationId": "1007000714",
@@ -14769,7 +14793,7 @@
     "connectsTo": [
       {
         "stationId": "1007000716",
-        "travelTime": 550
+        "travelTime": 60
       },
       {
         "stationId": "1007000718",
@@ -14778,7 +14802,7 @@
     ],
     "frCode": "717",
     "stationCode": "2719",
-    "dwellTime": 34
+    "dwellTime": 30
   },
   {
     "id": "1001000120",
@@ -14853,7 +14877,7 @@
     "connectsTo": [
       {
         "stationId": "1004000411",
-        "travelTime": 436
+        "travelTime": 90
       },
       {
         "stationId": "1004000413",
@@ -15225,7 +15249,7 @@
     "connectsTo": [
       {
         "stationId": "1007000710",
-        "travelTime": 501
+        "travelTime": 140
       },
       {
         "stationId": "1007000712",
@@ -15246,7 +15270,7 @@
     "connectsTo": [
       {
         "stationId": "1007000711",
-        "travelTime": 500
+        "travelTime": 120
       },
       {
         "stationId": "1007000713",
@@ -15309,11 +15333,11 @@
     "connectsTo": [
       {
         "stationId": "GEN:04호선:별내별가람",
-        "travelTime": 366
+        "travelTime": 300
       },
       {
         "stationId": "1004000410",
-        "travelTime": 149
+        "travelTime": 150
       }
     ],
     "frCode": "409",
@@ -15330,11 +15354,11 @@
     "connectsTo": [
       {
         "stationId": "GEN:04호선:오남",
-        "travelTime": 401
+        "travelTime": 390
       },
       {
         "stationId": "1004000409",
-        "travelTime": 128
+        "travelTime": 300
       }
     ],
     "frCode": "408",
@@ -15351,11 +15375,11 @@
     "connectsTo": [
       {
         "stationId": "1004000405",
-        "travelTime": 79
+        "travelTime": 150
       },
       {
         "stationId": "GEN:04호선:별내별가람",
-        "travelTime": 401
+        "travelTime": 390
       }
     ],
     "frCode": "406",
@@ -15388,7 +15412,7 @@
     "connectsTo": [
       {
         "stationId": "1004000409",
-        "travelTime": 438
+        "travelTime": 150
       },
       {
         "stationId": "1004000411",
@@ -15567,7 +15591,9 @@
     "line": "경강선",
     "x": 5529,
     "y": 4486,
-    "aliases": ["세종왕릉"],
+    "aliases": [
+      "세종왕릉"
+    ],
     "connectsTo": [
       {
         "stationId": "1081037418",
@@ -15623,7 +15649,9 @@
     "line": "우이신설경전철",
     "x": 3389,
     "y": 1654,
-    "aliases": ["4.19 민주묘지"],
+    "aliases": [
+      "4.19 민주묘지"
+    ],
     "connectsTo": [
       {
         "stationId": "1092004702",
